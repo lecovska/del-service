@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.infoDivs {
+    position: relative;
+    width: 100%;
+    height: 25em;
+    display: flex;
+    flex-shrink: 1;
+    justify-content: space-around;
+    background-color: #b7a28f;
+
+}
+
+.first {
+    position: relative;
+    top: -7em;
+    width: 30em;
+    height: 18em;
+    background-color: white;
+}
+
+.arrow {
+    position: absolute;
+    bottom: -2em;
+    left: 2em;
+    border-radius: 50%;
+    width: 4em;
+    height: 4em;
+}
+
+.infoDivs-message {
+    display: inline-block;
+    position: absolute;
+    bottom: 6em;
+    text-align: center;
+    color: white;
+}
+

@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import React from 'react';
+// import './App.css';
+// import HomePage from './Pages/HomePage/homePage';
+// import Cenovnik from './Pages/CenovnikPage/cenovnikPage';
+// import Kontakt from './Pages/Kontakt/kontakt';
+// import NovostiSinglePage from './Pages/NovostiSinglePage/novostiSinglePage';
+// import NovostiMainPage from './Pages/NovostiMainPage/NovostiMainPage';
+// import Pitanja from "./Pages/Pitanja/pitanja";
+// import About from './Pages/About/about';
+import Zakazi from './Pages/Zakazi/zakazi';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       {/* <HomePage /> 
+      <Cenovnik /> 
+      <Kontakt /> 
+      <NovostiSinglePage /> 
+      <NovostiMainPage /> 
+      <Pitanja/>  
+      <About/> */}
+      <Zakazi/>
     </div>
   );
 }
