@@ -7,16 +7,17 @@ import FourDivs from "../../Components/FourDivs/fourDivs";
 import CallCentar from "../../Components/CallCentarInfo/callCentar";
 import "./homepage.css";
 import News from "../../Components/News/news";
+import VideoDel from "../../Images/Video-Flex-kurirska-sluzba 4K.mp4";
 
 function HomePage(){
     return(
         <div className="homePage">
 <Header/>
 <div className="image">
+    <iframe src={VideoDel} title="video" type="video/mp4" allow='autoplay'></iframe>
     <div className="greeting">
-    <span className="main-title">Dostava uz osmeh, od vrata do vrata.</span>
-    <button>Posalji pakete!
-    </button>
+    <span className="main-title">Dostava uz osmeh,<br></br><span id="second-span">od vrata do vrata.</span> </span>
+    <button id="posaljiPakete-btn">Posalji pakete!</button>
     </div>
 </div>
 <InfoDivs/>

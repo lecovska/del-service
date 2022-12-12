@@ -16,12 +16,19 @@
 .img-of-delivery{
     width: 25em;
     height: 20em;
-    background-color: aqua;
+    
+    display: flex;
+    flex-direction: column;
 }
 
 .dev-img{
     width: 25em;
     height: 20em;
-    background-color: aqua;
+   
 
+}
+
+.slika{
+    width: 25em;
+    height: 18em;
 }

@@ -1,4 +1,4 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -13,41 +13,64 @@
     align-items: center;
     text-align: center;
 }
-  
-    .image {
-      height: 100vh;
-      /* margin-bottom: 5%; */
-      display: flex;
-      justify-content: center;
-      width: 100%;
-      background-image: url("https://th.bing.com/th/id/R.650e07c19a4dec3ce5733545ac00fc97?rik=GoCmh8Zd%2bOu9gQ&riu=http%3a%2f%2fwww.prochecking.com%2fassets%2fimages%2fwhy%2fles-resultats.jpg&ehk=%2bW825XFWejf4jydbpXIPzMR97DyWJB0Wt4lhfpd9l%2f0%3d&risl=&pid=ImgRaw&r=0");
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
-      position: relative;
-    }
-   
-.main-title{
-      font-size: 4rem;
-      font-weight: 500;
-      text-align: right;
-      
-    }
 
-    button{
-        width: 150px;
-        height: 30px;
-    }
+.image {
+    height: 100vh;
+    /* margin-bottom: 5%; */
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /* background-image: url("../../Images/Video-Flex-kurirska-sluzba\ 4K.mp4"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
 
-    .greeting{
-        position: absolute;
-        top: 400px;
-        right: 100px;
-        display: flex;
-        flex-direction: column;
-        justify-content: right;
-        align-items: flex-end;
-        margin-right: 0;
-    }
+video {
+    width: 100%;
+}
 
-   
+.main-title {
+    font-size: 4rem;
+    font-weight: 500;
+    text-align: right;
+    color: white;
+
+}
+
+button {
+    width: 150px;
+    height: 30px;
+}
+
+.greeting {
+    position: absolute;
+    top: 400px;
+    right: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    align-items: flex-end;
+    margin-right: 0;
+}
+
+iframe {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#posaljiPakete-btn{
+background-color: #ed2930;
+border: none;
+color: white;
+border-radius: 2px;
+margin-top: 1em;
+width: 180px;
+height: 40px;
+}
+
+#second-span{
+    font-size: 0.7em;
+}

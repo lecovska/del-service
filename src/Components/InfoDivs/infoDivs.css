@@ -11,7 +11,7 @@
     display: flex;
     flex-shrink: 1;
     justify-content: space-around;
-    background-color: #b7a28f;
+    background-color:#b59f80;
 
 }
 
@@ -20,7 +20,13 @@
     top: -7em;
     width: 30em;
     height: 18em;
-    background-color: white;
+    background-color: rgb(232, 224, 224);
+    padding:2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 2px;
 }
 
 .arrow {
@@ -40,3 +46,6 @@
     color: white;
 }
 
+h2{
+    color:#b59f80;
+}
