@@ -15,7 +15,7 @@ function HomePage(){
 <div className="image">
     <div className="greeting">
     <span className="main-title">Dostava uz osmeh, od vrata do vrata.</span>
-    <button>Posalji pakete!
+    <button>Posalji paket.
     </button>
     </div>
 </div>
