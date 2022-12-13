@@ -1,11 +1,12 @@
 import React from "react";
 import "./footer.css";
+import footerLogo from "../../Images/logoPng.png";
 
 function Footer(){
     return(
         <div className="footer">
             <div className="info">
-                    <div className="logo-pic">SLIKA LOGOA</div>
+                    <div className="logo-pic"><img className="footerLogo" src={footerLogo} alt="footerLogo"></img></div>
                     <div className="kontakt-info">
                     <p>lokacija</p>
                     <p>email</p>
