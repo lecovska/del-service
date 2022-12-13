@@ -7,7 +7,7 @@ function Delivery() {
     return (
         <div className="delivery">
 
-            <h1>Najbolja kurirska sluzba u gradu</h1>
+            <h1>FLEX,<br></br>Najbolja kurirska sluzba u gradu</h1>
             <div className="delivery-flex">
                 <div className="delivery-img"><img className="deliveryImg" src={slika1} alt="slika1"></img></div>
 

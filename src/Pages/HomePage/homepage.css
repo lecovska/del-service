@@ -59,6 +59,7 @@ iframe {
     width: 100%;
     margin: 0;
     padding: 0;
+    object-fit: fill;
 }
 
 #posaljiPakete-btn{
@@ -73,4 +74,23 @@ height: 40px;
 
 #second-span{
     font-size: 0.7em;
+}
+
+video {
+    object-fit: cover;
+    margin: 0 !important;
+    -webkit-transform: scaleX(2); 
+    -moz-transform: scaleX(2);
+}
+
+
+video:-webkit-full-page-media {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    max-height: 100%;
+    max-width: 100%;
+    margin: 0 !important;
 }

@@ -19,7 +19,7 @@ function InfoDivs() {
                 <p>Kod nas možete poslati/primiti paket bez kašnjenja</p>
                 <button className="arrow">strelica</button>
             </div>
-            <p className="infoDivs-message">Zakazite dolazak na Vasu adresu! POZOVITE NAS +381 66 624.29.59</p>
+            <p className="infoDivs-message">Zakazite dolazak na Vasu adresu! <span id="red-letters">POZOVITE NAS +381 66 624.29.59</span> </p>
         </div>
     )
 }
