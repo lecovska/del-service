@@ -12,12 +12,12 @@
     flex-shrink: 1;
     justify-content: space-around;
     background-color:#b59f80;
-
+margin-bottom: 7em;
 }
 
 .first {
     position: relative;
-    top: -7em;
+    top: -5em;
     width: 30em;
     height: 18em;
     background-color: rgb(232, 224, 224);
@@ -48,4 +48,9 @@
 
 h2{
     color:#b59f80;
+}
+
+#red-letters{
+    color:red;
+    font-weight: 700;
 }

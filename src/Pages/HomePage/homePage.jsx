@@ -1,13 +1,14 @@
 import React from "react";
 import Header from "../../Components/Header/header";
 import Footer from "../../Components/Footer/footer";
-import InfoDivs from "../../Components/InfoDivs/infoDivs";
+// import InfoDivs from "../../Components/InfoDivs/infoDivs";
 import Delivery from "../../Components/Delivery/delivery";
 import FourDivs from "../../Components/FourDivs/fourDivs";
 import CallCentar from "../../Components/CallCentarInfo/callCentar";
 import "./homepage.css";
 import News from "../../Components/News/news";
 import VideoDel from "../../Images/Video-Flex-kurirska-sluzba 4K.mp4";
+import Line from "../../Components/Line/line";
 
 function HomePage(){
     return(
@@ -21,9 +22,12 @@ function HomePage(){
     </button>
     </div>
 </div>
-<InfoDivs/>
+{/* <InfoDivs/> */}
+
 <Delivery/>
+<Line/>
 <FourDivs/>
+
 <CallCentar/>
 <News/>
 <Footer/>
