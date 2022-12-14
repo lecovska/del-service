@@ -1,12 +1,22 @@
 import React from "react";
 import "./footer.css";
-import footerLogo from "../../Images/logoPng.png";
+
+//import footerLogo from "../../Images/logoPng.png";
+
+import logo from "../../Images/logoPng.png";
+
+
 
 function Footer(){
     return(
         <div className="footer">
             <div className="info">
-                    <div className="logo-pic"><img className="footerLogo" src={footerLogo} alt="footerLogo"></img></div>
+
+                    {/*<div className="logo-pic"><img className="footerLogo" src={footerLogo} alt="footerLogo"></img></div>*/}
+
+                    <div className="logo-pic"><img id="logo" src={logo} alt="logo"></img></div>
+
+
                     <div className="kontakt-info">
                     <p>lokacija</p>
                     <p>email</p>
@@ -30,7 +40,7 @@ function Footer(){
             </div>
             <div className="kontakt">
 
-                <h3>KONTAKTIRAJTE NAS!</h3>
+            <h3>KONTAKTIRAJTE NAS!</h3>
                 <p>Tu smo za vasa pitanja</p>
                 <button>KONTAKT</button>
             </div>
