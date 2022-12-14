@@ -1,22 +1,12 @@
 import React from "react";
 import "./footer.css";
 import footerLogo from "../../Images/logoPng.png";
-import locationLogo from "../../Images/Location-2---icon.png";
-import emailLogo from "../../Images/e-mail---icon.png";
-import phoneLogo from "../../Images/output-onlinepngtools.png";
 
 function Footer() {
     return (
         <div className="footer">
             <div className="info">
-                <div className="main-logo"><img className="footerLogo" src={footerLogo} alt="footerLogo"></img></div>
-                <div className="info-wrapper">
-                    <div className="logo-pic">
-                        <img id="locationLogo" src={locationLogo} alt="locationLogo"></img>
-                        <img id="emailLogo" src={emailLogo} alt="emailLogo"></img>
-                        <img id="phoneIcon" src={phoneLogo} alt="phoneIcone"></img>
-                    </div>
-
+                    <div className="logo-pic"><img className="footerLogo" src={footerLogo} alt="footerLogo"></img></div>
                     <div className="kontakt-info">
                         <p>Beograd</p>
                         <p>office@flex-kurir.rs</p>
@@ -41,9 +31,10 @@ function Footer() {
             </div>
 
             <div className="kontakt">
-                <h3 className="h3-footer">KONTAKTIRAJTE NAS!</h3>
-                <p id="kontakt-p">Tu smo za Vaša pitanja.</p>
-                <button className="kontakt-btn">KONTAKT</button>
+
+                <h3>KONTAKTIRAJTE NAS!</h3>
+                <p>Tu smo za vasa pitanja</p>
+                <button>KONTAKT</button>
             </div>
 
         </div>

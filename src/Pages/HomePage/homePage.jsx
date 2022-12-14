@@ -17,8 +17,9 @@ function HomePage(){
 <div className="image">
     <iframe src={VideoDel} title="video" type="video/mp4" allow='autoplay'></iframe>
     <div className="greeting">
-    <span className="main-title">Dostava uz osmeh,<br></br><span id="second-span">od vrata do vrata.</span> </span>
-    <button id="posaljiPakete-btn">Posalji pakete!</button>
+    <span className="main-title">Dostava uz osmeh, od vrata do vrata.</span>
+    <button>Posalji pakete.
+    </button>
     </div>
 </div>
 {/* <InfoDivs/> */}
