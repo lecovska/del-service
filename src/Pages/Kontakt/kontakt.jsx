@@ -1,7 +1,7 @@
 import React from "react";
 import "./kontakt.css";
 import Header from "../../Components/Header/header";
-// import Footer from "../../Components/Footer/footer";
+import Footer from "../../Components/Footer/footer";
 
 
 function Kontakt() {
@@ -95,7 +95,7 @@ function Kontakt() {
                     <a href="nesto">kontaktirajte nas</a>
                 </div>
             </div>
-            {/* <Footer/> */}
+            { <Footer/>}
         </div>
 
     )
