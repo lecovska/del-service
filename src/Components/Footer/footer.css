@@ -21,7 +21,7 @@ p {
 
 .info {
     
-    width: 30em;
+    width: 50em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -31,17 +31,19 @@ p {
 }
 
 .kontakt-info {
-    padding-top: 0.5em;
-    height: 8em;
+    
+    /* padding-top: 3em; */
+    height: 4em;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: space-between;
+    justify-content: space-evenly;
     font-size: 1em;
+    
 }
 
 .usluge {
-    width: 20%;
+    width: 40em;
     height: 20em;
     display: flex;
     flex-direction: column;
@@ -53,7 +55,7 @@ p {
 }
 
 .informacije {
-    width: 20%;
+    width: 40em;
     height: 20em;
     display: flex;
     flex-direction: column;
@@ -81,7 +83,7 @@ p {
     height: 10em;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items:center;
     justify-content: space-around;
 }
 

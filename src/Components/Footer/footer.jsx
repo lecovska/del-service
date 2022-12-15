@@ -45,7 +45,6 @@ function Footer() {
             </div>
 
             <div className="kontakt">
-
                 <h3 className="h3-footer">KONTAKTIRAJTE NAS!</h3>
                 <p>Tu smo za vasa pitanja</p>
                 <button className="kontakt-btn">KONTAKT</button>
