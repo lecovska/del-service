@@ -1,133 +1,120 @@
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.footer {
+.footer{
+    
     width: 100%;
     height: 20em;
+    background-color: rgb(95, 59, 14);
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    background-color:#b7a28f;
-    /* padding: 0.5%; */
-    color: white;
-}
-
-p {
-    display: inline-block;
-}
-
-.info {
-    
-    width: 50em;
-    display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    justify-content: flex-start;
-    border-right: 1px solid white;
-    padding-top: 20px;
+
 }
 
-.kontakt-info {
-    
-    /* padding-top: 3em; */
-    height: 4em;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    font-size: 1em;
-    
+#img-lokacija{
+    width: 4em;
 }
 
-.usluge {
-    width: 40em;
-    height: 20em;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    border-right: 1px solid white;
-    padding-left: 2em;
-    padding-top: 20px;
-}
-
-.informacije {
-    width: 40em;
-    height: 20em;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    border-right: 1px solid white;
-    text-align: left;
-    padding-left: 20px;
-    padding-top: 20px;
-}
-
-.kontakt {
-    width: 30em;
-    height: 20em;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: flex-start;
-    text-align: left;
-    padding-left: 20px;
-    padding-top: 3em;
-}
-
-.logo-pic{
-    height: 10em;
-    display: flex;
-    flex-direction: column;
-    align-items:center;
-    justify-content: space-around;
-}
-
-#locationLogo{
-    
-    top:0;
-    left: 0;
+#img-mail{
     width: 3em;
+    margin-right: 1em;
+}
+
+#img-tel{
+    width: 2em;
+    margin-right: 1.8em;
 }
 
 .footerLogo{
+    width: 9em;
+    display: flex;
+    align-items: flex-start;
+   
+}
+
+.logo{
+    padding-top: 2em;
+    height: 20em;
+    padding-left: 10em;
+    border-right: 1px solid white;
+}
+
+.logoDiv{
+    width: 30em;
+    margin-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     
-    top:0;
-    left: 0;
-    width: 10em;
 }
 
-#emailLogo{
-    width: 2em;
-}
-
-#phoneIcon{
-    width: 1.8em;
-}
-
-.info-wrapper{
+#lokacija{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.h3-footer{
-    margin: 0;
-    color: white;
+#mail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
 }
 
-.kontakt-btn{
-width: 12em;
-color: white;
-border: none;
-background-color: rgb(184, 40, 40);
-margin-top: 3em;
+#telefon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#kontakt-p{
-    margin-top: 2em;
+.usluge{
+    width: 50em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-right: 1px solid white;
+    padding-left: 2em;
+    padding-top: 2em;
+}
+
+.usluge2{
+    width: 50em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    border-right: 1px solid white;
+    padding-left: 2em;
+    padding-top: 2em;
+}
+
+.kontakt{
+    width: 90em;
+    height: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 2em;
+    
+}
+
+.h4-usluge{
+    margin-bottom: 0.5em;
+}
+
+.h3-kontakt{
+    margin:0;
+}
+
+.btn-kontakt{
+    margin:0;
 }

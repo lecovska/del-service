@@ -9,46 +9,50 @@ function Footer() {
     return (
         <div className="footer">
 
-            <div className="info">
+            <div className="logo">
 
-                <div className="main-logo"><img className="footerLogo" src={footerLogo} alt="footerLogo"></img></div>
-                <div className="info-wrapper">
-                <div className="logo-pic">
-                    <img id="locationLogo" src={locationLogo}  alt="logopic"></img>
-                    <img id="emailLogo" src={maillogo} alt="logopic"></img>
-                    <img id="phoneIcon" src={telLogo} alt="logopic"></img>
+                <div className="main-logo">
+                    <img className="footerLogo" src={footerLogo} alt="footerLogo"></img>
                 </div>
-                
-                <div className="kontakt-info">
-                    <p>Beograd</p>
-                    <p>office@flex-kurir.rs</p>
-                    <p>+381 66 624.29.59</p>
-                </div>
+
+                <div className="logoDiv">
+
+                    <div id="lokacija">
+                        <img id="img-lokacija" src={locationLogo} alt="lokacija"></img>
+                        <span>Beograd</span>
+                    </div>
+
+                    <div id="mail">
+                        <img id="img-mail" src={maillogo} alt="maillogo"></img>
+                        <span>felxsluzba"gmail.com</span>
+                    </div>
+
+                    <div id="telefon" >
+                        <img id="img-tel" src={telLogo} alt="tel"></img>
+                        <span>+381 648447211</span>
+                    </div>
+
                 </div>
             </div>
-
-
             <div className="usluge">
-                <h3 className="h3-footer">Usluge</h3>
-                <a href="nesto">Dostava Beograd</a>
-                <a href="nesto">Danas za danas</a>
-                <a href="nesto">Danas za sutra</a>
-                <a href="nesto">B2C dostava</a>
-                <a href="nesto">B2B dostava</a>
+                <h4 className="h4-usluge">USLUGE</h4>
+                <a href="nesto">usluge</a><a href="nesto">usluge</a><a href="nesto">usluge</a><a href="nesto">usluge</a><a href="nesto">usluge</a>
             </div>
-            <div className="informacije">
-                <h3 className="h3-footer">Korisne informacije</h3>
-                <a href="nesto">Najčešća pitanja</a>
-                <a href="nesto">Cenovnik</a>
-                <a href="nesto">Uslovi korišćenja</a>
-                <a href="nesto">Zakazivanje kurira</a>
+
+            <div className="usluge2">
+            <h4 className="h4-usluge">USLUGE</h4>
+                <a href="nesto">usluge</a><a href="nesto">usluge</a><a href="nesto">usluge</a><a href="nesto">usluge</a><a href="nesto">usluge</a>
             </div>
 
             <div className="kontakt">
-                <h3 className="h3-footer">KONTAKTIRAJTE NAS!</h3>
-                <p>Tu smo za vasa pitanja</p>
-                <button className="kontakt-btn">KONTAKT</button>
+                <h3 className="h3-kontakt">Kontaktirajte nas</h3>
+                <p>kjsdhfjksdhfkjsd</p>
+                <button className="btn-kontakt">Kontakt</button>
             </div>
+
+
+
+
         </div>
     )
 }
