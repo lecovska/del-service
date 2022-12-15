@@ -12,7 +12,7 @@ function Zakazi() {
             <div className="image">
                 <div className="greeting">
                     <span className="main-title">Zakaži dolazak kurira</span>
-                    <a href="nesto"><img src={homeLogo} alt="homelogo"></img>Početna - Flex kurirska služba</a>
+                    <a href="nesto"><img id="zakaziHomeLogo" src={homeLogo} alt="homelogo"></img>Početna - Flex kurirska služba</a>
                 </div>
             </div>
             <div className="form-mainWrapper">

@@ -34,6 +34,7 @@
     font-size: 4rem;
     font-weight: 500;
     text-align: left;
+    color: white;
 
 }
 
@@ -163,4 +164,18 @@ h3{
     align-items: flex-start;
     padding-left: 5em;
     font-size: 1em;
+}
+
+#zakaziHomeLogo{
+width: 2em;
+}
+
+a{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+a img{
+    margin-right: 1em;
 }
