@@ -2,6 +2,8 @@ import React from "react";
 import "./zakazi.css";
 import Header from "../../Components/Header/header";
 import Footer from "../../Components/Footer/footer";
+import homeLogo from "../../Images/homeIcon.png"
+import CallcentarImg from "../../Images/smallCallCentarImg.jpg";
 
 function Zakazi() {
     return (
@@ -9,8 +11,8 @@ function Zakazi() {
             <Header />
             <div className="image">
                 <div className="greeting">
-                    <span className="main-title">Dostava uz osmeh, od vrata do vrata.</span>
-                    <button>Posalji paket</button>
+                    <span className="main-title">Zakaži dolazak kurira</span>
+                    <a href="nesto"><img src={homeLogo} alt="homelogo"></img>Početna - Flex kurirska služba</a>
                 </div>
             </div>
             <div className="form-mainWrapper">
@@ -60,6 +62,16 @@ function Zakazi() {
                     </div>
                 </div>
                 <button type="submit" id="form-button">POTVRDI</button>
+            </div>
+            <div className="callCentar-smallDivs">
+                <div className="callCentarSmallDiv-img"></div>
+                <div className="callCentarInfo-div">
+                    <h4>CALL CENTAR</h4>
+                    <p>Naši operatori stoje Vam na usluzi za sve potrebne informacije.</p>
+                    <p>RADNO VREME CALL CENTRA</p>
+                    <p>Ponedeljak - Petak od 08h do 16h</p>
+                    <p>066 624.29.59</p>
+                    </div>
             </div>
             <Footer />
         </div>
