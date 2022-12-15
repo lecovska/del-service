@@ -1,24 +1,27 @@
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/* .kontakt{
+.kontakt{
     position: relative;
     width: 100%;
-    height: 100%;
+    height:auto;
     display: flex;
     flex-direction: column;
-} */
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+} 
 
 .image {
     height: 100vh;
-    /* margin-bottom: 5%; */
+    margin-bottom: 5%;
     display: flex;
     justify-content: center;
     width: 100%;
-    background-image: url("https://th.bing.com/th/id/R.650e07c19a4dec3ce5733545ac00fc97?rik=GoCmh8Zd%2bOu9gQ&riu=http%3a%2f%2fwww.prochecking.com%2fassets%2fimages%2fwhy%2fles-resultats.jpg&ehk=%2bW825XFWejf4jydbpXIPzMR97DyWJB0Wt4lhfpd9l%2f0%3d&risl=&pid=ImgRaw&r=0");
+   /* background-image: url("../../Images/kontakt.jpg");*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -29,6 +32,7 @@
     font-size: 4rem;
     font-weight: 500;
     text-align: left;
+    color: white;
 
 }
 
@@ -36,6 +40,7 @@ button {
     width: 350px;
     height: 30px;
     background-color: transparent;
+    color: white;
 }
 
 .greeting {
@@ -51,7 +56,7 @@ button {
 
 .mainDiv-contact {
     width: 100%;
-    height: 80vh;
+    height: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -62,9 +67,10 @@ button {
     display: flex;
     flex-direction: column;
     text-align: left;
+    color: #e2c7a8;
 }
 
-/* .contact-form{
+.contact-form{
     margin-top: 30px;
   }
     .input-block{
@@ -201,7 +207,7 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* justify-content: flex-start; */
+    justify-content: flex-start;
     margin: 0;
     padding: 0;
 }
@@ -217,12 +223,12 @@ h4{
 .main-image{
     position: relative;
     height: 100vh;
-    /* margin-bottom: 5%; */
+    margin-bottom: 5%;
     display: flex;
     flex-direction: column;
     justify-content:space-between;
     width: 100%;
-    background-image: url("https://th.bing.com/th/id/R.650e07c19a4dec3ce5733545ac00fc97?rik=GoCmh8Zd%2bOu9gQ&riu=http%3a%2f%2fwww.prochecking.com%2fassets%2fimages%2fwhy%2fles-resultats.jpg&ehk=%2bW825XFWejf4jydbpXIPzMR97DyWJB0Wt4lhfpd9l%2f0%3d&risl=&pid=ImgRaw&r=0");
+  /* background-image: url("../../Images/kontakt.jpg");*/
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -249,8 +255,8 @@ h4{
 .viber {
     display: flex;
     justify-content: center;
-    /* border-right: 1px solid white;
-    margin-right: 1em; */
+ border-right: 1px solid white;
+    margin-right: 1em; 
 }
 
 .phone{
