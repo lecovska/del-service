@@ -21,7 +21,7 @@ function Kontakt() {
                     <h3>Hajde da razgovaramo o onome sto je vama vazno</h3>
                     <br></br>
                     <br></br>
-                    <p>Pisite nam</p>
+                    <p>Pisite nam!</p>
                     <br></br>
                     <p>ili nas pozovite +381 60 588 12 34 odvojicemo vreme ya raygovor preko telefona ili licno da bismo saznali vise o vasim privatnim/poslovnim potrebama.</p>
                     <br></br>
@@ -36,7 +36,7 @@ function Kontakt() {
                     <div className="form-div">
                         <form>
                             <div className="nameSurname">
-                                <input id="name" placeholder="Ime"></input>
+                                <input id="name" placeholder="Ime" color="#F6F6F6"></input>
                                 <input id="name" placeholder="Prezime"></input>
                             </div>
                             <input id="email" placeholder="Email"></input>
