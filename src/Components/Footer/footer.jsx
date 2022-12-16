@@ -35,19 +35,27 @@ function Footer() {
                 </div>
             </div>
             <div className="usluge">
-                <h4 className="h4-usluge">USLUGE</h4>
-                <a href="nesto">usluge</a><a href="nesto">usluge</a><a href="nesto">usluge</a><a href="nesto">usluge</a><a href="nesto">usluge</a>
+                <h4 className="h4-usluge">Usluge</h4>
+                <a href="nesto">Dostava Beograd</a><a href="nesto">Danas za danas</a><a href="nesto">Danas za sutra</a><a href="nesto">B2C dostava</a><a href="nesto">B2B dostava</a>
             </div>
 
             <div className="usluge2">
-            <h4 className="h4-usluge">USLUGE</h4>
-                <a href="nesto">usluge</a><a href="nesto">usluge</a><a href="nesto">usluge</a><a href="nesto">usluge</a><a href="nesto">usluge</a>
+            <h4 className="h4-usluge">Korisne informacije</h4>
+                <a href="nesto">Najčešća pitanja</a><a href="nesto">Cenovnik</a><a href="nesto">Uslovi korišćenja</a><a href="nesto">Zakaži kurira</a>
             </div>
 
             <div className="kontakt">
-                <h3 className="h3-kontakt">Kontaktirajte nas</h3>
+                <div className="kontakt-infoDiv">
+                <h3 className="h3-kontakt">Kontaktirajte nas!</h3>
                 <p>kjsdhfjksdhfkjsd</p>
                 <button className="btn-kontakt">Kontakt</button>
+                </div>
+                <div className="media-btns">
+                    <span>Zaprati nas!</span>
+                    <a>logo</a>
+                    <a>logo</a>
+                    <a>logo</a>
+                </div>
             </div>
 
 
