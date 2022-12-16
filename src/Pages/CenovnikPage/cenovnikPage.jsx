@@ -6,6 +6,7 @@ import TableDanasZaDanas from "../../Components/TableDanasZaDanas/tableDanasZaDa
 import TableDodatneUsluge from "../../Components/TableDodatneUsluge/tableDodatneUsluge";
 import SpecijalizovanePosiljke from "../../Components/SpecijalizovanePosiljke/specPosiljke";
 import Footer from "../../Components/Footer/footer";
+import leftDivimport from "../../Images/Flex-kurirska-sluzba16.jpg";
 
 function Cenovnik(){
     return(
@@ -18,11 +19,11 @@ function Cenovnik(){
     </div>
 </div>
 <div className="twoDivs">
-    <div className="leftDiv">Image</div>
+    <div className="leftDiv"></div>
     <div className="rightDiv">
-        <h3>Unutrasnji saobracaj</h3>
-        <p>Sve cene su date u dinarima.</p><br></br>
-        Korisnici Flex usluga stede svoje vreme, jer mi dostavljamo posiljke od vrata do vrata.
+        <h2>Unutrasnji saobracaj</h2>
+        <p className="rightDiv-p">Sve cene su date u dinarima. Korisnici Flex usluga stede svoje vreme, jer mi dostavljamo posiljke od vrata do vrata.</p>
+        <div id="rightDiv-line"></div>
     </div>
 </div>
 <TableDanasZaSutra/>
