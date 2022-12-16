@@ -32,6 +32,10 @@ tr:nth-child(odd){
 .mainTitle{
     width: 100rem;
     height: 3rem;
-    background-color: rgb(143, 114, 79);
+    background-color: #b59f80;
+    color: white;
+}
+
+.cenovnik-h1{
     color: white;
 }

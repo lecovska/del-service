@@ -5,7 +5,7 @@ function TableDodatneUsluge(){
     return(
         <div className="danasZaSutra">
 <div className="mainTitle">
-    <h1>CENOVNIK - DODATNE USLUGE</h1>
+    <h1 className="cenovnik-h1">CENOVNIK - DODATNE USLUGE</h1>
 </div>
 <table>
     <tr>
@@ -30,40 +30,40 @@ function TableDodatneUsluge(){
 
     <tr>
         <td>Licno</td>
-        <td>/</td>
-        <td>/</td>
-        <td>/</td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>Potpisivanje dokumentacije</td>
-        <td>/</td>
-        <td>/</td>
-        <td>/</td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
 
     <tr>
         <td>Placeni odgovor</td>
-        <td>/</td>
-        <td>/</td>
-        <td>/</td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>Lezarina po danu</td>
-        <td>/</td>
-        <td>/</td>
-        <td>/</td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>Otkupnina</td>
-        <td>/</td>
-        <td>/</td>
-        <td>/</td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>Osiguranje vrednosti sadrzaja posiljke</td>
-        <td>/</td>
-        <td>/</td>
-        <td>/</td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     </table>
     <p>Minimalna cena otkupa je 120,00 rsd, a za vrednosnu posiljku 90 rsd.</p>

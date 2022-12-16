@@ -5,7 +5,7 @@ function SpecijalizovanePosiljke(){
     return(
         <div className="danasZaSutra">
 <div className="mainTitle">
-    <h1>CENOVNIK - DODATNE USLUGE</h1>
+    <h1 className="cenovnik-h1">CENOVNIK - DODATNE USLUGE</h1>
 </div>
 <table>
     <tr>
@@ -30,34 +30,34 @@ function SpecijalizovanePosiljke(){
 
     <tr>
         <td>Guma putnicka</td>
-        <td>/</td>
-        <td>/</td>
-        <td>/</td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>Guma poluteretna</td>
-        <td>/</td>
-        <td>/</td>
-        <td>/</td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
 
     <tr>
         <td>Traktorska guma</td>
-        <td>/</td>
-        <td>/</td>
-        <td>/</td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>Menjac manji</td>
-        <td>/</td>
-        <td>/</td>
-        <td>/</td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
         <td>Auto motor</td>
-        <td>/</td>
-        <td>/</td>
-        <td>/</td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     </table>
    
