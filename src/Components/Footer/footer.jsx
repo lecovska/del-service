@@ -47,7 +47,7 @@ function Footer() {
             <div className="kontakt">
                 <div className="kontakt-infoDiv">
                 <h3 className="h3-kontakt">Kontaktirajte nas!</h3>
-                <p>kjsdhfjksdhfkjsd</p>
+                <p>Tu smo za sva Vaša pitanja.</p>
                 <button className="btn-kontakt">Kontakt</button>
                 </div>
                 <div className="media-btns">
