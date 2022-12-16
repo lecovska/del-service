@@ -17,11 +17,11 @@
 
 .image {
     height: 100vh;
-    margin-bottom: 5%;
+   /* margin-bottom: 5%;*/
     display: flex;
     justify-content: center;
     width: 100%;
-   /* background-image: url("../../Images/kontakt.jpg");*/
+    background-image: url("../../Images/kontakt.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -37,8 +37,8 @@
 }
 
 button {
-    width: 350px;
-    height: 30px;
+    width: 650px;
+    height: 50px;
     background-color: transparent;
     color: white;
 }
@@ -67,7 +67,7 @@ button {
     display: flex;
     flex-direction: column;
     text-align: left;
-    color: #e2c7a8;
+    color: black;
 }
 
 .contact-form{
@@ -129,6 +129,7 @@ button {
 
 .input {
     display: inline-block;
+    background-color:#F6F6F6 ;
 
 }
 
@@ -142,10 +143,15 @@ textarea {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: white
 }
+
+
+
 
 #email {
     width: 100%;
+    background-color: #F6F6F6;
 }
 
 label {
@@ -167,6 +173,7 @@ button {
     display: block;
     width: 80%;
     margin: 30px;
+    background-color: red;
 }
 
 .form-div {
@@ -228,7 +235,7 @@ h4{
     flex-direction: column;
     justify-content:space-between;
     width: 100%;
-  /* background-image: url("../../Images/kontakt.jpg");*/
+    background-image: url("../../Images/kurir.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -244,7 +251,10 @@ h4{
     justify-content: space-between;
     align-items: center;
     height:30em;
+    text-align: left;
+    
 }
+
 
 .callInfo{
    
