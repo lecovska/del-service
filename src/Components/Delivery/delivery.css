@@ -12,6 +12,7 @@
     align-items: center;
     justify-content: space-around;
     margin-bottom: 7em;
+    margin-top: 3em;
 }
 
 .delivery-flex{
@@ -23,19 +24,28 @@
 }
 
 .delivery-img{
-    width: 20em;
-    height: 13em;
-    background-color: aqua;
+    width: 30em;
+    height: 18em;
+    background-image: url("../../Images/Flex-kurirska-sluzba16.jpg");
+    background-size: cover;
+    /* margin-left: 10px; */
+}
+
+.delivery-img2{
+    width: 30em;
+    height: 18em;
+    background-image: url("../../Images/Untitled.png");
+    background-size: cover;
     /* margin-left: 10px; */
 }
 
 .delivery-text{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content:baseline;
     align-items: left;
-    width: 17em;
-    height: 13em;
+    width: 25em;
+    height: 20em;
     /* margin: 10px; */
     text-align: left;
     line-height: 1.8em;
@@ -59,9 +69,19 @@
 
 h3{
     color: #b59f80;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    margin-left: 0 !important;
+    margin-bottom: 1em !important; 
+    margin-top: 1em !important;
 }
 
 h1{
     color: #b59f80;
+}
+
+#h1-delivery{
+    margin-bottom: 2em;
 }
 
