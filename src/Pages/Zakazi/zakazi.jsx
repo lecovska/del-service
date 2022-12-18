@@ -17,7 +17,7 @@ function Zakazi() {
                 </div>
             </div>
             <div className="form-mainWrapper">
-                <h3>Brzo i jednostavno zakazivanje kurira, direktno sa naseg web sajta.</h3>
+                <h3 id="h3-zakaziKurira">Brzo i jednostavno zakazivanje kurira, direktno sa naseg web sajta</h3>
                 <div className="mainForm">
                     <div className="single-form">
                         <form>
@@ -67,11 +67,11 @@ function Zakazi() {
             <div className="callCentar-smallDivs">
                 <div className="callCentarSmallDiv-img"></div>
                 <div className="callCentarInfo-div">
-                    <h4>CALL CENTAR</h4>
+                    <h4 id="h4-callCentar">CALL CENTAR</h4>
                     <p className="p-callCentar">Naši operatori stoje Vam na usluzi za sve potrebne informacije.</p>
                     <p className="p-callCentar">RADNO VREME CALL CENTRA</p>
                     <p className="p-callCentar">Ponedeljak - Petak od 08h do 16h</p>
-                    <p className="p-callCentar">066 624.29.59</p>
+                    <p className="p-callCentarNum">066 624.29.59</p>
                     </div>
             </div>
             <Footer />
