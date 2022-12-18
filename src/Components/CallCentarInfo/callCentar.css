@@ -20,9 +20,12 @@
     right: 6em;
     top: -4em;
     width: 40em;
-    height: 40em;
-    background-color: rgb(248, 255, 210);
-    border: 1px solid black;
+    height: 44em;
+    /* background-color: rgb(248, 255, 210);
+    border: 1px solid black; */
+    background-image: url("../../Images/callcentarImg.jpg");
+    background-size: cover;
+    border: 1px solid rgba(173, 155, 140, 0.705);
 }
 
 #img-of-delivery{

@@ -3,7 +3,8 @@ import "./zakazi.css";
 import Header from "../../Components/Header/header";
 import Footer from "../../Components/Footer/footer";
 import homeLogo from "../../Images/homeIcon.png"
-import CallcentarImg from "../../Images/smallCallCentarImg.jpg";
+// import CallcentarImg from "../../Images/smallCallCentarImg.jpg";
+import ccCardImg from "../../Images/callcentarImg.jpg";
 
 function Zakazi() {
     return (
@@ -67,10 +68,10 @@ function Zakazi() {
                 <div className="callCentarSmallDiv-img"></div>
                 <div className="callCentarInfo-div">
                     <h4>CALL CENTAR</h4>
-                    <p>Naši operatori stoje Vam na usluzi za sve potrebne informacije.</p>
-                    <p>RADNO VREME CALL CENTRA</p>
-                    <p>Ponedeljak - Petak od 08h do 16h</p>
-                    <p>066 624.29.59</p>
+                    <p className="p-callCentar">Naši operatori stoje Vam na usluzi za sve potrebne informacije.</p>
+                    <p className="p-callCentar">RADNO VREME CALL CENTRA</p>
+                    <p className="p-callCentar">Ponedeljak - Petak od 08h do 16h</p>
+                    <p className="p-callCentar">066 624.29.59</p>
                     </div>
             </div>
             <Footer />

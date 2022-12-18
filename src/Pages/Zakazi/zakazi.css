@@ -149,6 +149,7 @@ h3{
     width: 70em;
     height: 30em;
     background-image: url("../../Images/smallCallCentarImg.jpg");
+    background-size: cover;
     margin: 5em;
 }
 
@@ -156,9 +157,9 @@ h3{
     position: absolute;
     bottom: 10em;
     right: 5em;
-    width: 70em;
-    height: 20em;
-    border: 1px solid black;
+    width: 50em;
+    height: 23em;
+    /* border: 1px solid black; */
     background-color: white;
     display: flex;
     flex-direction: column;
@@ -180,4 +181,8 @@ align-items: center;
 
 a img{
     margin-right: 1em;
+}
+
+.p-callCentar{
+    margin-bottom: 2em;
 }
