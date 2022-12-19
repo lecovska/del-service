@@ -1,10 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.kontakt{
+.kontakt {
     position: relative;
     width: 100%;
     height:auto;
@@ -13,15 +13,16 @@
     justify-content: space-between;
     align-items: center;
     text-align: center;
-} 
+}
 
 .image {
+    width: 100%;
     height: 100vh;
-   /* margin-bottom: 5%;*/
+    /* margin-bottom: 5%; */
     display: flex;
     justify-content: center;
     width: 100%;
-    background-image: url("../../Images/kontakt.jpg");
+    background-image: url("../../Images/zakaziKurira.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -29,6 +30,7 @@
 }
 
 .main-title {
+    
     font-size: 4rem;
     font-weight: 500;
     text-align: left;
@@ -37,19 +39,17 @@
 }
 
 button {
-    width: 650px;
-    height: 50px;
-    background-color: transparent;
-    color: white;
+    width: 150px;
+    height: 30px;
 }
 
 .greeting {
     position: absolute;
     top: 400px;
-    left: 100px;
+    left: 170px;
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: right;
     align-items: flex-start;
     margin-right: 0;
 }
@@ -219,91 +219,4 @@ input {
     padding: 0;
 }
 
-#name {
-    width: 210px;
-}
-
-h4{
-    margin-bottom: 20px;
-}
-
-.main-image{
-    position: relative;
-    height: 100vh;
-    margin-bottom: 5%;
-    display: flex;
-    flex-direction: column;
-    justify-content:space-between;
-    width: 100%;
-    background-image: url("../../Images/kurir.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-}
-
-.nonImageDiv{
-    position: absolute;
-    top: 15em;
-    left: 40em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height:30em;
-    text-align: left;
-    
-}
-
-
-.callInfo{
-   
-    display: flex;
-    justify-content: space-around;
-}
-
-.viber {
-    display: flex;
-    justify-content: center;
- border-right: 1px solid white;
-    margin-right: 1em; 
-}
-
-.phone{
-    display: flex;
-    justify-content: center;
-    border: none;
-}
-
-.title{
-    font-size: 30px;
-}
-
-h2{
-   font-size: 3em;
-}
-
-.lastThreeDivs{
-    width: 100%;
-    height: 50vh;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-   
-}
-
-.lastDiv{
-    width: 30em;
-    height: 20em;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: flex-start;
-    background-color: rgb(223, 198, 247);   
-    padding: 2em;
-}
-
-h4, p {
-    margin-bottom: 3em;
-}
 
