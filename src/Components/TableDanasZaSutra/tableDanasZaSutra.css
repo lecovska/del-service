@@ -27,6 +27,7 @@ tr:nth-child(odd){
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 0 !important;
 }
 
 .mainTitle{

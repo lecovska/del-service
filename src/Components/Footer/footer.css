@@ -89,8 +89,7 @@
     align-items: flex-start;
     border-right: 1px solid white;
     padding-left: 2em;
-    padding-top: 1.2em;
-    
+    /* padding-top: 1.2em; */
 }
 
 .usluge2{
@@ -102,7 +101,7 @@
     align-items: flex-start;
     border-right: 1px solid white;
     padding-left: 2em;
-    padding-top: 1em;
+    /* padding-top: 1em; */
 }
 
 .kontakt{
@@ -112,16 +111,16 @@
     flex-direction: column;
     justify-content: flex-start !important;
     align-items: flex-start !important;
-    padding: 2em;
+    /* padding: 2em; */
     color: white;
     padding-left: 2em !important;
     padding-left: 0;
-    
 }
 
 .h4-usluge{
     color: white;
     margin-bottom: 0.5em;
+    
 }
 
 .h3-kontakt{
@@ -133,8 +132,13 @@
 }
 
 .btn-kontakt{
+    width: 14em;
+    height: 3em;
     color: white;
     margin:0;
+    border: none;
+    background-color: rgb(223, 58, 58);
+    border-radius: 3px;
 }
 
 .media-btns{
@@ -146,5 +150,9 @@
 }
 
 .kontakt-infoDiv{
-
+    height: 30em;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: flex-start;
 }
