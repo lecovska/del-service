@@ -6,6 +6,7 @@ import TableDanasZaDanas from "../../Components/TableDanasZaDanas/tableDanasZaDa
 import TableDodatneUsluge from "../../Components/TableDodatneUsluge/tableDodatneUsluge";
 import SpecijalizovanePosiljke from "../../Components/SpecijalizovanePosiljke/specPosiljke";
 import Footer from "../../Components/Footer/footer";
+import homeLogo from "../../Images/homeIcon.png"
 import leftDivimport from "../../Images/Flex-kurirska-sluzba16.jpg";
 
 function Cenovnik(){
@@ -15,7 +16,7 @@ function Cenovnik(){
 <div className="image">
     <div className="greeting">
     <span className="main-title">Cenovnik</span>
-    <button>Pocetna - Flex kurirska sluzba</button>
+    <a href="nesto"><img id="zakaziHomeLogo" src={homeLogo} alt="homelogo"></img>Početna - Flex kurirska služba</a>
     </div>
 </div>
 <div className="twoDivs">
