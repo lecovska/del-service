@@ -18,6 +18,7 @@ function Header(){
     <div id="list">
     <ul>
             <li><a href="../../Pages/HomePage">Početna</a></li>
+            <li><a href="../../Pages/About">O nama</a></li>
             <li><a href="../../Pages/Gallery">Usluge</a></li>
             <li><a href="../../Pages/About">Zakaži kurira</a></li>
             <li><a href="../../Pages/Contact">Cenovnik</a></li>
