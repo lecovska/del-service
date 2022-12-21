@@ -12,6 +12,7 @@ import Zakazi from './Pages/Zakazi/zakazi';
 import './App.css';
 
 
+
 function App() {
   return (
     <div className="App">
@@ -20,7 +21,6 @@ function App() {
       <Route path='/src/Pages/CenovnikPage' element={<Cenovnik /> }/>
       <Route path='/src/Pages/Kontakt' element={<Kontakt/>} /> 
       <Route path='/src/Pages/About' element={<About/>} /> 
-
       {/*<NovostiSinglePage /> 
      <NovostiMainPage /> 
       <Pitanja/>   */}
