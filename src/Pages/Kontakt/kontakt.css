@@ -23,10 +23,10 @@
     position: relative;
 }
 
-.greeting-kontakt{
+.greeting-kontakt {
     position: absolute;
     top: 400px;
-    right:100px;
+    right: 100px;
     display: flex;
     flex-direction: column;
     justify-content: right;
@@ -42,7 +42,7 @@
 }
 
 .slide-fwd-center {
-	animation: slide-fwd-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    animation: slide-fwd-center 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
 }
 
 /* ----------------------------------------------
@@ -57,15 +57,16 @@
  * animation slide-fwd-center
  * ----------------------------------------
  */
- @keyframes slide-fwd-center {
+@keyframes slide-fwd-center {
     0% {
-      transform: translateZ(0);
+        transform: translateZ(0);
     }
+
     100% {
-      transform: translateZ(160px);
+        transform: translateZ(160px);
     }
-  }
-  
+}
+
 
 
 .kontakt-image {
@@ -103,10 +104,11 @@
 }
 
 .kontakt-box {
-    width: 50em;
-    height: 30em;
+    width: 38em;
+    height: 33em;
     display: flex;
     flex-direction: column;
+    border: 1px solid rgba(212, 149, 67, 0.705);
 }
 
 .kontakt-box h3 {
@@ -129,12 +131,16 @@
     height: 10em;
     background-color: rgba(216, 213, 213, 0.747);
     border-radius: 2px;
+    padding-left: 2em;
+    outline: none;
 }
 
 #name {
     width: 16em;
     background-color: rgba(216, 213, 213, 0.747);
     border-radius: 2px;
+    padding-left: 2em;
+    outline: none;
 }
 
 .nameSurname {
@@ -146,6 +152,8 @@
     width: 34em;
     background-color: rgba(216, 213, 213, 0.747);
     border-radius: 2px;
+    padding-left: 2em;
+    outline: none;
 }
 
 #checkbox {
@@ -159,8 +167,8 @@
 }
 
 label {
-    
-  display: flex !important;
+
+    display: flex !important;
     justify-content: center;
     align-items: center;
     vertical-align: middle;
@@ -197,14 +205,14 @@ label {
     color: rgb(3, 3, 3);
 }
 
-.middle-image{
+.middle-image {
     width: 100%;
     height: 40em;
     background-image: url("../../Images/Reklamacije.jpg");
     background-size: cover;
 }
 
-.reklamacije{
+.reklamacije {
     width: 100%;
     height: 20em;
     display: flex;
@@ -212,7 +220,7 @@ label {
     align-items: center;
 }
 
-.reklamacijeSingleDiv{
+.reklamacijeSingleDiv {
     width: 28em;
     height: 20em;
     padding: 2em;
@@ -222,20 +230,20 @@ label {
     align-items: flex-start;
 }
 
-.rekalmacije-p{
+.rekalmacije-p {
     text-align: left;
 }
 
-.rekalmacije-h4{
+.rekalmacije-h4 {
     margin-bottom: 2em;
 }
 
-.rekalmacije-a{
-color: red;
-margin-top: 2em;
+.rekalmacije-a {
+    color: red;
+    margin-top: 2em;
 }
 
-#kontakt-a{
+#kontakt-a {
     font-size: 1.3em;
 }
 
@@ -243,21 +251,33 @@ margin-top: 2em;
 
 @-webkit-keyframes slide-fwd-center {
     0% {
-      -webkit-transform: translateZ(0);
-              transform: translateZ(0);
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
     }
+
     100% {
-      -webkit-transform: translateZ(160px);
-              transform: translateZ(160px);
+        -webkit-transform: translateZ(160px);
+        transform: translateZ(160px);
     }
-  }
-  @keyframes slide-fwd-center {
+}
+
+@keyframes slide-fwd-center {
     0% {
-      -webkit-transform: translateZ(0);
-              transform: translateZ(0);
+        -webkit-transform: translateZ(0);
+        transform: translateZ(0);
     }
+
     100% {
-      -webkit-transform: translateZ(160px);
-              transform: translateZ(160px);
+        -webkit-transform: translateZ(160px);
+        transform: translateZ(160px);
     }
-  }
+}
+
+#kontaktFormBtn{
+    width: 33em;
+    height: 3em;
+    background-color: rgb(223, 58, 58);
+    border: none;
+    color: white;
+
+}

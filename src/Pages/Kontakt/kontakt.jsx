@@ -62,7 +62,7 @@ function Kontakt() {
                         <div className="check-btn">
                             <label><input id="checkbox" type="checkbox"></input> Prihvati politiku privatnosti</label>
                         </div>
-                        <button>Posalji</button>
+                        <button id="kontaktFormBtn">Posalji</button>
 
                     </div>
 
