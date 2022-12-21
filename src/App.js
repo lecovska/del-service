@@ -7,23 +7,24 @@ import Kontakt from './Pages/Kontakt/kontakt';
 // import NovostiMainPage from './Pages/NovostiMainPage/NovostiMainPage';
 // import Pitanja from "./Pages/Pitanja/pitanja";
 //  import About from './Pages/About/about';
-import { Routes, Route } from 'react-router-dom';
+import {  BrowserRouter as Router,Routes, Route } from 'react-router-dom';
 import Zakazi from './Pages/Zakazi/zakazi';
 import './App.css';
+
 
 
 function App() {
   return (
     <div className="App">
       <Routes>
-    <Route exact path='/src/Pages/HomePage' element={<HomePage />}/>
-      <Route path='/src/Pages/CenovnikPage' element={<Cenovnik /> }/>
-      <Route path='/src/Pages/Kontakt' element={<Kontakt/>} /> 
+    <Route exact path="/" element={<HomePage/>}/>
+      <Route path='Pages/CenovnikPage' element={<Cenovnik /> }/>
+      <Route path='/Pages/Kontakt' element={<Kontakt/>} /> 
       {/*<NovostiSinglePage /> 
      <NovostiMainPage /> 
       <Pitanja/>   */}
        {/* <About/> */}
-      <Route path='/src/Pages/Zakazi' element={<Zakazi/>}/>
+      <Route path='/Pages/Zakazi' element={<Zakazi/>}/>
       </Routes>
     </div>
   );

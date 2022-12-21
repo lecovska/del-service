@@ -34,7 +34,7 @@ function Kontakt() {
 
                         <div id="mail-kontakt">
                             <img id="img-mail" src={maillogo} alt="maillogo"></img>
-                            <span>felxsluzba"gmail.com</span>
+                            <span>flexsluzba@gmail.com</span>
                         </div>
 
                         <div id="telefon-kontakt" >
@@ -62,7 +62,7 @@ function Kontakt() {
                         <div className="check-btn">
                             <label><input id="checkbox" type="checkbox"></input> Prihvati politiku privatnosti</label>
                         </div>
-                        <button id="kontaktFormBtn">Posalji</button>
+                        <button id="kontaktFormBtn">Pošalji</button>
 
                     </div>
 

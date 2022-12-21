@@ -28,6 +28,8 @@ tr:nth-child(odd){
     justify-content: center;
     align-items: center;
     margin-top: 0 !important;
+    -webkit-box-shadow: 0px 10px 23px -5px #917F69; 
+    box-shadow: 0px 10px 23px -5px #917F69;
 }
 
 .mainTitle{
