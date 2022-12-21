@@ -14,23 +14,24 @@
     text-align: center;
 }
 
-.image {
+.image-about {
     height: 100vh;
     /* margin-bottom: 5%; */
     display: flex;
     justify-content: center;
     width: 100%;
-    background-image: url("../../Images/aboutMainPhoto.jpg");
+    background-image: url("../../Images/oNama.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     position: relative;
 }
 
-.main-title {
+.main-title-about {
     font-size: 4rem;
     font-weight: 500;
     text-align: right;
+    color:rgb(192, 10, 10);
 
 }
 
@@ -97,7 +98,7 @@ a{
     flex-direction: column;
     justify-content: space-around;
     text-align: left;
-   
+    line-height: 1.5em;
     width: 43em;
     height: 25em;
 }

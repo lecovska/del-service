@@ -10,9 +10,9 @@ function About() {
     return (
         <div className="about">
             <Header />
-            <div className="image">
+            <div className="image-about">
                 <div className="greeting">
-                    <span className="main-title">O nama</span>
+                    <span className="main-title-about">O nama</span>
                     <a href="nesto"><img id="homeIcon" src={homeIcon} alt="homeIcon"></img> Početna - Flex kurirska služba</a>
                 </div>
             </div>

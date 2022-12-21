@@ -94,14 +94,21 @@ input {
     border: none;
     border-radius: 5px;
     background-color: #e2c7a8;
+    outline: none;
+    padding-left: 2em;
 }
 
 label {
     position:static;
     text-align: left;
     display: inline-block;
+    display: flex;
+    justify-content:start;
+    align-items: flex-start;
     width: 80%;
     color: brown;
+    padding-left: 2em;
+    font-weight: 550;
 }
 
 .formTitle {

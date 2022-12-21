@@ -228,10 +228,12 @@ label {
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+    
 }
 
 .rekalmacije-p {
     text-align: left;
+    line-height: 1.5em;
 }
 
 .rekalmacije-h4 {

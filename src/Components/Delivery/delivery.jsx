@@ -1,7 +1,7 @@
 import React from "react";
 import "./delivery.css";
-import slika1 from "../../Images/Flex-kurirska-sluzba16.jpg";
-import slika2 from "../../Images/Untitled.png";
+// import slika1 from "../../Images/Flex-kurirska-sluzba16.jpg";
+// import slika2 from "../../Images/Untitled.png";
 
 function Delivery() {
     return (
