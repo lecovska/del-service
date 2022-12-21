@@ -6,6 +6,7 @@ import homeLogo from "../../Images/homeIcon.png";
 import telLogo from "../../Images/output-onlinepngtools.png";
 import locationLogo from "../../Images/Location-2---icon.png";
 import maillogo from "../../Images/e-mail---icon.png";
+import reklamacije from "../../Images/Reklamacije.jpg";
 // import kontaktImg from "../../Images/kontakt-img.jpg";
 
 
@@ -14,9 +15,9 @@ function Kontakt() {
         <div className="main-kontakt">
             <Header />
             <div className="kontakt-image">
-                <div className="greeting">
-                    <span className="main-title">Kontakt</span>
-                    <a href="nesto"><img id="zakaziHomeLogo" src={homeLogo} alt="homelogo"></img>Početna - Flex kurirska služba</a>
+                <div className="greeting-kontakt">
+                    <span className="main-title-kontakt slide-fwd-center">Kontakt</span>
+                    <a href="nesto" id="kontakt-a"><img id="zakaziHomeLogo" src={homeLogo} alt="homelogo"></img>Početna - Flex kurirska služba</a>
                 </div>
             </div>
             <div className="kontakt-wrapper">
@@ -66,6 +67,38 @@ function Kontakt() {
                     </div>
 
 
+                </div>
+            </div>
+
+            <div className="middle-image"></div>
+            <div className="reklamacije">
+                <div className="reklamacijeSingleDiv">
+                    <h4 className="rekalmacije-h4">Reklamacije</h4>
+                    <p className="rekalmacije-p">Korisnik poštanskih usluga koji nije zadovoljan pruženom uslugom ima pravo da izjavi reklamaciju poštanskom operateru.
+                        Reklamacije se mogu podneti u pisanom obliku ili elektronskim putem na adresu poštanskog
+                        operatora reklamacije@flex-kurir.rs</p>
+                    <a href="nesto" className="rekalmacije-a">preuzmi pdf</a>
+                </div>
+                <div className="reklamacijeSingleDiv">
+                    <h4 className="rekalmacije-h4">Kurirska dostava</h4>
+                    <p className="rekalmacije-p" >Preuzimanje i dostava pošiljaka obavlja se od
+                        ponedeljka do petka. Preuzimanje i dostava
+                        pošiljaka se ne vrši nedeljom, osim ako postoje
+                        posebni ugovori ili odredbe direktora.
+
+                        Pošiljke preuzete u petak dostavljaju se prvi
+                        naredni padni dan – u ponedeljak.</p>
+                    <a href="nesto" className="rekalmacije-a">Zakaži kurira</a>
+                </div>
+                <div className="reklamacijeSingleDiv">
+                    <h4 className="rekalmacije-h4">Šaljete mnogo pošiljki?</h4>
+                    <p className="rekalmacije-p" >Uštedite vreme i novac. Pozovite nas da sklopimo
+                        ugovor za slanje velikog broja pošiljki.
+
+                        Potpisivanjem ugovora, pored ušteda na poštarini,
+                        ako ste pravno lice, bićete i u mogućnosti da
+                        plaćate preko računa.</p>
+                    <a href="nesto" className="rekalmacije-a">Kontaktirajte nas</a>
                 </div>
             </div>
             {<Footer />}
