@@ -7,7 +7,7 @@ import Kontakt from './Pages/Kontakt/kontakt';
 // import NovostiMainPage from './Pages/NovostiMainPage/NovostiMainPage';
 // import Pitanja from "./Pages/Pitanja/pitanja";
 import About from './Pages/About/about';
-import {  BrowserRouter as Router,Routes, Route, useLocation } from 'react-router-dom';
+import {  Routes, Route} from 'react-router-dom';
 import Zakazi from './Pages/Zakazi/zakazi';
 import './App.css';
 

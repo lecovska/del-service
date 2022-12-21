@@ -36,6 +36,7 @@ video {
     font-weight: 300;
     text-align: right;
     color: white;
+    font-family: catamaran;
 
 }
 
@@ -79,8 +80,8 @@ height: 40px;
 video {
     object-fit: cover;
     margin: 0 !important;
-    -webkit-transform: scaleX(2); 
-    -moz-transform: scaleX(2);
+    /* -webkit-transform: scaleX(2); 
+    -moz-transform: scaleX(2); */
 }
 
 

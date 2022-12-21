@@ -2,7 +2,7 @@ import React from "react";
 import "./header.css";
 import logo from "../../Images/logoPng.png";
 import telephoneIcon from "../../Images/output-onlinepngtools.png";
-import {  BrowserRouter as Router,Routes, Route, useLocation, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 function Header(){
     return(
