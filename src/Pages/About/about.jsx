@@ -17,7 +17,7 @@ function About() {
             <div className="image-about">
                 <div className="greeting">
                     <span className="main-title">O nama</span>
-                    <a href="nesto"><img id="homeIcon" src={homeIcon} alt="homeIcon"></img> Početna - Flex kurirska služba</a>
+                    <a href="/src/Pages/homepageto"><img id="homeIcon" src={homeIcon} alt="homeIcon"></img> Početna - Flex kurirska služba</a>
                 </div>
             </div>
             <div className="small-wrapper">
