@@ -20,7 +20,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    background-image: url("../../Images/aboutMainPhoto.jpg");
+    background-image: url("../../Images/oNama.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -37,6 +37,9 @@
 button {
     width: 150px;
     height: 30px;
+    background-color: rgb(223, 58, 58);
+    color: white;
+    border: none;
 }
 
 span{
@@ -97,8 +100,90 @@ a{
     flex-direction: column;
     justify-content: space-around;
     text-align: left;
-   
+   color: #666666;
     width: 43em;
     height: 25em;
 }
 
+.bottomDiv{
+    margin-top: 5em;
+    position: relative;
+    width: 100%;
+    height: 40em;
+}
+.bottomDiv-img
+{
+    width: 100%;
+    height: 75%;
+    background-image: url("../../Images/oNama1.jpg");
+    background-size: cover;
+    margin-top: 5em;
+    
+    
+}
+.Logo{
+    width: 9em;
+    display: flex;
+    align-items: flex-start;
+    
+    
+}
+.bottomDiv p{
+    color: rgb(223, 58, 58);
+    font-size: 30px;
+}
+.media-btns {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.lastDiv{
+width: 100%;
+height: 40em;
+text-align: center;
+}
+h2{
+    color:rgb(223, 58, 58);
+    text-align: center;
+    
+}
+.boxes{
+  
+    margin: 20px;
+    text-align:justify;
+    text-align: center;
+
+}
+.box{
+    width: 36em;
+    height: 13em;
+    display: inline-block;
+    flex-direction: column;
+    border: 1px solid rgba(212, 149, 67, 0.705);
+    margin: 10px;
+    
+   
+}
+.box1{
+    width: 36em;
+    height: 13em;
+    display: inline-block;
+    flex-direction: column;
+    border: 1px solid rgba(212, 149, 67, 0.705);
+    margin: 10px;
+    
+   
+}
+.box2{
+    width: 36em;
+    height: 13em;
+    display: inline-block;
+    flex-direction: column;
+    border: 1px solid rgba(212, 149, 67, 0.705);
+    margin: 10px;
+   
+   
+}
