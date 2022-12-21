@@ -88,7 +88,7 @@ function Kontakt() {
 
                         Pošiljke preuzete u petak dostavljaju se prvi
                         naredni padni dan – u ponedeljak.</p>
-                    <a href="nesto" className="rekalmacije-a">Zakaži kurira</a>
+                    <a href="/src/Pages/zakazi" className="rekalmacije-a">Zakaži kurira</a>
                 </div>
                 <div className="reklamacijeSingleDiv">
                     <h4 className="rekalmacije-h4">Šaljete mnogo pošiljki?</h4>
