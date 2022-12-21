@@ -3,6 +3,9 @@ import "./kontakt.css";
 import Header from "../../Components/Header/header";
 import Footer from "../../Components/Footer/footer";
 import homeLogo from "../../Images/homeIcon.png";
+import telLogo from "../../Images/output-onlinepngtools.png";
+import locationLogo from "../../Images/Location-2---icon.png";
+import maillogo from "../../Images/e-mail---icon.png";
 // import kontaktImg from "../../Images/kontakt-img.jpg";
 
 
@@ -20,10 +23,25 @@ function Kontakt() {
                 <div className="infoDiv-text">
                     <h3>Hajde da razgovaramo o onome što je Vama važno</h3>
                     <p id="infoDiv-p">Pišite nam! <br></br>
-                        Ili nas pozovite +381 60 588 12 34 odvojićemo vreme za razgovor<br></br> ili lično da bismo saznali više o vašim privatnim/poslovnim potrebama.</p>
-                    <p>logo Beograd</p>
-                    <a href="nesto">office@flex-kurir.rs</a>
-                    <p>logo +381 60 588 12 34</p>
+                        Ili nas pozovite +381 60 588 12 34 odvojićemo vreme za razgovor<br></br> ili lično da bismo saznali više o Vašim privatnim/poslovnim potrebama.</p>
+                    <div className="logoDiv">
+
+                        <div id="lokacija-kontakt">
+                            <img id="img-lokacija" src={locationLogo} alt="lokacija"></img>
+                            <span>Beograd</span>
+                        </div>
+
+                        <div id="mail-kontakt">
+                            <img id="img-mail" src={maillogo} alt="maillogo"></img>
+                            <span>felxsluzba"gmail.com</span>
+                        </div>
+
+                        <div id="telefon-kontakt" >
+                            <img id="img-tel" src={telLogo} alt="tel"></img>
+                            <span>+381 648447211</span>
+                        </div>
+
+                    </div>
                 </div>
 
                 <div className="kontakt-box">

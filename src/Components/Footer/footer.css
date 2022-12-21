@@ -1,11 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.footer{
-    
+.footer {
     width: 100%;
     height: 25em;
     background-color: #bfad93;
@@ -14,49 +13,46 @@
     align-items: center;
     margin-top: 0;
     padding-top: 0;
-
 }
 
-#img-lokacija{
+#img-lokacija {
     width: 3em;
 }
 
-#img-mail{
+#img-mail {
     width: 2em;
     margin-right: 1em;
 }
 
-#img-tel{
+#img-tel {
     width: 1.5em;
     margin-right: 1em;
     margin-left: 0.3em;
 }
 
-.footerLogo{
+.footerLogo {
     width: 9em;
     display: flex;
     align-items: flex-start;
-   
 }
 
-.logo{
+.logo {
     padding-top: 2em;
     height: 20em;
     padding-left: 10em;
     border-right: 1px solid white;
 }
 
-.logoDiv{
+.logoDiv {
     width: 30em;
     margin-top: 1.5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    
 }
 
-#lokacija{
+#lokacija {
     height: 3em;
     display: flex;
     justify-content: space-between;
@@ -64,7 +60,7 @@
     color: white;
 }
 
-#mail{
+#mail {
     height: 3em;
     display: flex;
     justify-content: space-between;
@@ -72,7 +68,7 @@
     color: white;
 }
 
-#telefon{
+#telefon {
     height: 3em;
     display: flex;
     justify-content: space-between;
@@ -80,7 +76,7 @@
     color: white;
 }
 
-.usluge{
+.usluge {
     width: 50em;
     height: 20em;
     display: flex;
@@ -92,7 +88,7 @@
     /* padding-top: 1.2em; */
 }
 
-.usluge2{
+.usluge2 {
     width: 50em;
     height: 20em;
     display: flex;
@@ -104,7 +100,7 @@
     /* padding-top: 1em; */
 }
 
-.kontakt{
+.kontakt {
     width: 90em;
     height: 20em !important;
     display: flex;
@@ -117,31 +113,31 @@
     padding-left: 0;
 }
 
-.h4-usluge{
+.h4-usluge {
     color: white;
     margin-bottom: 0.5em;
-    
+
 }
 
-.h3-kontakt{
+.h3-kontakt {
     color: white;
-    margin:0;
+    margin: 0;
     margin-bottom: 0.5em;
     display: flex;
     align-items: flex-start;
 }
 
-.btn-kontakt{
+.btn-kontakt {
     width: 14em;
     height: 3em;
     color: white;
-    margin:0;
+    margin: 0;
     border: none;
     background-color: rgb(223, 58, 58);
     border-radius: 3px;
 }
 
-.media-btns{
+.media-btns {
     width: 60%;
     height: 100%;
     display: flex;
@@ -149,10 +145,10 @@
     align-items: flex-end;
 }
 
-.kontakt-infoDiv{
+.kontakt-infoDiv {
     height: 30em;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
 }
