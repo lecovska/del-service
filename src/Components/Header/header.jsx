@@ -2,6 +2,7 @@ import React from "react";
 import "./header.css";
 import logo from "../../Images/logoPng.png";
 import telephoneIcon from "../../Images/output-onlinepngtools.png";
+import {  BrowserRouter as Router,Routes, Route, useLocation, Link } from 'react-router-dom';
 
 function Header(){
     return(
@@ -17,11 +18,12 @@ function Header(){
     <div id="logoBox"><img id="logo" src={logo} alt="logo"></img></div>
     <div id="list">
     <ul>
-            <li><a href="../../Pages/HomePage">Početna</a></li>
-            <li><a href="../../Pages/Gallery">Usluge</a></li>
-            <li><a href="../../Pages/About">Zakaži kurira</a></li>
-            <li><a href="../../Pages/Contact">Cenovnik</a></li>
-            <li><a href="../../Pages/Contact">Kontakt</a></li>
+    
+            <li><Link to="../../Pages/HomePage">Početna</Link></li>
+            <li><Link to="../../Pages/About">Usluge</Link></li>
+            <li><Link to="../../Pages/Zakazi">Zakaži kurira</Link></li>
+            <li><Link to="../../Pages/CenovnikPage">Cenovnik</Link></li>
+            <li><Link to="../../Pages/Kontakt">Kontakt</Link></li>
         </ul>
     </div>
 </div>

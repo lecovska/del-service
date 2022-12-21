@@ -6,8 +6,8 @@ import Kontakt from './Pages/Kontakt/kontakt';
 // import NovostiSinglePage from './Pages/NovostiSinglePage/novostiSinglePage';
 // import NovostiMainPage from './Pages/NovostiMainPage/NovostiMainPage';
 // import Pitanja from "./Pages/Pitanja/pitanja";
-//  import About from './Pages/About/about';
-import {  BrowserRouter as Router,Routes, Route } from 'react-router-dom';
+import About from './Pages/About/about';
+import {  BrowserRouter as Router,Routes, Route, useLocation } from 'react-router-dom';
 import Zakazi from './Pages/Zakazi/zakazi';
 import './App.css';
 
@@ -18,13 +18,13 @@ function App() {
     <div className="App">
       <Routes>
     <Route exact path="/" element={<HomePage/>}/>
-      <Route path='Pages/CenovnikPage' element={<Cenovnik /> }/>
+      <Route path='/Pages/cenovnik' element={<Cenovnik /> }/>
       <Route path='/Pages/Kontakt' element={<Kontakt/>} /> 
       {/*<NovostiSinglePage /> 
      <NovostiMainPage /> 
       <Pitanja/>   */}
-       {/* <About/> */}
-      <Route path='/Pages/Zakazi' element={<Zakazi/>}/>
+       <Route path='/Pages/About' element={<About/>}/>
+      <Route path='/Pages/zakazi' element={<Zakazi/>}/>
       </Routes>
     </div>
   );
