@@ -99,8 +99,11 @@ label {
     position:static;
     text-align: left;
     display: inline-block;
-    width: 80%;
+    /* width: 80%; */
     color: brown;
+    justify-content: start;
+    padding-left: 2em;
+    color: rgb(138, 79, 25);
 }
 
 .formTitle {

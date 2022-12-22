@@ -17,15 +17,15 @@ function App() {
   return (
     <div className="App">
       <Routes>
-    <Route exact path='/src/Pages/HomePage' element={<HomePage />}/>
-      <Route path='/src/Pages/CenovnikPage' element={<Cenovnik /> }/>
-      <Route path='/src/Pages/Kontakt' element={<Kontakt/>} /> 
-      <Route path='/src/Pages/About' element={<About/>} /> 
+    <Route exact path='/' element={<HomePage />}/>
+      <Route path='/Pages/CenovnikPage' element={<Cenovnik /> }/>
+      <Route path='/Pages/Kontakt' element={<Kontakt/>} /> 
+      <Route path='/Pages/About' element={<About/>} /> 
       {/*<NovostiSinglePage /> 
      <NovostiMainPage /> 
       <Pitanja/>   */}
       
-      <Route path='/src/Pages/Zakazi' element={<Zakazi/>}/>
+      <Route path='/Pages/Zakazi' element={<Zakazi/>}/>
       </Routes>
     </div>
   );
