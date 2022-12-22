@@ -107,38 +107,41 @@ a{
 }
 
 .bottomDiv{
-    margin-top: 5em;
-    position: relative;
     width: 100%;
-    height: 40em;
-}
-.bottomDiv-img
-{
-    width: 100%;
-    height: 75%;
+    height: 300px;
     background-image: url("../../Images/oNama1.jpg");
     background-size: cover;
-    margin-top: 5em;
+    margin-top: 10em;
     
-    
+}
+
+
+
+
+
+.bottomDivLogo
+{
+    display: flex;
+    position: relative;
+    height:100%;
+    width: 50%
 }
 .Logo{
-    width: 9em;
+   
+    height: 11em;
+    width: 11em;
     display: flex;
     align-items: flex-start;
+  
     
     
 }
+
 .bottomDiv p{
     color: rgb(223, 58, 58);
     font-size: 30px;
-}
-.media-btns {
-    width: 60%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
+  
 }
 
 .lastDiv{
@@ -154,7 +157,7 @@ h2{
 .boxes{
   
     margin: 20px;
-    text-align:justify;
+    
     text-align: center;
 
 }
@@ -188,3 +191,9 @@ h2{
    
    
 }
+.textArea{
+color: red;
+margin: 5em;
+
+}
+
