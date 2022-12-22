@@ -20,13 +20,13 @@
     text-align: center;
 }
 
-.image {
+.image-cenovnik {
     height: 100vh;
     /* margin-bottom: 5%; */
     display: flex;
     justify-content: center;
     width: 100%;
-    background-image: url("https://th.bing.com/th/id/R.650e07c19a4dec3ce5733545ac00fc97?rik=GoCmh8Zd%2bOu9gQ&riu=http%3a%2f%2fwww.prochecking.com%2fassets%2fimages%2fwhy%2fles-resultats.jpg&ehk=%2bW825XFWejf4jydbpXIPzMR97DyWJB0Wt4lhfpd9l%2f0%3d&risl=&pid=ImgRaw&r=0");
+    background-image: url("../../Images/zakaziKurira.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

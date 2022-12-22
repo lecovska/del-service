@@ -24,7 +24,7 @@ function Footer() {
 
                     <div id="mail">
                         <img id="img-mail" src={maillogo} alt="maillogo"></img>
-                        <span>felxsluzba"gmail.com</span>
+                        <span>felxsluzba@gmail.com</span>
                     </div>
 
                     <div id="telefon" >

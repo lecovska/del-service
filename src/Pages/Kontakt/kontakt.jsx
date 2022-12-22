@@ -29,17 +29,17 @@ function Kontakt() {
 
                         <div id="lokacija-kontakt">
                             <img id="img-lokacija" src={locationLogo} alt="lokacija"></img>
-                            <span>Beograd</span>
+                            <span className="logoDiv-span">Beograd</span>
                         </div>
 
                         <div id="mail-kontakt">
                             <img id="img-mail" src={maillogo} alt="maillogo"></img>
-                            <span>felxsluzba"gmail.com</span>
+                            <span className="logoDiv-span">felxsluzba@gmail.com</span>
                         </div>
 
                         <div id="telefon-kontakt" >
                             <img id="img-tel" src={telLogo} alt="tel"></img>
-                            <span>+381 648447211</span>
+                            <span className="logoDiv-span">+381 648447211</span>
                         </div>
 
                     </div>

@@ -10,7 +10,7 @@ function Zakazi() {
     return (
         <div className="zakazi">
             <Header />
-            <div className="image">
+            <div className="image-zakazi">
                 <div className="greeting">
                     <span className="main-title">Zakaži dolazak kurira</span>
                     <a href="nesto"><img id="zakaziHomeLogo" src={homeLogo} alt="homelogo"></img>Početna - Flex kurirska služba</a>

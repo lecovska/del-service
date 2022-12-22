@@ -13,7 +13,7 @@ function Cenovnik(){
     return(
         <div className="cenovnik">
 <Header/>
-<div className="image">
+<div className="image-cenovnik">
     <div className="greeting">
     <span className="main-title">Cenovnik</span>
     <a href="nesto"><img id="zakaziHomeLogo" src={homeLogo} alt="homelogo"></img>Početna - Flex kurirska služba</a>
