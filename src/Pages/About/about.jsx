@@ -32,15 +32,13 @@ function About() {
 
             </div>
            <div className="bottomDiv">
-            <div className="bottomDiv-img">
+            <div className="bottomDivLogo">
             <img className="Logo" src={Logo} alt="Logo"></img>
-            <p>#midostavljamobrze</p> 
-            {/* < div className="media-btns">
-                    <span>Zaprati nas!</span>
-                    <a>logo</a>
-                    <a>logo</a>
-                    <a>logo</a>
-                </div> */}
+            <p>#midostavljamobrze</p>
+            <div className="bottomDivIcons">
+
+            </div>
+            
             </div>
         </div>
 <div className="lastDiv">
@@ -48,24 +46,28 @@ function About() {
     <h1>Šta kažu naši zadovoljni korisnici</h1>
     <div className="boxes">
         <div class="box">
-        
-       
-           <p>Lorem ipsum dolor sit amet
+            <div className="textArea">
+            <p>Lorem ipsum dolor sit amet
 Sed do eiusmod tempor dolore magna
 aliqua.Lorem ipsum dolor sit amet</p>
+            </div>
+        
+       
+          
 </div>
     
         <div class="box1">
-      
+        <div className="textArea">
         <p>Lorem ipsum dolor sit amet
 Sed do eiusmod tempor dolore magna
 aliqua.Lorem ipsum dolor sit amet</p></div>
-       
+       </div>
         <div class="box2">
-        
+        <div className="textArea">
         <p>Lorem ipsum dolor sit amet
 Sed do eiusmod tempor dolore magna
 aliqua.Lorem ipsum dolor sit amet</p>
+</div>
         </div>
 
     </div>
