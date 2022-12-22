@@ -138,10 +138,10 @@
 }
 
 .media-btns {
-    width: 60%;
+    width: 40%;
     height: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: flex-end;
 }
 
@@ -151,4 +151,12 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: flex-start;
+}
+
+.media-logo{
+    width: 2em;
+}
+
+.media-logo-fb{
+    width: 1em;
 }

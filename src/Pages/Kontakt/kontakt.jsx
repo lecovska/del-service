@@ -7,6 +7,7 @@ import telLogo from "../../Images/output-onlinepngtools.png";
 import locationLogo from "../../Images/Location-2---icon.png";
 import maillogo from "../../Images/e-mail---icon.png";
 import reklamacije from "../../Images/Reklamacije.jpg";
+import { Link } from "react-router-dom";
 // import kontaktImg from "../../Images/kontakt-img.jpg";
 
 
@@ -88,7 +89,7 @@ function Kontakt() {
 
                         Pošiljke preuzete u petak dostavljaju se prvi
                         naredni padni dan – u ponedeljak.</p>
-                    <a href="/src/Pages/zakazi" className="rekalmacije-a">Zakaži kurira</a>
+                    <Link to="../../Pages/Zakazi" className="rekalmacije-a">Zakaži kurira</Link>
                 </div>
                 <div className="reklamacijeSingleDiv">
                     <h4 className="rekalmacije-h4">Šaljete mnogo pošiljki?</h4>
@@ -98,7 +99,7 @@ function Kontakt() {
                         Potpisivanjem ugovora, pored ušteda na poštarini,
                         ako ste pravno lice, bićete i u mogućnosti da
                         plaćate preko računa.</p>
-                    <a href="nesto" className="rekalmacije-a">Kontaktirajte nas</a>
+                    <Link to="../../Pages/Zakazi" className="rekalmacije-a">Kontaktirajte nas</Link>
                 </div>
             </div>
             {<Footer />}

@@ -4,6 +4,9 @@ import footerLogo from "../../Images/logoPng.png";
 import telLogo from "../../Images/output-onlinepngtools.png";
 import locationLogo from "../../Images/Location-2---icon.png";
 import maillogo from "../../Images/e-mail---icon.png";
+import fblogo from "../../Images/fb4.png";
+import imgpng from "../../Images/imgpng.png";
+import viberlogo from "../../Images/viber-19486.png";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -41,7 +44,7 @@ function Footer() {
             </div>
 
             <div className="usluge2">
-            <h4 className="h4-usluge">Korisne informacije</h4> <a href="path_to_file" download="proposed_file_name">Download</a>
+            <h4 className="h4-usluge">Korisne informacije</h4> 
                 <Link to="nesto">Najčešća pitanja</Link><Link to="../../Pages/CenovnikPage">Cenovnik</Link><a href={require("../../Docs/Opšti uslovi za obavljanje poštanskih usluga_29.09.2022.txt.pdf")} download="Opšti_uslovi_poslovanja">Uslovi korišćenja</a><Link to="../../Pages/Zakazi">Zakaži kurira</Link>
             </div>
 
@@ -49,13 +52,14 @@ function Footer() {
                 <div className="kontakt-infoDiv">
                 <h3 className="h3-kontakt">Kontaktirajte nas!</h3>
                 <p>Tu smo za sva Vaša pitanja.</p>
-                <button className="btn-kontakt">Kontakt</button>
+                <Link to="../../Pages/Kontakt"><button className="btn-kontakt">Kontakt</button></Link>
                 </div>
                 <div className="media-btns">
                     <span>Zaprati nas!</span>
-                    <a>logo</a>
-                    <a>logo</a>
-                    <a>logo</a>
+                    <a href="#top"><img className="media-logo" src={viberlogo} alt="viberlogo"></img></a>
+                    <a href="https://www.facebook.com/profile.php?id=100088225421360"><img className="media-logo-fb" src={fblogo} alt="fblogo"></img></a>
+                    <a href="https://www.instagram.com/flex.kurir/"><img className="media-logo" src={imgpng} alt="imglogo"></img></a>
+                    
                 </div>
             </div>
 
