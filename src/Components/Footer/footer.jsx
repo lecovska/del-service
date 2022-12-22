@@ -4,6 +4,7 @@ import footerLogo from "../../Images/logoPng.png";
 import telLogo from "../../Images/output-onlinepngtools.png";
 import locationLogo from "../../Images/Location-2---icon.png";
 import maillogo from "../../Images/e-mail---icon.png";
+import { Link } from "react-router-dom";
 
 function Footer() {
     return (
@@ -36,12 +37,12 @@ function Footer() {
             </div>
             <div className="usluge">
                 <h4 className="h4-usluge">Usluge</h4>
-                <a href="nesto">Dostava Beograd</a><a href="nesto">Danas za danas</a><a href="nesto">Danas za sutra</a><a href="nesto">B2C dostava</a><a href="nesto">B2B dostava</a>
+                <Link to="nesto">Dostava Beograd</Link><Link to="nesto">Danas za danas</Link><Link to="nesto">Danas za sutra</Link><Link to="nesto">B2C dostava</Link><Link to="nesto">B2B dostava</Link>
             </div>
 
             <div className="usluge2">
             <h4 className="h4-usluge">Korisne informacije</h4>
-                <a href="nesto">Najčešća pitanja</a><a href="nesto">Cenovnik</a><a href="nesto">Uslovi korišćenja</a><a href="nesto">Zakaži kurira</a>
+                <Link to="nesto">Najčešća pitanja</Link><Link to="../../Pages/CenovnikPage">Cenovnik</Link><Link to="nesto">Uslovi korišćenja</Link><Link to="../../Pages/Zakazi">Zakaži kurira</Link>
             </div>
 
             <div className="kontakt">
