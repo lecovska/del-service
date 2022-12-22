@@ -93,6 +93,8 @@ input {
     border: none;
     border-radius: 5px;
     background-color: #e2c7a8;
+    outline:none;
+    padding-left: 2em;
 }
 
 label {

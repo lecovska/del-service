@@ -83,6 +83,8 @@ button {
     background-color: white;
     padding-left: 4em;
     padding: 3em;
+    -webkit-box-shadow: 6px 6px 4px -2px #B59F80; 
+    box-shadow: 6px 6px 4px -2px #B59F80;
 
 }
 
@@ -108,7 +110,7 @@ button {
     margin: 0;
 }
 
-h2{
+#h2-rightDiv{
     margin-bottom: 1.2em;
     color: #b59f80;
    

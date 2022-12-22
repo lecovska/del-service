@@ -26,8 +26,8 @@ function Zakazi() {
                                 <label>Grad/Opština:</label><input type="text" />
                                 <label>Adresa:</label><input type="text" />
                                 <label>Kućni broj:</label><input type="text" />
-                                <label>Poštanski broj:</label><input type="text" />
-                                <label>Telefon:</label><input type="text" />
+                                <label>Poštanski broj:</label><input type="number" />
+                                <label>Telefon:</label><input type="number"/>
                                 <label>Kontakt osoba:</label><input type="text" />
                                 <label>Email:</label><input type="text" />
                                 <label>Napomena pri preuzimanju:</label><input type="text" />
@@ -41,8 +41,8 @@ function Zakazi() {
                                 <label>Grad/Opština:</label><input type="text" />
                                 <label>Adresa:</label><input type="text" />
                                 <label>Kućni broj:</label><input type="text" />
-                                <label>Poštanski broj:</label><input type="text" />
-                                <label>Telefon:</label><input type="text" />
+                                <label>Poštanski broj:</label><input type="number" />
+                                <label>Telefon:</label><input type="number" />
                                 <label>Kontakt osoba:</label><input type="text" />
                                 <label>Napomena pri preuzimanju: </label><input type="text" />
                            
@@ -51,9 +51,9 @@ function Zakazi() {
                     <div className="single-form">
                         <form>
                         <div className="formTitle"> <span>DETALJI POŠILJKE</span><br></br></div>
-                                <label>Broj paketa:</label><input type="text" />
+                                <label>Broj paketa:</label><input type="number" />
                                 <label>Isporuka:</label><input type="text" />
-                                <label>Težina pošiljke:</label><input type="text" />
+                                <label>Težina pošiljke:</label><input type="number" />
                                 <label>Sadržaj pošiljke:</label><input type="text" />
                                 <label>Otkupna vrednost:</label><input type="text" />
                                 <label>Dodatne usluge:</label><input type="text" />

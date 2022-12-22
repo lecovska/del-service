@@ -22,8 +22,8 @@ function Cenovnik(){
 <div className="twoDivs">
     <div className="leftDiv"></div>
     <div className="rightDiv">
-        <h2>Unutrasnji saobracaj</h2>
-        <p className="rightDiv-p">Sve cene su date u dinarima. Korisnici Flex usluga stede svoje vreme, jer mi dostavljamo posiljke od vrata do vrata.</p>
+        <h2 id="h2-rightDiv">Unutrašnji saobraćaj</h2>
+        <p className="rightDiv-p">Sve cene su date u dinarima. Korisnici Flex usluga štede svoje vreme, jer mi dostavljamo pošiljke od vrata do vrata.</p>
         <div id="rightDiv-line"></div>
     </div>
 </div>
