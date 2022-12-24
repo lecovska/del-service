@@ -20,7 +20,7 @@ function Header(){
     <ul>
             <li><Link to="../../Pages/HomePage">Početna</Link></li>
             <li><Link to="../../Pages/About">O nama</Link></li>
-            <li><Link to="../../Pages/">Usluge</Link></li>
+            <li><Link to="../../Pages/Usluge">Usluge</Link></li>
             <li><Link to="../../Pages/Zakazi">Zakaži kurira</Link></li>
             <li><Link to="../../Pages/CenovnikPage">Cenovnik</Link></li>
             <li><Link to="../../Pages/Kontakt">Kontakt</Link></li>
