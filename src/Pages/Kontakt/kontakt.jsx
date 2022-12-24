@@ -35,7 +35,7 @@ function Kontakt() {
 
                         <div id="mail-kontakt">
                             <img id="img-mail" src={maillogo} alt="maillogo"></img>
-                            <span className="logoDiv-span">felxsluzba@gmail.com</span>
+                            <span className="logoDiv-span">office@flex-kurir.rs</span>
                         </div>
 
                         <div id="telefon-kontakt" >
