@@ -22,7 +22,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    background-image: url("../../Images/1.jpg");
+    background-image: url("../../Images/zakaziKurira.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -212,4 +212,5 @@ a img{
 #h3-zakaziKurira{
     margin: 1.5em !important;
     font-size: 2em;
+    color: rgb(223, 58, 58);
 }
