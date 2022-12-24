@@ -18,7 +18,7 @@ function Kontakt() {
             <div className="kontakt-image">
                 <div className="greeting-kontakt">
                     <span className="main-title-kontakt slide-fwd-center">Kontakt</span>
-                    <a href="nesto" id="kontakt-a"><img id="zakaziHomeLogo" src={homeLogo} alt="homelogo"></img>Početna - Flex kurirska služba</a>
+                    <a href="/" id="kontakt-a"><img id="zakaziHomeLogo" src={homeLogo} alt="homelogo"></img>Početna - Flex kurirska služba</a>
                 </div>
             </div>
             <div className="kontakt-wrapper">
