@@ -3,6 +3,7 @@ import "./usluge.css";
 import Header from "../../Components/Header/header";
 import Footer from "../../Components/Footer/footer";
 import homeIcon from "../../Images/homeIcon.png";
+import Collapsible from 'react-collapsible';
 
 function Usluge(){
     return(
@@ -14,11 +15,9 @@ function Usluge(){
                     <a href="/"><img id="homeIcon" src={homeIcon} alt="homeIcon"></img> Početna - Flex kurirska služba</a>
                 </div>
             </div>
-            <div className="questions">
-<h1>Usluge</h1>
-<div className="dropdown">
+            <div className="dostava">
 
-</div>
+
 
             </div>
             <Footer/>
