@@ -33,8 +33,7 @@ function About() {
             </div>
            <div className="bottomDiv">
             <div className="bottomDivLogo">
-            <img className="Logo" src={Logo} alt="Logo"></img>
-            <p>#midostavljamobrze</p>
+            
             <div className="bottomDivIcons">
 
             </div>
