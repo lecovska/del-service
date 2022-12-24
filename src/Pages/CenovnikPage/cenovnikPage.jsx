@@ -19,18 +19,37 @@ function Cenovnik(){
     <a href="/"><img id="zakaziHomeLogo" src={homeLogo} alt="homelogo"></img>Početna - Flex kurirska služba</a>
     </div>
 </div>
-<div className="twoDivs">
+
+<div className="form-mainWrapper">
+                <h3 id="h3-zakaziKurira">Stranica je u pripremi. Za vise informacija, pozovite nas call centar.</h3> </div>
+
+
+<div className="callCentar-smallDivs">
+                <div className="callCentarSmallDiv-img"></div>
+                <div className="callCentarInfo-div">
+                    <h4 id="h4-callCentar">CALL CENTAR</h4>
+                    <p className="p-callCentar">Naši operatori stoje Vam na usluzi za sve potrebne informacije.</p>
+                    <p className="p-callCentar">RADNO VREME CALL CENTRA</p>
+                    <p className="p-callCentar">Ponedeljak - Petak od 08h do 16h</p>
+                    <p className="p-callCentarNum">066 624.29.59</p>
+                    </div>
+            </div>
+
+
+{/* <div className="twoDivs">
     <div className="leftDiv"></div>
+    
     <div className="rightDiv">
+        
         <h2 id="h2-rightDiv">Unutrašnji saobraćaj</h2>
         <p className="rightDiv-p">Sve cene su date u dinarima. Korisnici Flex usluga štede svoje vreme, jer mi dostavljamo pošiljke od vrata do vrata.</p>
         <div id="rightDiv-line"></div>
     </div>
-</div>
+</div> 
 <TableDanasZaSutra/>
 <TableDanasZaDanas/>
 <TableDodatneUsluge/>
-<SpecijalizovanePosiljke/>
+<SpecijalizovanePosiljke/>*/}
 <Footer/>
         </div>
     )
