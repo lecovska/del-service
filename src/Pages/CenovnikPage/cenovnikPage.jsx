@@ -16,7 +16,7 @@ function Cenovnik(){
 <div className="image-cenovnik">
     <div className="greeting">
     <span className="main-title">Cenovnik</span>
-    <a href="nesto"><img id="zakaziHomeLogo" src={homeLogo} alt="homelogo"></img>Početna - Flex kurirska služba</a>
+    <a href="/"><img id="zakaziHomeLogo" src={homeLogo} alt="homelogo"></img>Početna - Flex kurirska služba</a>
     </div>
 </div>
 <div className="twoDivs">
