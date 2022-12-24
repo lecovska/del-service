@@ -55,3 +55,97 @@
 
 
 }
+.questions{
+
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 3em;
+
+}
+
+.dropdown h1{
+position: relative; left: -450px;
+margin-bottom: 1em;
+font-family: serif;
+}
+
+.Collapsible {
+    background-color: base;
+    margin: 1em;
+    width: 80%;
+    position: relative; left:80px;  }
+  
+  
+  .Collapsible__contentInner {
+    padding: 10px;
+    border: 1px solid lightGrey;
+    border-top: 0;
+    
+  }
+   .Collapsible__contentInner p {
+      margin-bottom: 10px;
+      font-size: 20px;
+      line-height: 20px;
+        color: #b59f80;
+   }
+  
+      :last-child {
+        margin-bottom: 0;
+      }
+    
+  
+  
+  .Collapsible__trigger {
+    display: block;
+    font-weight: 400;
+    text-decoration: none;
+    position: relative;
+    border: 1px solid white;
+    padding: 10px;
+    background: #FF2121;
+    color: white;
+    font-size: 24px;
+    width: 1000px;
+    text-align: center;
+    
+  }
+  
+    :after {
+      font-family: 'FontAwesome';
+      
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      display: block;
+      transition: transform 300ms;
+    }
+  
+    
+    
+  
+    .is-disabled {
+      opacity: 0.5;
+      background-color: grey;
+    }
+  
+  
+  .CustomTriggerCSS {
+    background-color: lightcoral;
+    transition: background-color 200ms ease;
+    
+    
+  }
+  
+  .CustomTriggerCSS--open {
+    background-color: darkslateblue;
+  }
+  
+  .Collapsible__custom-sibling {
+    padding: 5px;
+    font-size: 12px;
+    background-color: #CBB700;
+    color: black;
+  }
