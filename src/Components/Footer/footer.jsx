@@ -45,7 +45,7 @@ function Footer() {
 
             <div className="usluge2">
             <h4 className="h4-usluge">Korisne informacije</h4> 
-                <Link to="nesto">Najčešća pitanja</Link><Link to="../../Pages/CenovnikPage">Cenovnik</Link><a href={require("../../Docs/Opšti uslovi za obavljanje poštanskih usluga_29.09.2022.txt.pdf")} download="Opšti_uslovi_poslovanja">Uslovi korišćenja</a><Link to="../../Pages/Zakazi">Zakaži kurira</Link>
+                <Link to="/Pages/pitanja">Najčešća pitanja</Link><Link to="../../Pages/CenovnikPage">Cenovnik</Link><a href={require("../../Docs/Opšti uslovi za obavljanje poštanskih usluga_29.09.2022.txt.pdf")} download="Opšti_uslovi_poslovanja">Uslovi korišćenja</a><Link to="../../Pages/Zakazi">Zakaži kurira</Link>
             </div>
 
             <div className="kontakt">
