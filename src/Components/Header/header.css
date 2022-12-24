@@ -19,8 +19,9 @@
     
 }
 
-p {
+.up p {
     display: inline-block;
+    color: white;
 }
 
 .up {
