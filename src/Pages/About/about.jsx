@@ -6,6 +6,9 @@ import homeIcon from "../../Images/homeIcon.png";
 import smallImg from "../../Images/smallImg.jpg";
 import oNama from "../../Images/oNama.jpg";
 import Logo from "../../Images/logoPng.png";
+import calculator from "../../Images/calculator.png";
+import sms from "../../Images/sms.png";
+import delivery from "../../Images/delivery.png";
 
 
 
@@ -17,7 +20,7 @@ function About() {
             <div className="image-about">
                 <div className="greeting">
                     <span className="main-title">O nama</span>
-                    <a href="/src/Pages/homepage"><img id="homeIcon" src={homeIcon} alt="homeIcon"></img> Početna - Flex kurirska služba</a>
+                    <a href="/"><img id="homeIcon" src={homeIcon} alt="homeIcon"></img> Početna - Flex kurirska služba</a>
                 </div>
             </div>
             <div className="small-wrapper">
@@ -33,12 +36,23 @@ function About() {
             </div>
            <div className="bottomDiv">
             <div className="bottomDivLogo">
-            
+
+          
+
+
+
+            </div>
             <div className="bottomDivIcons">
+           <a href=""><img className="calculator" src={calculator} alt="calculator"></img> Kalkulator cena</a>
+           <a href="https://www.instagram.com/flex.kurir/"><img className="sms" src={sms} alt="sms"></img> SMS Obavestenja</a>
+           <a href="/Pages/zakazi"><img className="sms" src={delivery} alt="delivery"></img> Zakazi kurira</a>
+                    
+                    
+
 
             </div>
             
-            </div>
+            
         </div>
 <div className="lastDiv">
     <h2>Zadovoljni korisnici</h2>
