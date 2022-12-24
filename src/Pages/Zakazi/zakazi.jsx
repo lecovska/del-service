@@ -17,8 +17,8 @@ function Zakazi() {
                 </div>
             </div>
             <div className="form-mainWrapper">
-                <h3 id="h3-zakaziKurira">Brzo i jednostavno zakazivanje kurira, direktno sa našeg web sajta</h3>
-                <div className="mainForm">
+                <h3 id="h3-zakaziKurira">Stranica je u pripremi. Za vise informacija, pozovite nas call centar.</h3>
+                {/* <div className="mainForm">
                     <div className="single-form">
                         <form>
                             <div className="formTitle"><span>PODACI O POŠILJAOCU</span></div>
@@ -61,8 +61,8 @@ function Zakazi() {
                             
                         </form>
                     </div>
-                </div>
-                <button type="submit" id="form-button">POTVRDI</button>
+                </div> 
+                <button type="submit" id="form-button">POTVRDI</button>*/}
             </div>
             <div className="callCentar-smallDivs">
                 <div className="callCentarSmallDiv-img"></div>
