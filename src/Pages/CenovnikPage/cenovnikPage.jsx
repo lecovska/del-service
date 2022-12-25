@@ -26,7 +26,7 @@ function Cenovnik(){
 
 <div className="callCentar-smallDivs">
                 <div className="callCentarSmallDiv-img"></div>
-                <div className="callCentarInfo-div">
+                <div className="callCentarInfo-div-cen">
                     <h4 id="h4-callCentar">CALL CENTAR</h4>
                     <p className="p-callCentar">Naši operatori stoje Vam na usluzi za sve potrebne informacije.</p>
                     <p className="p-callCentar">RADNO VREME CALL CENTRA</p>

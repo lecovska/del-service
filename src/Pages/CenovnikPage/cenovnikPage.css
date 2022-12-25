@@ -117,11 +117,11 @@ button {
    
 }
 
-.callCentarInfo-div{
+.callCentarInfo-div-cen{
     position: absolute;
     bottom: 10em ;
     right: 5em ;
-    top: 1em !important;
+    top: 3em !important;
     width: 50em;
     height: 23em;
     border: 1px solid rgba(153, 100, 65, 0.664);
