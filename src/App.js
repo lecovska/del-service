@@ -3,7 +3,7 @@ import React from 'react';
 import HomePage from './Pages/HomePage/homePage';
 import Cenovnik from './Pages/CenovnikPage/cenovnikPage';
 import Kontakt from './Pages/Kontakt/kontakt';
-import Usluge from './Pages/Usluge/usluge';
+// import Usluge from './Pages/Usluge/usluge';
 import Uslugee from './Pages/Uslugee/uslugee';
 // import NovostiSinglePage from './Pages/NovostiSinglePage/novostiSinglePage';
 // import NovostiMainPage from './Pages/NovostiMainPage/NovostiMainPage';
@@ -20,7 +20,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-    <Route exact path='/' element={<HomePage />}/>
+    <Route exact path='*' element={<HomePage />}/>
       <Route path='/Pages/CenovnikPage' element={<Cenovnik /> }/>
       <Route path='/Pages/Kontakt' element={<Kontakt/>} /> 
       <Route path='/Pages/About' element={<About/>} /> 
