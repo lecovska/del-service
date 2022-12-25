@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef} from "react";
 import "./kontakt.css";
 import Header from "../../Components/Header/header";
 import Footer from "../../Components/Footer/footer";
@@ -9,10 +9,30 @@ import maillogo from "../../Images/e-mail---icon.png";
 import reklamacije from "../../Images/Reklamacije.jpg";
 import { Link } from "react-router-dom";
 // import kontaktImg from "../../Images/kontakt-img.jpg";
+import emailjs from '@emailjs/browser';
 
 
-function Kontakt() {
+export const Kontakt = () => {
+    const form = useRef();
+
+    const sendEmail = (e) => {
+      e.preventDefault();
+  
+      emailjs.sendForm('service_s6qt8nk', 'template_2vac17d', form.current, 'hZLqM9SmQtFnOAi6A')
+        .then((result) => {
+            console.log(result.text);
+            e.target.reset();
+        }, (error) => {
+            console.log(error.text);
+        });
+    };
+  
+    
+    
     return (
+
+
+        
         <div className="main-kontakt">
             <Header />
             <div className="kontakt-image">
@@ -46,29 +66,47 @@ function Kontakt() {
                     </div>
                 </div>
 
-                <div className="kontakt-box">
+                 <div className="kontakt-box">
                     <h3 id="kontaktBox-h3">Kontaktirajte nas! Tu smo za sva Vasa pitanja.</h3>
                     <div className="form-div">
-                        <form>
-                            <div className="nameSurname">
+                        <form ref={form} onSubmit={sendEmail}>
+                            {/* <div className="nameSurname">
                                 <input id="name" placeholder="Ime" color="#F6F6F6"></input>
                                 <input id="name" placeholder="Prezime"></input>
                             </div>
                             <input id="email" placeholder="Email"></input>
                             <input id="message-box" placeholder="Poruke"></input>
+                            <input type="submit" value="Send" /> */}
+                         
+      <input id="name" type="text" name="user_name" placeholder="Ime" color="#F6F6F6"/>
+      <input id="name" type="text" name="surname" placeholder="Prezime"></input>
+
+      <input id="email" type="email" name="user_email" placeholder="Email" />
+   
+      <textarea id="message-box" name="message" placeholder="Poruke" />
+      <input id="kontaktFormBtn" type="submit" value="Posalji" />
                         </form>
                     </div>
 
-                    <div className="buttons">
+                    {/* <div className="buttons">
                         <div className="check-btn">
                             <label><input id="checkbox" type="checkbox"></input> Prihvati politiku privatnosti</label>
                         </div>
-                        <button id="kontaktFormBtn">Posalji</button>
+                        <button type="submit" id="kontaktFormBtn">Posalji</button>
 
-                    </div>
+                    </div> */}
 
 
-                </div>
+
+
+                </div> 
+
+
+
+
+
+
+
             </div>
 
             <div className="middle-image"></div>
@@ -108,4 +146,13 @@ function Kontakt() {
 
 
 }
+
+
+    
+
+
+
+
+
+
 export default Kontakt;
