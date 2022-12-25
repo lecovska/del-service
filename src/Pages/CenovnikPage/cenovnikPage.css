@@ -69,7 +69,7 @@ button {
 
 }
 
-.rightDiv {
+/* .rightDiv {
 
     position: relative;
     display: flex;
@@ -79,7 +79,7 @@ button {
     right: 10em;
     width: 50em;
     height: 20em;
-    
+
     z-index: 1;
     background-color: white;
     padding-left: 4em;
@@ -87,7 +87,7 @@ button {
     -webkit-box-shadow: 6px 6px 4px -2px #B59F80; 
     box-shadow: 6px 6px 4px -2px #B59F80;
 
-}
+} */
 
 .leftDiv {
     position: relative;
@@ -115,4 +115,21 @@ button {
     margin-bottom: 1.2em;
     color: #b59f80;
    
+}
+
+.callCentarInfo-div{
+    position: absolute;
+    bottom: 10em ;
+    right: 5em ;
+    top: 3em !important;
+    width: 50em;
+    height: 23em;
+    border: 1px solid rgba(153, 100, 65, 0.664);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 5em;
+    font-size: 1em;
 }

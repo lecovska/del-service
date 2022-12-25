@@ -9,26 +9,28 @@ import "./homepage.css";
 import News from "../../Components/News/news";
 import Line from "../../Components/Line/line";
 
-function HomePage(){
-    return(
+
+
+function HomePage() {
+    return (
         <div className="homePage">
-<Header/>
-<div className="image-homePage">
-    
-    <div className="greeting">
-    <span className="main-title"><span id="mainTitle-span">Dostava uz osmeh,</span><br></br> od vrata do vrata.</span>
-    <button type="submit" className="mainTitle-btn"><span id="btn-span">Pošalji paket</span></button>
-    </div>
-</div>
-{/* <InfoDivs/> */}
+            <Header />
+            <div className="image-homePage">
 
-<Delivery/>
-<Line/>
-<FourDivs/>
+                <div className="greeting">
+                    <span className="main-title"><span id="mainTitle-span">Dostava uz osmeh,</span><br></br> od vrata do vrata.</span>
+                <button type="submit" className="mainTitle-btn"><span id="btn-span">Pošalji paket</span></button> 
+                </div>
+            </div>
+            {/* <InfoDivs/> */}
 
-<CallCentar/>
-<News/>
-<Footer/>
+            <Delivery />
+            <Line />
+            <FourDivs />
+
+            <CallCentar />
+            <News />
+            <Footer />
         </div>
     )
 }
