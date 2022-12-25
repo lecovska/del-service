@@ -132,7 +132,7 @@
     background-color: rgba(216, 213, 213, 0.747);
     border-radius: 2px;
     padding: 2em;
-
+    resize: none;
     border: none;
     outline: none;
     margin-left: 0.9em;
