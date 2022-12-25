@@ -1,7 +1,8 @@
 import React from "react";
 import "./delivery.css";
-import slika1 from "../../Images/Flex-kurirska-sluzba16.jpg";
-import slika2 from "../../Images/Untitled.png";
+// import slika1 from "../../Images/Flex-kurirska-sluzba16.jpg";
+// import slika2 from "../../Images/Untitled.png";
+import { Link } from "react-router-dom";
 
 function Delivery() {
     return (
@@ -15,7 +16,7 @@ function Delivery() {
                 <div className="delivery-text">
                     <h3>Dostava Beograd</h3>
                     <p>Pozovite nas da preuzmemo Vašu pošiljku danas.Primaoc može da očekuje paket odmah ili najkasnije do 18h.</p>
-                    <a className="delivery-a" href="nesto">Saznaj više</a>
+                    <Link className="delivery-a" to="../../Pages/Uslugee">Saznaj više</Link>
                 </div>
 
                 <div className="delivery-img2"></div>
@@ -23,7 +24,7 @@ function Delivery() {
                 <div className="delivery-text">
                     <h3>Dostava danas za danas</h3>
                     <p>Za one koji nemaju vremena tu je dostava. Danas za DANAS. Vašu pošiljku dostavljamo na adresu primaoca odmah.</p>
-                    <a className="delivery-a" href="nesto">Saznaj više</a>
+                    <Link className="delivery-a" to="../../Pages/Uslugee">Saznaj više</Link>
                 </div>
             </div>
         </div>

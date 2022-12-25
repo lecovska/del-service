@@ -131,8 +131,12 @@
     height: 10em;
     background-color: rgba(216, 213, 213, 0.747);
     border-radius: 2px;
-    padding-left: 2em;
+    padding: 2em;
+
+    border: none;
     outline: none;
+    margin-left: 0.9em;
+    margin-top: 1em;
 }
 
 #name {
@@ -273,16 +277,29 @@ label {
     }
 }
 
-#kontaktFormBtn{
+#kontaktFormBtn {
     width: 33em;
     height: 3em;
     background-color: rgb(223, 58, 58);
     border: none;
     color: white;
     text-align: center;
-
 }
 
-.logoDiv-span{
+#kontaktFormBtn:active {
+    background-color: green;
+}
+
+#kontaktFormBtn:focus {
+    background-color: rgb(0, 11, 128);
+}
+
+.logoDiv-span {
     color: black;
+}
+
+#uspeh {
+    color: red;
+    font-weight: 600;
+    font-size: 1.2em;
 }

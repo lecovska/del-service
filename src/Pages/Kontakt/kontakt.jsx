@@ -1,4 +1,4 @@
-import React, {useRef} from "react";
+import React, { useRef } from "react";
 import "./kontakt.css";
 import Header from "../../Components/Header/header";
 import Footer from "../../Components/Footer/footer";
@@ -6,33 +6,58 @@ import homeLogo from "../../Images/homeIcon.png";
 import telLogo from "../../Images/output-onlinepngtools.png";
 import locationLogo from "../../Images/Location-2---icon.png";
 import maillogo from "../../Images/e-mail---icon.png";
-import reklamacije from "../../Images/Reklamacije.jpg";
+// import reklamacije from "../../Images/Reklamacije.jpg";
 import { Link } from "react-router-dom";
 // import kontaktImg from "../../Images/kontakt-img.jpg";
 import emailjs from '@emailjs/browser';
+import { useState } from "react";
+
 
 
 export const Kontakt = () => {
-    const form = useRef();
 
-    const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('service_s6qt8nk', 'template_2vac17d', form.current, 'hZLqM9SmQtFnOAi6A')
-        .then((result) => {
-            console.log(result.text);
-            e.target.reset();
-        }, (error) => {
-            console.log(error.text);
-        });
+
+
+    const [divText, setDivText] = useState("");
+
+
+    function handleClick() {
+        setDivText('Uspešno Poslato');
+        const getBtn = document.getElementById("kontaktFormBtn");
+        const getChekBox = document.getElementById("checkbox");
+        const newMessage = document.createElement("p");
+        newMessage.setAttribute("id", "uspeh")
+        const getDiv = document.getElementById("nestoproba");
+        newMessage.innerText = "Uspešno poslato!"
+        if (getChekBox.checked == true) {
+            getBtn.style.display = "none";
+            getDiv.append(newMessage);
+        }
     };
-  
-    
-    
+
+    const form = useRef();
+    const sendEmail = (e) => {
+        if (!('.checkBoxBtn').is(':checked')) {
+
+            e.preventDefault();
+        }
+        e.preventDefault();
+
+        emailjs.sendForm('service_s6qt8nk', 'template_2vac17d', form.current, 'hZLqM9SmQtFnOAi6A')
+            .then((result) => {
+                console.log(result.text);
+                e.target.reset();
+            }, (error) => {
+                console.log(error.text);
+            });
+    };
+
+
+
     return (
 
 
-        
+
         <div className="main-kontakt">
             <Header />
             <div className="kontakt-image">
@@ -66,9 +91,9 @@ export const Kontakt = () => {
                     </div>
                 </div>
 
-                 <div className="kontakt-box">
-                    <h3 id="kontaktBox-h3">Kontaktirajte nas! Tu smo za sva Vasa pitanja.</h3>
-                    <div className="form-div">
+                <div className="kontakt-box">
+                    <h3 id="kontaktBox-h3">Kontaktirajte nas! Tu smo za sva Vaša pitanja.</h3>
+                    <div className="form-div" id="nestoproba">
                         <form ref={form} onSubmit={sendEmail}>
                             {/* <div className="nameSurname">
                                 <input id="name" placeholder="Ime" color="#F6F6F6"></input>
@@ -77,14 +102,19 @@ export const Kontakt = () => {
                             <input id="email" placeholder="Email"></input>
                             <input id="message-box" placeholder="Poruke"></input>
                             <input type="submit" value="Send" /> */}
-                         
-      <input id="name" type="text" name="user_name" placeholder="Ime" color="#F6F6F6"/>
-      <input id="name" type="text" name="surname" placeholder="Prezime"></input>
 
-      <input id="email" type="email" name="user_email" placeholder="Email" />
-   
-      <textarea id="message-box" name="message" placeholder="Poruke" />
-      <input id="kontaktFormBtn" type="submit" value="Posalji" />
+                            <input id="name" type="text" name="user_name" placeholder="Ime" color="#F6F6F6" />
+                            <input id="name" type="text" name="surname" placeholder="Prezime"></input>
+
+                            <input id="email" type="email" name="user_email" placeholder="E-mail" />
+
+                            <textarea id="message-box" name="message" placeholder="Poruke" />
+                            <div className="check-btn">
+                                <label><input id="checkbox" className="checkBoxBtn" type="checkbox" required></input> Prihvati politiku privatnosti</label>
+                            </div>
+                            <input id="kontaktFormBtn" className="nesto" type="submit" value="Pošalji" onClick={handleClick} />
+
+                            {/* <p id="mess">{divText}</p> */}
                         </form>
                     </div>
 
@@ -92,21 +122,8 @@ export const Kontakt = () => {
                         <div className="check-btn">
                             <label><input id="checkbox" type="checkbox"></input> Prihvati politiku privatnosti</label>
                         </div>
-                        <button type="submit" id="kontaktFormBtn">Posalji</button>
-
                     </div> */}
-
-
-
-
-                </div> 
-
-
-
-
-
-
-
+                </div>
             </div>
 
             <div className="middle-image"></div>
@@ -116,7 +133,7 @@ export const Kontakt = () => {
                     <p className="rekalmacije-p">Korisnik poštanskih usluga koji nije zadovoljan pruženom uslugom ima pravo da izjavi reklamaciju poštanskom operateru.
                         Reklamacije se mogu podneti u pisanom obliku ili elektronskim putem na adresu poštanskog
                         operatora reklamacije@flex-kurir.rs</p>
-                    <a href="nesto" className="rekalmacije-a">preuzmi pdf</a>
+                    <a href="nesto" className="rekalmacije-a">Preuzmi pdf</a>
                 </div>
                 <div className="reklamacijeSingleDiv">
                     <h4 className="rekalmacije-h4">Kurirska dostava</h4>
@@ -148,7 +165,7 @@ export const Kontakt = () => {
 }
 
 
-    
+
 
 
 

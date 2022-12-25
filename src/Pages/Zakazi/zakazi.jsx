@@ -17,7 +17,7 @@ function Zakazi() {
                 </div>
             </div>
             <div className="form-mainWrapper">
-                <h3 id="h3-zakaziKurira">Stranica je u pripremi. Za vise informacija, pozovite nas call centar.</h3>
+                <h3 id="h3-zakaziKurira">Stranica je u pripremi. Za više informacija, pozovite naš call centar.</h3>
                 {/* <div className="mainForm">
                     <div className="single-form">
                         <form>

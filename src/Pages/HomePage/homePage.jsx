@@ -8,6 +8,7 @@ import CallCentar from "../../Components/CallCentarInfo/callCentar";
 import "./homepage.css";
 import News from "../../Components/News/news";
 import Line from "../../Components/Line/line";
+import { Link } from "react-router-dom";
 
 
 
@@ -19,7 +20,7 @@ function HomePage() {
 
                 <div className="greeting">
                     <span className="main-title"><span id="mainTitle-span">Dostava uz osmeh,</span><br></br> od vrata do vrata.</span>
-                <button type="submit" className="mainTitle-btn"><span id="btn-span">Pošalji paket</span></button> 
+                <button type="submit" className="mainTitle-btn"><span id="btn-span"><Link to="../../Pages/Uslugee">Pošalji paket</Link></span></button> 
                 </div>
             </div>
             {/* <InfoDivs/> */}

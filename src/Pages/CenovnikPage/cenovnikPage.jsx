@@ -21,7 +21,7 @@ function Cenovnik(){
 </div>
 
 <div className="form-mainWrapper">
-                <h3 id="h3-zakaziKurira">Stranica je u pripremi. Za vise informacija, pozovite nas call centar.</h3> </div>
+                <h3 id="h3-zakaziKurira">Stranica je u pripremi. Za više informacija, pozovite naš call centar.</h3> </div>
 
 
 <div className="callCentar-smallDivs">
