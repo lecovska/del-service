@@ -9,6 +9,7 @@ import Logo from "../../Images/logoPng.png";
 import calculator from "../../Images/calculator.png";
 import sms from "../../Images/sms.png";
 import delivery from "../../Images/delivery.png";
+import { Link } from "@mui/material";
 
 
 
@@ -19,8 +20,8 @@ function About() {
             <Header />
             <div className="image-about">
                 <div className="greeting">
-                    <span className="main-title">O nama</span>
-                    <a href="/"><img id="homeIcon" src={homeIcon} alt="homeIcon"></img> Početna - Flex kurirska služba</a>
+                    <span className="main-title-oNama">O nama</span>
+                    <a href="/" id="Onama-a"><img id="homeIcon" src={homeIcon} alt="homeIcon"></img> Početna - Flex kurirska služba</a>
                 </div>
             </div>
             <div className="small-wrapper">
@@ -30,7 +31,7 @@ function About() {
                     <h1>Mi dostavljamo do vasih vrata!</h1>
                     <p>Flex kurir je novonastala sluzba koja obavlja svoju delatnost n ateritoriji grada Beograda</p>
                     <p>Kurirsku sluzbu vode mladi, entuzijasticni i ambiciozni ljudi, sa vizijom da se sto vise prilagode potrebama modernog i savremenenog klijenta, i sa ciljem da se razviju u jednu od najkonkuretnijih kurirskih sluzbi kod nas.</p>
-                    <button>Kontakt</button>
+                <button>Kontakt</button>
                 </div>
 
             </div>

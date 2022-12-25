@@ -4,19 +4,19 @@
     box-sizing: border-box;
 }
 
-.usluge {
+/* .usluge {
     position: relative;
-    /* height: 100vh; */
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     text-align: center;
-}
+} */
 
 .image {
     height: 100vh;
-    /* margin-bottom: 5%; */
+    margin-bottom: 5%;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -50,12 +50,9 @@
     align-items: center;
     margin-top: 5em;
     margin-bottom: 5em;
-    
-
-
-
 }
-.questions{
+
+/* .questions{
 
     width: 100%;
     height: 700px;
@@ -64,77 +61,104 @@
     align-items: flex-start;
     margin-top: 3em;
 
+} 
+
+.dropdown{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%; 
 }
 
-.dropdown h1{
-position: relative; left: -450px;
+#dropdown-h1{
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+text-align: center !important;
 margin-bottom: 1em;
-font-family: serif;
+font-family: serif; 
 }
 
 .Collapsible {
-    background-color: base;
+display: flex !important;
+flex-direction: column;
+justify-content: center !important;
+align-items: center !important;
+    background-color: transparent;
     margin: 1em;
-    width: 80%;
-    position: relative; left:80px;  }
+    width: 80%; 
+    position: relative;  
+    left:80px;   
+   }
   
   
   .Collapsible__contentInner {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 67.3%;
     padding: 10px;
     border: 1px solid lightGrey;
     border-top: 0;
+     
     
   }
    .Collapsible__contentInner p {
       margin-bottom: 10px;
       font-size: 20px;
       line-height: 20px;
-        color: #b59f80;
+        color: black !important; 
    }
   
       :last-child {
-        margin-bottom: 0;
+         margin-bottom: 0; 
       }
     
   
   
   .Collapsible__trigger {
-    display: block;
+     display: block;
     font-weight: 400;
-    text-decoration: none;
     position: relative;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
     border: 1px solid white;
     padding: 10px;
-    background: #FF2121;
+    background:#cbb89d !important;
     color: white;
     font-size: 24px;
     width: 1000px;
-    text-align: center;
+    text-align: center; 
     
   }
   
     :after {
-      font-family: 'FontAwesome';
+       font-family: 'FontAwesome';
       
       position: absolute;
       right: 10px;
       top: 10px;
       display: block;
-      transition: transform 300ms;
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+      transition: transform 300ms; 
     }
   
     
     
   
     .is-disabled {
-      opacity: 0.5;
-      background-color: grey;
+       opacity: 0.5;
+      background-color: grey; 
     }
   
   
   .CustomTriggerCSS {
-    background-color: lightcoral;
-    transition: background-color 200ms ease;
+     background-color: lightcoral;
+    transition: background-color 200ms ease; 
     
     
   }
@@ -144,8 +168,8 @@ font-family: serif;
   }
   
   .Collapsible__custom-sibling {
-    padding: 5px;
+     padding: 5px;
     font-size: 12px;
     background-color: #CBB700;
-    color: black;
-  }
+    color: black; 
+  } */

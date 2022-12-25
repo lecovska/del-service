@@ -28,11 +28,12 @@
     opacity: 0.8;
 }
 
-.main-title-about {
+.main-title-oNama {
     font-size: 4rem;
     font-weight: 500;
     text-align: right;
     color:rgb(192, 10, 10);
+    padding-left: 0.7em;
 
 }
 
@@ -215,3 +216,7 @@ margin: 5em;
 
 }
 
+#Onama-a{
+color: red;
+padding-left: 3em;
+}

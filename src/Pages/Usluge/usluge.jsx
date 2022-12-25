@@ -3,7 +3,7 @@ import "./usluge.css";
 import Header from "../../Components/Header/header";
 import Footer from "../../Components/Footer/footer";
 import homeIcon from "../../Images/homeIcon.png";
-import Collapsible from 'react-collapsible';
+//import Collapsible from 'react-collapsible';
 
 function Usluge(){
     return(
@@ -17,8 +17,8 @@ function Usluge(){
             </div>
             <div className="dostava">
 
-            <div className="dropdown">
-<h1>Usluge</h1>
+            {/* <div className="dropdown">
+<h1 id="dropdown-h1">Usluge</h1>
 <Collapsible trigger="Dostava Beograd - Kurirska dostava?">
       <p>
       Pozovite nas da preuzmeno vašu pošiljku danas i primaoc može da očekuje svoj paket odmah ili najkasnije do
@@ -68,7 +68,7 @@ raste ugled i kredibilitet Vaše firme, kao i sama prodaja.
 Pozovite nas i saznajte za pogodnosti koje nudimo za B2B dostave.      </p>
     
     </Collapsible>
-</div>
+</div> */}
 
             </div>
             <Footer/>
