@@ -56,7 +56,7 @@ function Footer() {
                 </div>
                 <div className="media-btns">
                     <span>Zaprati nas!</span>
-                    <a href="#top"><img className="media-logo" src={viberlogo} alt="viberlogo"></img></a>
+                    {/* <a href="viber://chat?number=381666242959"><img className="media-logo" src={viberlogo} alt="viberlogo"></img></a> */}
                     <a href="https://www.facebook.com/profile.php?id=100088225421360"><img className="media-logo-fb" src={fblogo} alt="fblogo"></img></a>
                     <a href="https://www.instagram.com/flex.kurir/"><img className="media-logo" src={imgpng} alt="imglogo"></img></a>
                     
