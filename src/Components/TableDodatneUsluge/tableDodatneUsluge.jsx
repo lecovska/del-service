@@ -9,64 +9,51 @@ function TableDodatneUsluge(){
 </div>
 <table>
     <tr>
-        <th>MASA POSILJKE KG</th>
+        <th>MASA POŠILJKE KG</th>
         <th>CENA BEZ PDV-a RSD</th>
         <th>PDV RSD</th>
         <th>CENA SA PDV RSD</th>
     </tr>
     <tr>
-        <td>SMS izvestaj</td>
-        <td>500,00 RSD</td>
+        <td>SMS izveštaj</td>
+        <td>12,50 RSD</td>
+        <td>2,50 RSD</td>
+        <td>15,00 RSD</td>
+    </tr>
+
+    <tr>
+        <td>Potvrda uručenja pošiljke</td>
         <td>100,00 RSD</td>
-        <td>600,00 RSD</td>
+        <td>20,00 RSD</td>
+        <td>120,00 RSD</td>
     </tr>
 
     <tr>
-        <td>Potvrda urucenja posiljke</td>
-        <td>516,67 RSD</td>
-        <td>103,33 RSD</td>
-        <td>620,00 RSD</td>
+        <td>Lično uručenje</td>
+        <td>100,00 RSD</td>
+        <td>20,00 RSD</td>
+        <td>120,00 RSD</td>
+    </tr>
+    <tr>
+        <td>Vraćanje povratne dokumentacije/otpremnice</td>
+        <td>100,00 RSD</td>
+        <td>20,00 RSD</td>
+        <td>120,00 RSD</td>
     </tr>
 
     <tr>
-        <td>Licno</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>Plaćeni odgovor</td>
+        <td>166,67 RSD</td>
+        <td>33,33 RSD</td>
+        <td>200,00 RSD</td>
     </tr>
-    <tr>
-        <td>Potpisivanje dokumentacije</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-
-    <tr>
-        <td>Placeni odgovor</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Lezarina po danu</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Otkupnina</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
-    <tr>
-        <td>Osiguranje vrednosti sadrzaja posiljke</td>
-        <td></td>
-        <td></td>
-        <td></td>
-    </tr>
+  
+    
+  
     </table>
-    <p>Minimalna cena otkupa je 120,00 rsd, a za vrednosnu posiljku 90 rsd.</p>
+    <p>Za vrednosne pošiljke na cenu usluge utvrđenu po masi pošiljke ili na poštarinu za određenu vrstu vanstandardne/specijalizovane pošiljke, dodaje se 1,1% od naznačenog iznosa vrednosti, a minimalno 90,00 RSD sa PDV-om.</p>
+	<p>Za otkupne pošiljke na cenu usluge utvrđenu po masi pošiljke ili na poštarinu za određenu vrstu vanstandardne/specijalizovane pošiljke, dodaje se 1,2% od naznačenog iznosa otkupnine, a minimalno 120,00RSD sa PDV-om.</p>
+	<p>Ležarina po danu se naplaćuje 25,00 RSD sa PDV-om.</p>
         </div>
     )
 }
