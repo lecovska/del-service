@@ -243,3 +243,25 @@ padding-left: 3em;
 #partners-h1{
 margin-bottom: 5em;
 }
+.partners{
+    width: 100%;
+    height: 13em;
+    background-image: url("../../Images//XYZ\ COMMUNICATIONS.jpg");
+    background-size: cover;
+    margin-bottom: 2em;
+    
+}
+
+.partners-wrapper{
+    width: 100%;
+    height: auto;
+}
+
+.partners-wrapper h2{
+
+    margin-bottom: 5em;
+}
+
+#partners-h1{
+margin-bottom: 5em;
+}
