@@ -44,7 +44,7 @@ function About() {
 
             </div>
             <div className="bottomDivIcons">
-           <a href=""><img className="calculator" src={calculator} alt="calculator"></img> Kalkulator cena</a>
+           <a href="/Pages/kalkulator"><img className="calculator" src={calculator} alt="calculator"></img> Kalkulator cena</a>
            <a href="https://www.instagram.com/flex.kurir/"><img className="sms" src={sms} alt="sms"></img> SMS Obavestenja</a>
            <a href="/Pages/zakazi"><img className="sms" src={delivery} alt="delivery"></img> Zakazi kurira</a>
                     
