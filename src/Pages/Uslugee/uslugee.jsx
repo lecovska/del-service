@@ -36,7 +36,7 @@ function Uslugee() {
             <div className="uslugeMenu">
 
                 <div className="singleContent" onClick={col}>
-                    <button type="button" class="collapsible"  >Dostava Beograd - Kurirska dostava?</button>
+                    <button type="button" class="collapsible"  >Dostava Beograd - Kurirska dostava</button>
                     <div class="content">
                         <p> Pozovite nas da preuzmeno vašu pošiljku danas i primaoc može da očekuje svoj paket odmah ili najkasnije do
                             18h.
@@ -90,6 +90,17 @@ function Uslugee() {
                             negujemo prema Vašim korisnicima, su najvažniji razlozi njihovog zadovoljstva. Sa njihovim zadovoljstvom
                             raste ugled i kredibilitet Vaše firme, kao i sama prodaja.
                             Pozovite nas i saznajte za pogodnosti koje nudimo za B2B dostave.      </p>
+                    </div>
+                    </div>
+                    <div className="singleContent" onClick={col}>
+                    <button type="button" class="collapsible"  >Dodatne usluge</button>
+                    <div class="content">
+                        <p> SMS izveštaj</p>
+                       <p> Potvrda uručenja pošiljke</p> 
+                        <p>Lično uručenje</p>
+                     <p>Vraćanje povratne dokumentacije/otpremnice</p>
+                     <p> Plaćeni odgovor</p>  
+                        
                     </div>
                     </div>
 
