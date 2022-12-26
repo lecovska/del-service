@@ -21,10 +21,12 @@ function Cenovnik(){
 </div>
 
 <div className="form-mainWrapper">
-                <h3 id="h3-zakaziKurira">Stranica je u pripremi. Za više informacija, pozovite naš call centar.</h3> </div>
 
 
-<div className="callCentar-smallDivs">
+     </div>
+
+
+{/* <div className="callCentar-smallDivs">
                 <div className="callCentarSmallDiv-img"></div>
                 <div className="callCentarInfo-div-cen">
                     <h4 id="h4-callCentar">CALL CENTAR</h4>
@@ -33,10 +35,10 @@ function Cenovnik(){
                     <p className="p-callCentar">Ponedeljak - Petak od 08h do 16h</p>
                     <p className="p-callCentarNum">066 624.29.59</p>
                     </div>
-            </div>
+            </div> */}
 
 
-{/* <div className="twoDivs">
+<div className="twoDivs">
     <div className="leftDiv"></div>
     
     <div className="rightDiv">
@@ -49,7 +51,7 @@ function Cenovnik(){
 <TableDanasZaSutra/>
 <TableDanasZaDanas/>
 <TableDodatneUsluge/>
-<SpecijalizovanePosiljke/>*/}
+<SpecijalizovanePosiljke/>
 <Footer/>
         </div>
     )
