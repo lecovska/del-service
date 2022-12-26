@@ -141,8 +141,8 @@
     width: 40%;
     height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: flex-end;
+    justify-content: flex-start;
+    align-items:center;
 }
 
 .kontakt-infoDiv {
@@ -159,6 +159,7 @@
 
 .media-logo-fb{
     width: 1em;
+    margin-left: 1em;
 }
 .kontakt p{
     color: white;
