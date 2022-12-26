@@ -175,7 +175,7 @@ h2{
 .boxes{
   
     margin: 20px;
-    color: black;
+    color: #b59f80;
 
     
 
@@ -185,7 +185,7 @@ h2{
     height: 13em;
     display: inline-block;
     flex-direction: column;
-    border: 1px solid #666666;
+    border: 1px solid #e2c7a8;
     margin: 10px;
     
    
@@ -195,7 +195,7 @@ h2{
     height: 13em;
     display: inline-block;
     flex-direction: column;
-    border: 1px solid #666666;
+    border: 1px solid #e2c7a8;
     margin: 10px;
     
    
@@ -205,7 +205,7 @@ h2{
     height: 13em;
     display: inline-block;
     flex-direction: column;
-    border: 1px solid #666666;
+    border: 1px solid #e2c7a8;
     margin: 10px;
    
    
