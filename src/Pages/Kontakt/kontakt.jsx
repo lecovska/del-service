@@ -18,35 +18,35 @@ export const Kontakt = () => {
 
 
 
-    const [divText, setDivText] = useState("");
+    // const [divText, setDivText] = useState("");
 
 
-    function handleClick() {
-        setDivText('Uspešno Poslato');
-        const getBtn = document.getElementById("kontaktFormBtn");
-        const getChekBox = document.getElementById("checkbox");
-        const newMessage = document.createElement("p");
-        newMessage.setAttribute("id", "uspeh")
-        const getDiv = document.getElementById("nestoproba");
-        newMessage.innerText = "Uspešno poslato!"
-        if (getChekBox.checked == true) {
-            getBtn.style.display = "none";
-            getDiv.append(newMessage);
-        }
-    };
+    // function handleClick() {
+    //     setDivText('Uspešno Poslato');
+    //     const getBtn = document.getElementById("kontaktFormBtn");
+    //     const getChekBox = document.getElementById("checkbox");
+    //     const newMessage = document.createElement("p");
+    //     newMessage.setAttribute("id", "uspeh")
+    //     const getDiv = document.getElementById("nestoproba");
+    //     newMessage.innerText = "Uspešno poslato!"
+    //     if (getChekBox.checked == true) {
+    //         getBtn.style.display = "none";
+    //         getDiv.append(newMessage);
+    //     }
+    // };
 
     const form = useRef();
     const sendEmail = (e) => {
-        if (!('.checkBoxBtn').is(':checked')) {
+        
 
             e.preventDefault();
-        }
+        
         e.preventDefault();
 
-        emailjs.sendForm('service_s6qt8nk', 'template_2vac17d', form.current, 'hZLqM9SmQtFnOAi6A')
+        emailjs.sendForm('service_qzv43g5', 'template_wvvmlw9', form.current, 'Ndrl0qWtrFUA1lhnq')
             .then((result) => {
                 console.log(result.text);
-                e.target.reset();
+
             }, (error) => {
                 console.log(error.text);
             });
@@ -70,7 +70,7 @@ export const Kontakt = () => {
                 <div className="infoDiv-text">
                     <h3>Hajde da razgovaramo o onome što je Vama važno</h3>
                     <p id="infoDiv-p">Pišite nam! <br></br>
-                        Ili nas pozovite +381 60 588 12 34 odvojićemo vreme za razgovor<br></br> ili lično da bismo saznali više o Vašim privatnim/poslovnim potrebama.</p>
+                        Ili nas pozovite +381 66 6242959 ili +381 11 6242959 odvojićemo vreme za razgovor<br></br> ili lično da bismo saznali više o Vašim privatnim/poslovnim potrebama.</p>
                     <div className="logoDiv">
 
                         <div id="lokacija-kontakt">
@@ -85,7 +85,7 @@ export const Kontakt = () => {
 
                         <div id="telefon-kontakt" >
                             <img id="img-tel" src={telLogo} alt="tel"></img>
-                            <span className="logoDiv-span">+381 648447211</span>
+                            <span className="logoDiv-span">+381 66 6242959 ; +381 11 6242959 </span>
                         </div>
 
                     </div>
@@ -109,10 +109,10 @@ export const Kontakt = () => {
                             <input id="email" type="email" name="user_email" placeholder="E-mail" />
 
                             <textarea id="message-box" name="message" placeholder="Poruke" />
-                            <div className="check-btn">
+                             <div className="check-btn">
                                 <label><input id="checkbox" className="checkBoxBtn" type="checkbox" required></input> Prihvati politiku privatnosti</label>
                             </div>
-                            <input id="kontaktFormBtn" className="nesto" type="submit" value="Pošalji" onClick={handleClick} />
+                            <input id="kontaktFormBtn" className="nesto" type="submit" value="Pošalji" />
 
                             {/* <p id="mess">{divText}</p> */}
                         </form>
