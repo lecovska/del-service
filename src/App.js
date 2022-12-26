@@ -8,6 +8,7 @@ import Uslugee from './Pages/Uslugee/uslugee';
 // import NovostiSinglePage from './Pages/NovostiSinglePage/novostiSinglePage';
 // import NovostiMainPage from './Pages/NovostiMainPage/NovostiMainPage';
 import Pitanja from "./Pages/Pitanja/pitanja";
+import Kalkulator from "./Pages/Kalkulator/kalkulator";
 import About from './Pages/About/about';
 import { Routes, Route } from 'react-router-dom';
 import Zakazi from './Pages/Zakazi/zakazi';
@@ -26,6 +27,7 @@ function App() {
       <Route path='/Pages/About' element={<About/>} /> 
       <Route path='/Pages/Uslugee' element={<Uslugee/>} /> 
       <Route path='/Pages/Pitanja' element={<Pitanja/>} /> 
+      <Route path='/Pages/Kalkulator' element={<Kalkulator/>} />
       {/*<NovostiSinglePage /> 
      <NovostiMainPage /> 
        */}
