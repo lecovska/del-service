@@ -31,7 +31,7 @@ function About() {
                     <h1>Mi dostavljamo do vasih vrata!</h1>
                     <p>Flex kurir je novonastala sluzba koja obavlja svoju delatnost n ateritoriji grada Beograda</p>
                     <p>Kurirsku sluzbu vode mladi, entuzijasticni i ambiciozni ljudi, sa vizijom da se sto vise prilagode potrebama modernog i savremenenog klijenta, i sa ciljem da se razviju u jednu od najkonkuretnijih kurirskih sluzbi kod nas.</p>
-                <button>Kontakt</button>
+                    <a href="../../Pages/Kontakt"><button>Kontakt</button></a>
                 </div>
 
             </div>
