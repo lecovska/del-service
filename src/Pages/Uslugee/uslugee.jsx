@@ -95,11 +95,12 @@ function Uslugee() {
                     <div className="singleContent" onClick={col}>
                     <button type="button" class="collapsible"  >Dodatne usluge</button>
                     <div class="content">
-                        <p> SMS izveštaj</p>
-                       <p> Potvrda uručenja pošiljke</p> 
-                        <p>Lično uručenje</p>
-                     <p>Vraćanje povratne dokumentacije/otpremnice</p>
-                     <p> Plaćeni odgovor</p>  
+                        <p> SMS izveštaj - Opcija slanja pošiljaocu potvrdu o preuzimanju i izveštaj o obavljenoj dostavi, ali i primaocu izveštaj o obavljenom preuzimanju.
+SMS izveštaj se naplaćuje prema važećem cenovniku koji možete pogledati ovde(link cenovnika). SMS uslugu plaća onaj ko plaća poštarinu.</p>
+                       <p> Potvrda uručenja pošiljke - Potvrda o uručenju je pošiljka čije se uručenje potvrđuje pisanim putem. Obrazac se prilikom dostave pošiljke daje primaocu na potpis, a potom se, dan nakon dostave, vraća pošiljaocu na adresu.</p> 
+                        <p>Lično uručenje - Uručenje se vrši direktno i isključivo navedenom primaocu.</p>
+                     <p>Vraćanje povratne dokumentacije/otpremnice - Ukoliko uz pošiljku želite da pošaljete dokument koji prilikom dostave pošiljke primalac treba da potpiše, a koji Vam Flex-kurir vraća na adresu sa koje ste poslali pošiljku.  Overen dokument (otpremnica) se dan nakon uručenja pošiljke vraća na adresu pošiljaoca.</p>
+                     <p> Plaćeni odgovor - Prilikom isporuke pošiljke, kurir preuzima povratnu pošiljku koja se dan nakon dostave vraća na adresu pošiljaoca. Pošiljka koja se vraća ne sme biti teža od 2kg.</p>  
                         
                     </div>
                     </div>
