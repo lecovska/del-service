@@ -9,72 +9,72 @@ function TableDanasZaSutra(){
 </div>
 <table>
     <tr>
-        <th>MASA POSILJKE KG</th>
+        <th>MASA POŠILJKE KG</th>
         <th>CENA BEZ PDV-a RSD</th>
         <th>PDV RSD</th>
         <th>CENA SA PDV RSD</th>
     </tr>
     <tr>
         <td>do 0.5 kg</td>
-        <td>500,00 RSD</td>
-        <td>100,00 RSD</td>
-        <td>600,00 RSD</td>
+        <td>291,67 RSD</td>
+        <td>58,33 RSD</td>
+        <td>350,00 RSD</td>
     </tr>
 
     <tr>
         <td>od 0,51 do 1kg</td>
-        <td>516,67 RSD</td>
-        <td>103,33 RSD</td>
-        <td>620,00 RSD</td>
+        <td>341,67 RSD</td>
+        <td>68,33 RSD</td>
+        <td>410,00 RSD</td>
     </tr>
 
     <tr>
         <td>od 1,01kg do 2kg</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>375,00 RSD</td>
+        <td>75,00 RSD</td>
+        <td>450,00 RSD</td>
     </tr>
     <tr>
         <td>od 2,01kg do 5kg</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>483,33 RSD</td>
+        <td>96,67 RSD</td>
+        <td>580,00 RSD</td>
     </tr>
 
     <tr>
         <td>od 5,01kg do 10kg</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>616,67 RSD</td>
+        <td>123,33 RSD</td>
+        <td>740,00 RSD</td>
     </tr>
     <tr>
         <td>od 10,01kg do 15kg</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>808,33 RSD</td>
+        <td>161,67 RSD</td>
+        <td>970,00 RSD</td>
     </tr>
     <tr>
         <td>od 15,01kg do 20kg</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>850,00 RSD</td>
+        <td>170,00 RSD</td>
+        <td>1.020,00 RSD</td>
     </tr>
     <tr>
         <td>od 20,01kg do 30kg</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>1.008,33 RSD</td>
+        <td>201,67 RSD</td>
+        <td>1.210,00 RSD</td>
     </tr>
     <tr>
         <td>od 30,01kg do 50kg</td>
-        <td></td>
-        <td></td>
-        <td></td>
+        <td>1.300,00 RSD</td>
+        <td>260,00 RSD</td>
+        <td>1.560,00 RSD</td>
     </tr>
     <tr>
         <td>preko 50kg</td>
         <td></td>
-        <td>svaki kilogram preko 50kg se naplacuje 50,00 rsd</td>
+        <td>Za pošiljke koje premašuju masu 50kg, svaki sledeći kilogram se naplaćuje 40,00RSD sa PDV-om/1kg</td>
         <td></td>
     </tr>
 </table>
