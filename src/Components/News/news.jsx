@@ -19,21 +19,25 @@ function News() {
             <div className="news-text">
 
                 <div className="text">
-                    <h3>Flex, nova kurirska služba, koja štedi Vaše vreme</h3>
-                    <p>Nova kurirska služba. FLEX jer mi dostvaljamo brže od drugih. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur eligendi maiores nostrum eum corporis veniam? Autem assumenda, expedita alias odio quod ipsam nulla, facere ut placeat nam cupiditate veniam modi.</p>
-                    <a href="negde">neki link</a>
+                    <h3>Nacin placanja:</h3>
+                    <p>Postovani klijenti, ukoliko nemate gotovinu prilikom placanja vasih posiljaka , Flex kurir Vam je omogućio placanje karticama.
+ (VISA, MASTERCARD, DINACARD)</p>
+                    
                 </div>
 
                 <div className="text">
-                    <h3>Šta je preporučena pošiljka</h3>
-                    <p>Nova kurirska služba. FLEX jer mi dostvaljamo brže od drugih. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur eligendi maiores nostrum eum corporis veniam? Autem assumenda, expedita alias odio quod ipsam nulla, facere ut placeat nam cupiditate veniam modi.</p>
-                    <a href="negde">neki link</a>
+                    <h3>Radno vreme za Novogodisnje i Bozicne praznike :</h3>
+                    <p>Ponedeljak- 02.01.2023.godine-Neradni dan
+Utorak -
+03.01.2023. godine -Neradni da</p>
+                    
                 </div>
 
                 <div className="text">
-                    <h3>Kako se šalje pismo</h3>
-                    <p>Nova kurirska služba. FLEX jer mi dostvaljamo brže od drugih. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur eligendi maiores nostrum eum corporis veniam? Autem assumenda, expedita alias odio quod ipsam nulla, facere ut placeat nam cupiditate veniam modi.</p>
-                    <a href="negde">neki link</a>
+                    <h3>Flex, nova kurirska služba, koja štedi Vaše
+vreme</h3>
+                    <p>Nova kurirska služba. FLEX jer mi dostvaljamo brže od drugih. </p>
+                    
                 </div>
 
             </div>
