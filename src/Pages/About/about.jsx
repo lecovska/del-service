@@ -33,61 +33,48 @@ function About() {
                     <p>Kurirsku sluzbu vode mladi, entuzijasticni i ambiciozni ljudi, sa vizijom da se sto vise prilagode potrebama modernog i savremenenog klijenta, i sa ciljem da se razviju u jednu od najkonkuretnijih kurirskih sluzbi kod nas.</p>
                     <a href="../../Pages/Kontakt"><button>Kontakt</button></a>
                 </div>
+            </div>
+            <div className="bottomDiv">
+                <div className="bottomDivLogo">
+                </div>
+                <div className="bottomDivIcons">
+                    <a href="/Pages/zakazi"><img className="sms" src={delivery} alt="delivery"></img> Zakazi kurira</a>
+                    <a href="/Pages/kalkulator"><img className="calculator" src={calculator} alt="calculator"></img> Kalkulator cena</a>
+                    {/* <a href="https://www.instagram.com/flex.kurir/"><img className="sms" src={sms} alt="sms"></img> SMS Obavestenja</a> */}
+                </div>
+            </div>
+            <div className="lastDiv">
+                <h2>Zadovoljni korisnici</h2>
+                <h1>Šta kažu naši zadovoljni korisnici</h1>
+                <div className="boxes">
+                    <div class="box">
+                        <div className="textArea">
+                            <p>Lorem ipsum dolor sit amet
+                                Sed do eiusmod tempor dolore magna
+                                aliqua.Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="box1">
+                        <div className="textArea">
+                            <p>Lorem ipsum dolor sit amet
+                                Sed do eiusmod tempor dolore magna
+                                aliqua.Lorem ipsum dolor sit amet</p></div>
+                    </div>
+                    <div class="box2">
+                        <div className="textArea">
+                            <p>Lorem ipsum dolor sit amet
+                                Sed do eiusmod tempor dolore magna
+                                aliqua.Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+
+                </div>
 
             </div>
-           <div className="bottomDiv">
-            <div className="bottomDivLogo">
-
-          
-
-
-
+            <div className="partners-wrapper"> 
+            <h1 id="partners-h1">Pouzdanost na terenu i fleksibilnost koju negujemo prema Vašim korisnicima,<br></br> su najvažniji razlozi njihovog zadovoljstva.</h1>
+            <div className="partners"></div>
             </div>
-            <div className="bottomDivIcons">
-            <a href="/Pages/zakazi"><img className="sms" src={delivery} alt="delivery"></img> Zakazi kurira</a>
-           <a href="/Pages/kalkulator"><img className="calculator" src={calculator} alt="calculator"></img> Kalkulator cena</a>
-           {/* <a href="https://www.instagram.com/flex.kurir/"><img className="sms" src={sms} alt="sms"></img> SMS Obavestenja</a> */}
-           
-                    
-                    
-
-
-            </div>
-            
-            
-        </div>
-<div className="lastDiv">
-    <h2>Zadovoljni korisnici</h2>
-    <h1>Šta kažu naši zadovoljni korisnici</h1>
-    <div className="boxes">
-        <div class="box">
-            <div className="textArea">
-            <p>Lorem ipsum dolor sit amet
-Sed do eiusmod tempor dolore magna
-aliqua.Lorem ipsum dolor sit amet</p>
-            </div>
-        
-       
-          
-</div>
-    
-        <div class="box1">
-        <div className="textArea">
-        <p>Lorem ipsum dolor sit amet
-Sed do eiusmod tempor dolore magna
-aliqua.Lorem ipsum dolor sit amet</p></div>
-       </div>
-        <div class="box2">
-        <div className="textArea">
-        <p>Lorem ipsum dolor sit amet
-Sed do eiusmod tempor dolore magna
-aliqua.Lorem ipsum dolor sit amet</p>
-</div>
-        </div>
-
-    </div>
-
-</div>
 
             <Footer />
         </div>
