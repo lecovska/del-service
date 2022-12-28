@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.acc{
+    background-color: beige;
+    
+}
+
+.container{
+    width: 45%;
+    min-width: 500px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+    height: 40em;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    background-color: #bcaf9a;
+    margin-bottom: 20px;
+    padding: 15px 40px;
+    border-radius: 5px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.51);
+    height: auto;
+}
+
+
+
+
+.content2{
+    position: relative;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+    transition: all 1s;
+    background-color: transparent;
+    width: 100%;
+    color: white;
+}
+
+.toggle{
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#toggleStyle{
+    font-weight: 800;
+    font-size: 1em;
+    text-align: center;
+}
