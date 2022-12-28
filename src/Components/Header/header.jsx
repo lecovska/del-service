@@ -8,10 +8,10 @@ function Header(){
     return(
         <div className="header">
 <div className="up">
-   <p id="header-p">Pozovite nas bilo kad. Stižemo bilo gde!</p>
+   <p id="header-p">Dostava uz osmeh!</p>
     <div className="number">
     <div id="numberBox"><img id="tel" src={telephoneIcon} alt="tel"></img></div>
-    <p id="number-p">+381 66 6242959</p>
+    <p id="number-p">+381 66 6242959<br></br> +381 11 6242959</p>
     </div>
 </div>
 <div className="down">

@@ -73,9 +73,9 @@ function TableDanasZaSutra(){
     </tr>
     <tr>
         <td>preko 50kg</td>
-        <td></td>
-        <td>Za pošiljke koje premašuju masu 50kg, svaki sledeći kilogram se naplaćuje 40,00RSD sa PDV-om/1kg</td>
-        <td></td>
+       
+        <td colSpan="3">Za pošiljke koje premašuju masu 50kg, svaki sledeći kilogram se naplaćuje 40,00RSD sa PDV-om/1kg</td>
+        
     </tr>
 </table>
         </div>

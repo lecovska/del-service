@@ -91,7 +91,9 @@ height: 5.5em;
 
 #tel{
     display: inline-block;
-    width: 1.7em;
+    width: 2em;
+    margin-right: 1em;
+   
     
 }
 
@@ -107,5 +109,7 @@ height: 5.5em;
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: left;
+
     margin: 0;
 }

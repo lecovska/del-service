@@ -71,7 +71,7 @@ function Zakazi() {
                     <p className="p-callCentar">Naši operatori stoje Vam na usluzi za sve potrebne informacije.</p>
                     <p className="p-callCentar">RADNO VREME CALL CENTRA</p>
                     <p className="p-callCentar">Ponedeljak - Petak od 08h do 16h</p>
-                    <p className="p-callCentarNum">+381 66 6242959</p>
+                    <p className="p-callCentarNum">+ 381 66 62 42 959<br></br>+ 381 11 62 42 959</p>
                     </div>
             </div>
             <Footer />

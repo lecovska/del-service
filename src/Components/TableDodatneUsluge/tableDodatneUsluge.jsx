@@ -3,7 +3,7 @@ import "./tableDodatneUsluge.css";
 
 function TableDodatneUsluge(){
     return(
-        <div className="danasZaSutra">
+        <div className="dodatneUsluge">
 <div className="mainTitle">
     <h1 className="cenovnik-h1">CENOVNIK - DODATNE USLUGE</h1>
 </div>
@@ -51,9 +51,9 @@ function TableDodatneUsluge(){
     
   
     </table>
-    <p>Za vrednosne pošiljke na cenu usluge utvrđenu po masi pošiljke ili na poštarinu za određenu vrstu vanstandardne/specijalizovane pošiljke, dodaje se 1,1% od naznačenog iznosa vrednosti, a minimalno 90,00 RSD sa PDV-om.</p>
-	<p>Za otkupne pošiljke na cenu usluge utvrđenu po masi pošiljke ili na poštarinu za određenu vrstu vanstandardne/specijalizovane pošiljke, dodaje se 1,2% od naznačenog iznosa otkupnine, a minimalno 120,00RSD sa PDV-om.</p>
-	<p>Ležarina po danu se naplaćuje 25,00 RSD sa PDV-om.</p>
+    <p className="p-dodatneUsluge">Za vrednosne pošiljke na cenu usluge utvrđenu po masi pošiljke ili na poštarinu za određenu vrstu vanstandardne/specijalizovane pošiljke, dodaje se 1,1% od naznačenog iznosa vrednosti, a minimalno 90,00 RSD sa PDV-om.</p>
+	<p className="p-dodatneUsluge">Za otkupne pošiljke na cenu usluge utvrđenu po masi pošiljke ili na poštarinu za određenu vrstu vanstandardne/specijalizovane pošiljke, dodaje se 1,2% od naznačenog iznosa otkupnine, a minimalno 120,00RSD sa PDV-om.</p>
+	<p className="p-dodatneUsluge">Ležarina po danu se naplaćuje 25,00 RSD sa PDV-om.</p>
         </div>
     )
 }

@@ -4,10 +4,12 @@
     box-sizing: border-box;
 }
 
-table{
-    width: 100rem;
-    height: 70vh;
+.dodatneUsluge table{
+    width: 70rem;
+    height:30vh;
     border-spacing: 0 5px;
+    -webkit-box-shadow: 1px 3px 20px 4px #6B5E4C; 
+    box-shadow: 1px 3px 20px 4px #6B5E4C;
 }
 tr:nth-child(even){
     background-color: #ece9e9;
@@ -20,18 +22,36 @@ tr:nth-child(odd){
 /* td{
     border-right: 0.5px solid rgb(131, 131, 131);
 } */
-.danasZaSutra{
+.dodatneUsluge{
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 0 !important;
 }
 
 .mainTitle{
-    width: 100rem;
+    width: 70rem;
     height: 3rem;
-    background-color:#b59f80;
+    background-color: #b59f80;
     color: white;
+}
+
+.cenovnik-h1{
+    color: white;
+}
+
+td{
+    width: 4em;
+    border-right: 1px solid rgba(199, 195, 189, 0.813);
+}
+
+th{
+    width: 4em;
+}
+
+.p-dodatneUsluge{
+    margin-top: 0.5em;
 }

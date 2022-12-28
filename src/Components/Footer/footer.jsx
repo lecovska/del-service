@@ -33,7 +33,7 @@ function Footer() {
 
                     <div id="telefon" >
                         <img id="img-tel" src={telLogo} alt="tel"></img>
-                        <span>+381 66 6242959</span>
+                        <span>+381 66 62 42 959<br></br>+381 11 62 42 959</span>
                     </div>
 
                 </div>

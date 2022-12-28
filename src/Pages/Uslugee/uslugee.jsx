@@ -35,7 +35,7 @@ function Uslugee() {
 
             <div className="uslugeMenu">
 
-                <div className="singleContent" onClick={col}>
+                {/* <div className="singleContent" onClick={col}>
                     <button type="button" class="collapsible"  >Dostava Beograd - Kurirska dostava</button>
                     <div class="content">
                         <p> Pozovite nas da preuzmeno vašu pošiljku danas i primaoc može da očekuje svoj paket odmah ili najkasnije do
@@ -45,7 +45,7 @@ function Uslugee() {
                             telefonski ili elektronski najkasnije do 12 časova, nakon toga kurir pošiljku preuzima i dostavlja paket na
                             teritioriji grada Beograda istog dana, najkasnije do 18 časova.</p>
                     </div>
-                    </div>
+                    </div> */}
 
                     <div className="singleContent" onClick={col} >
                     <button type="button" class="collapsible" >Danas za danas - Kurirska dostava</button>

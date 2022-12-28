@@ -73,9 +73,8 @@ function TableDanasZaDanas(){
     </tr>
     <tr>
         <td>preko 50kg</td>
-        <td></td>
-        <td>Za pošiljke koje premašuju masu 50kg, svaki sledeći kilogram se naplaćuje 40,00RSD sa PDV-om/1kg</td>
-        <td></td>
+        <td colspan="3">Za pošiljke koje premašuju masu 50kg, svaki sledeći kilogram se naplaćuje 40,00RSD sa PDV-om/1kg</td>
+        
     </tr>
 </table>
         </div>

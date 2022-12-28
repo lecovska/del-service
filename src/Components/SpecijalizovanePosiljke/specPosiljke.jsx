@@ -96,7 +96,7 @@ function SpecijalizovanePosiljke(){
         <td>5.070,00 RSD</td>
     </tr>
     </table>
-    <p>Vanstandardne/specijalizovane pošiljke se uručuju isključivo uslugom danas za sutra</p>
+    <p className="p-dodatneUsluge">Vanstandardne/specijalizovane pošiljke se uručuju isključivo uslugom danas za sutra</p>
         </div>
     )
 }
