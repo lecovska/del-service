@@ -13,6 +13,7 @@
     "email-js": "^2.0.2",
     "emailjs": "^4.0.1",
     "react": "^18.2.0",
+    "react-accordion-collapsible": "^1.0.53",
     "react-collapsible": "^2.10.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",

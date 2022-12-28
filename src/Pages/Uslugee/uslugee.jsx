@@ -3,50 +3,27 @@ import "./uslugee.css";
 import Header from "../../Components/Header/header";
 import Footer from "../../Components/Footer/footer";
 import homeIcon from "../../Images/homeIcon.png";
+// import { Accordion } from "react-accordion-collapsible/lib";
+import Collapsible from "react-collapsible";
 
-function col() {
-    var coll = document.getElementsByClassName("collapsible");
-    var i;
+// function col() {
+//     var coll = document.getElementsByClassName("collapsible");
+//     var i;
 
-    for (i = 0; i <= coll.length; i++) {
-        coll[i].addEventListener("click", function () {
-            this.classList.toggle("active");
-            var content = this.nextElementSibling;
-            if (content.style.display === "block") {
-                content.style.display = "none";
-                
-            } else {
-                content.style.display = "block";
-            }
-            
-        })
-    }
-}
+//     for (i = 0; i <= coll.length; i++) {
+//         coll[i].addEventListener("click", function () {
+//             this.classList.toggle("active");
+//             var content = this.nextElementSibling;
+//             if (content.style.display === "block") {
+//                 content.style.display = "none";
 
+//             } else {
+//                 content.style.display = "block";
+//             }
 
-const triggers = Array.from(document.querySelectorAll('[data-toggle="collapse"]'));
-
-window.addEventListener('click', (ev) => {
-  const elm = ev.target;
-  if (triggers.includes(elm)) {
-    const selector = elm.getAttribute('data-target');
-    collapse(selector, 'toggle');
-  }
-}, false);
-
-
-const fnmap = {
-  'toggle': 'toggle',
-  'show': 'add',
-  'hide': 'remove'
-};
-const collapse = (selector, cmd) => {
-  const targets = Array.from(document.querySelectorAll(selector));
-  targets.forEach(target => {
-    target.classList[fnmap[cmd]]('show');
-  });
-}
-
+//         })
+//     }
+// }
 
 
 function Uslugee() {
@@ -61,9 +38,8 @@ function Uslugee() {
                 </div>
             </div>
 
-            <div className="uslugeMenu">
 
-                {/* <div className="singleContent" onClick={col}>
+            {/* <div className="singleContent" onClick={col}>
                     <button type="button" class="collapsible"  >Dostava Beograd - Kurirska dostava</button>
                     <div class="content">
                         <p> Pozovite nas da preuzmeno vašu pošiljku danas i primaoc može da očekuje svoj paket odmah ili najkasnije do
@@ -75,6 +51,112 @@ function Uslugee() {
                     </div>
                     </div> */}
 
+            <div className="uslugeMenu">
+            <div className="dropdown">
+<h1 id="dropdown-h1">Usluge</h1>
+
+{/* <label for="dodatneUslugeList">B2B Dostava - Pouzdanost i flexibilnost na terenu:</label>
+    <select name="dodatneUslugeList" id="uslugeList">
+        <option></option>
+    <option value="odgovor"> FLEX kurirska služba posluje i B2B, sa firmama, online prodavnicama i svim drugim tipovima biznisa, kojima je
+neophodna kvalitetna logistika kao i brza i sigurna isporuka robe, dokumentacije i svih vrsta paketa.<br></br>
+Slanje paketa se odvija po principu danas za sutra i danas za danas : Pouzdanost i flexibilnost na terenu koju
+negujemo prema Vašim korisnicima, su najvažniji razlozi njihovog zadovoljstva. <br></br>Sa njihovim zadovoljstvom
+raste ugled i kredibilitet Vaše firme, kao i sama prodaja.
+Pozovite nas i saznajte za pogodnosti koje nudimo za B2B dostave.  </option>
+</select>
+
+
+    <select name="dodatneUslugeList" id="uslugeList"><label for="dodatneUslugeList">Danas za sutra - Kurirska dostava:</label>
+        <option></option>
+    <option value="odgovor">  Pozovite nas najkasnije do 12h, kurir će u roku od sat vremena preuzeti vašu pošiljku, kako bi ona stigla do
+primaoca istog dana do 18h.Pošiljalac može da prijavi pošiljku putem call centra ili putem sajta "zakaži kurira" najkasnije do 12h. <br></br>Kurir će
+vašu pošiljku preuzeti najkasnije do 13h.<br></br>Pošiljka se primaocu isporučije istog dana do 18h. Ova usluga danas za danas se odnosi samo na Beograd.   </option>
+</select> */}
+
+
+
+
+
+
+    <Collapsible trigger="Danas za danas - Kurirska dostava">
+      <p >
+      Pozovite nas najkasnije do 12h, kurir će u roku od sat vremena preuzeti vašu pošiljku, kako bi ona stigla do
+primaoca istog dana do 18h.Pošiljalac može da prijavi pošiljku putem call centra ili putem sajta "zakaži kurira" najkasnije do 12h. <br></br>Kurir će
+vašu pošiljku preuzeti najkasnije do 13h.<br></br>Pošiljka se primaocu isporučije istog dana do 18h. Ova usluga danas za danas se odnosi samo na Beograd.      </p>
+     
+    </Collapsible>
+    <Collapsible trigger="Danas za sutra - Kurirska dostava">
+      <p>
+      Pozovite nas danas za sutra, najkasnije do 15h. Kurir će u roku od dva sata preuzeti vašu pošiljku, kako bi ona
+stigla do primaoca sutradan u do 12h ili 18h.<br></br>
+Svoju pošiljku možete da prijavite putem call centra ili putem sajta "zakaži kurira" najkasnije do 15h.
+Kurir će vašu pošiljku peruzeti najkasnije do 15h. Pošiljka se isporučuje primaocu sutradan, najkasnije do 18h.
+      </p>
+      
+    </Collapsible>
+
+    <Collapsible trigger="B2C Dostava - Pouzdanost i flexibilnost na terenu">
+      <p>
+      Potrebna Vam je dostava od Vaše kompanije do drugog pravnog lica? Na pravom ste mestu.
+Vršimo dostave proizvoda i stvari između pravnih i fizičkih lica na teritoriji Beograda i okoline.<br></br>
+Robu preuzimamo na dan isporuke sa Vaše adrese. Skladištimo je kod nas u magacinu , nakon toga je u
+dogovoreno vreme kuriri je isporučuju Vašim korisnicima.
+Pozovite nas i saznajte za pogodnosti koje nudimo za B2C dostave.      </p>
+    
+    </Collapsible>
+   
+
+    <Collapsible trigger="B2B Dostava - Pouzdanost i flexibilnost na terenu">
+      <p>
+      FLEX kurirska služba posluje i B2B, sa firmama, online prodavnicama i svim drugim tipovima biznisa, kojima je
+neophodna kvalitetna logistika kao i brza i sigurna isporuka robe, dokumentacije i svih vrsta paketa.<br></br>
+Slanje paketa se odvija po principu danas za sutra i danas za danas : Pouzdanost i flexibilnost na terenu koju
+negujemo prema Vašim korisnicima, su najvažniji razlozi njihovog zadovoljstva. <br></br>Sa njihovim zadovoljstvom
+raste ugled i kredibilitet Vaše firme, kao i sama prodaja.
+Pozovite nas i saznajte za pogodnosti koje nudimo za B2B dostave.      </p>
+    
+    </Collapsible>
+
+
+    <div className="DodatneuslugeMaindiv">
+<div className="dodatneUsluge-h3Div"><h3 id="dodatneUsluge-h3">Dodatne usluge</h3></div>
+        <ul className="dodatneUsluge-ul">
+            <li className="dodatneUsluge-li">SMS izveštaj</li>
+            <li className="dodatneUsluge-li">Potvrda uručenja pošiljke</li>
+            <li className="dodatneUsluge-li">Lično uručenje</li>
+            <li className="dodatneUsluge-li">Vraćanje povratne dokumentacije/otpremnice</li>
+            <li className="dodatneUsluge-li">Plaćeni odgovor</li>
+        </ul>
+    {/* <label for="dodatneUslugeList">Dodatne usluge:</label>
+    <select name="dodatneUslugeList" id="uslugeList">
+  <option value="sms">SMS izveštaj</option>
+  <option value="potvrda">Potvrda uručenja pošiljke</option>
+  <option value="licno">Mercedes</option>
+  <option value="vracanje">Vraćanje povratne dokumentacije/otpremnice</option>
+  <option value="odgovor">Plaćeni odgovor</option>
+</select> */}
+      {/* <p>
+      SMS izveštaj - Opcija slanja pošiljaocu potvrdu o preuzimanju i izveštaj o obavljenoj dostavi, ali i primaocu izveštaj o obavljenom preuzimanju.
+                            SMS izveštaj se naplaćuje prema važećem cenovniku koji možete pogledati ovde(link cenovnika). SMS uslugu plaća onaj ko plaća poštarinu.</p>
+                        <p> Potvrda uručenja pošiljke - Potvrda o uručenju je pošiljka čije se uručenje potvrđuje pisanim putem. Obrazac se prilikom dostave pošiljke daje primaocu na potpis, a potom se, dan nakon dostave, vraća pošiljaocu na adresu.</p>
+                        <p>Lično uručenje - Uručenje se vrši direktno i isključivo navedenom primaocu.</p>
+                        <p>Vraćanje povratne dokumentacije/otpremnice - Ukoliko uz pošiljku želite da pošaljete dokument koji prilikom dostave pošiljke primalac treba da potpiše, a koji Vam Flex-kurir vraća na adresu sa koje ste poslali pošiljku.  Overen dokument (otpremnica) se dan nakon uručenja pošiljke vraća na adresu pošiljaoca.</p>
+                        <p> Plaćeni odgovor - Prilikom isporuke pošiljke, kurir preuzima povratnu pošiljku koja se dan nakon dostave vraća na adresu pošiljaoca. Pošiljka koja se vraća ne sme biti teža od 2kg. </p> */}
+    
+    
+</div>
+
+
+
+
+
+
+                {/* <Accordion
+                    title="Danas za danas - Kurirska dostava"
+                    content="Pozovite nas najkasnije do 12h, kurir će u roku od sat vremena preuzeti vašu pošiljku, kako bi ona stigla doprimaoca istog dana do 18h"
+                    /> */}
+                {/*
                 <div className="singleContent" onClick={col} >
                     <button type="button" class="collapsible">Danas za danas - Kurirska dostava</button><div class="content">
                         <p>  Pozovite nas najkasnije do 12h, kurir će u roku od sat vremena preuzeti vašu pošiljku, kako bi ona stigla do
@@ -130,11 +212,12 @@ function Uslugee() {
                         <p> Plaćeni odgovor - Prilikom isporuke pošiljke, kurir preuzima povratnu pošiljku koja se dan nakon dostave vraća na adresu pošiljaoca. Pošiljka koja se vraća ne sme biti teža od 2kg.</p>
 
                     </div>
-                </div>
+                </div>*/}
 
             </div>
 
             <Footer />
+        </div>
         </div>
     )
 }
