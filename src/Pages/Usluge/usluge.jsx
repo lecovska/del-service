@@ -17,6 +17,45 @@ function Usluge(){
             </div>
             <div className="dostava">
 
+        {/* <div className="dropdown">
+<h1>Vasa najčešća pitanja</h1>
+<Collapsible trigger="Šta podrazumeva usluga, danas za odmah?">
+      <p>
+      Za one koji nemaju vremena tu je dostava Danas za odmah.
+Pozovite nas najkasnije do 13h i očekujte da Vašu pošiljku dostavimo na adresu primaoca - odmah.
+*Ova usluga se odnosi samo na Beograd
+      </p>
+    
+    </Collapsible>
+    <Collapsible trigger="Šta sve može da sadrži Flex pošiljka?">
+      <p>
+      Flex pošiljke mogu sadržati dokumenta, pisana saopštenja, robu i druge predmete, osim onih za koje važe zakonske zabrane
+      </p>
+     
+    </Collapsible>
+    <Collapsible trigger="Koji su načini plaćanja prenosa Flex kurir pošiljke??">
+      <p>
+      Načini plaćanja su:
+         gotovinom,
+         čekom,
+         fakturom.
+      </p>
+      
+    </Collapsible>
+    <Collapsible trigger="Koji su rokovi uručenja Flex express pošiljke??">
+      <p>
+      Rokovi uručenja za Post express usluge su: Danas za odmah, danas za danas, danas za sutra.
+      </p>
+    
+    </Collapsible>
+
+
+</div> */}
+
+
+
+
+
             {/* <div className="dropdown">
 <h1 id="dropdown-h1">Usluge</h1>
 <Collapsible trigger="Dostava Beograd - Kurirska dostava?">

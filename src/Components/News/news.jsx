@@ -7,7 +7,7 @@ import picOfNews3 from "../../Images/Flex-kurirska-sluzba11.jpg";
 function News() {
     return (
         <div className="news">
-<span id="newsSpan">Saznajte prvi poslednje vesti</span>
+<h2 id="newsSpan">Saznajte prvi poslednje vesti</h2>
 <h1 id="NewsId">Novosti</h1>
 
             <div className="news-img">

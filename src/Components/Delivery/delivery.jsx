@@ -24,7 +24,7 @@ function Delivery() {
                 <div className="delivery-text">
                     <h3>Dostava danas za danas</h3>
                     <p>Za one koji nemaju vremena tu je dostava. Danas za DANAS. Vašu pošiljku dostavljamo na adresu primaoca odmah.</p>
-                    <Link className="delivery-a" to="../../Pages/Uslugee">Saznaj više</Link>
+                    <Link className="delivery-a" to="../../Pages/Uslugee">Saznaj više </Link>
                 </div>
             </div>
         </div>

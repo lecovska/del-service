@@ -22,7 +22,7 @@ function TableDodatneUsluge(){
     </tr>
 
     <tr>
-        <td>Potvrda uručenja pošiljke</td>
+        <td>Potvrda o uručenju pošiljke/povratnica</td>
         <td>100,00 RSD</td>
         <td>20,00 RSD</td>
         <td>120,00 RSD</td>

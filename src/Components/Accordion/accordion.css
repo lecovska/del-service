@@ -9,7 +9,7 @@
     
 }
 
-.container{
+.containerAcc{
     width: 45%;
     min-width: 500px;
     position: absolute;
@@ -41,7 +41,7 @@
     transition: all 1s;
     background-color: transparent;
     width: 100%;
-    color: white;
+    color: rgb(255, 255, 255);
     
 }
 

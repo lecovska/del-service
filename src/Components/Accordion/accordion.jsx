@@ -1,5 +1,7 @@
 import React from "react";
 import "./accordion.css";
+
+
 function proba(){
 let toggles = document.getElementsByClassName("toggle");
 let contentDiv = document.getElementsByClassName("content2");
@@ -29,11 +31,11 @@ function Acc() {
     return (
         <div className="acc">
 
-            <div className="container">
+            <div className="containerAcc">
 
                 <div className="wrapper">
 
-                    <button className="toggle" id="toggleStyle" onClick={proba()}>Danas za danas - Kurirska dostava</button>
+                    <button className="toggle" id="toggleStyle" onClick={proba}>Danas za danas - Kurirska dostava</button>
                     <div className="content2">
                         <p>Pozovite nas najkasnije do 12h, kurir će u roku od sat vremena preuzeti vašu pošiljku, kako bi ona stigla do
                             primaoca istog dana do 18h.
@@ -45,7 +47,7 @@ function Acc() {
                 </div>
                 <div className="wrapper">
 
-                    <button className="toggle" id="toggleStyle" onClick={proba()}>Danas za sutra - Kurirska dostava</button>
+                    <button className="toggle" id="toggleStyle" onClick={proba}>Danas za sutra - Kurirska dostava</button>
                     <div className="content2">
                         <p>Pozovite nas danas za sutra, najkasnije do 15h. Kurir će u roku od dva sata preuzeti vašu pošiljku, kako bi ona
                             stigla do primaoca sutradan u do 12h ili 18h.
@@ -56,7 +58,7 @@ function Acc() {
                 </div>
                 <div className="wrapper">
 
-                    <button className="toggle" id="toggleStyle" onClick={proba()}>B2C Dostava - Pouzdanost i flexibilnost na terenu</button>
+                    <button className="toggle" id="toggleStyle" onClick={proba}>B2C Dostava - Pouzdanost i flexibilnost na terenu</button>
                     <div className="content2">
                         <p>Potrebna Vam je dostava od Vaše kompanije do drugog pravnog lica? Na pravom ste mestu.
                             Vršimo dostave proizvoda i stvari između pravnih i fizičkih lica na teritoriji Beograda i okoline.
@@ -68,7 +70,7 @@ function Acc() {
                 </div>
                 <div className="wrapper">
 
-                    <button className="toggle" id="toggleStyle" onClick={proba()}>B2B Dostava - Pouzdanost i flexibilnost na terenu</button>
+                    <button className="toggle" id="toggleStyle" onClick={proba}>B2B Dostava - Pouzdanost i flexibilnost na terenu</button>
                     <div className="content2">
                         <p>FLEX kurirska služba posluje i B2B, sa firmama, online prodavnicama i svim drugim tipovima biznisa, kojima je
                             neophodna kvalitetna logistika kao i brza i sigurna isporuka robe, dokumentacije i svih vrsta paketa.
