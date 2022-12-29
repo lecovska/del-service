@@ -15,6 +15,8 @@ function Caro() {
     //const prevButton = document.getElementById("slide-arrow-prev");
     const nextButton = document.getElementById("slide-arrow-next");
 
+    console.log(typeof nextButton);
+
 
     if (nextButton) {
         nextButton.addEventListener("click", () => {
