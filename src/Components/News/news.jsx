@@ -1,8 +1,8 @@
 import React from "react";
 import "./news.css";
-import picOfNews1 from "../../Images/Flex-kurirska-sluzba16.jpg";
-import picOfNews2 from "../../Images/Flex-kurirska-sluzba14.jpg";
-import picOfNews3 from "../../Images/Flex-kurirska-sluzba11.jpg";
+// import picOfNews1 from "../../Images/Flex-kurirska-sluzba16.jpg";
+// import picOfNews2 from "../../Images/Flex-kurirska-sluzba14.jpg";
+// import picOfNews3 from "../../Images/Flex-kurirska-sluzba11.jpg";
 
 function News() {
     return (
@@ -11,10 +11,14 @@ function News() {
 <h1 id="NewsId">Novosti</h1>
 
             <div className="news-img">
-                <div className="pic-of-news"><img className="picForNews" src={picOfNews1} alt="pic"></img></div>
-                <div className="pic-of-news"><img className="picForNews" src={picOfNews2} alt="pic"></img></div>
-                <div className="pic-of-news"><img className="picForNews" src={picOfNews3} alt="pic"></img></div>
+                <div className="pic-of-news1"></div>
+                <div className="pic-of-news2"></div>
+                <div className="pic-of-news3"></div>
             </div>
+            {/* <img className="picForNews" src={picOfNews1} alt="pic">
+            <img className="picForNews" src={picOfNews2} alt="pic">
+            <img className="picForNews" src={picOfNews3} alt="pic"> */}
+
 
             <div className="news-text">
 

@@ -40,19 +40,19 @@ function Footer() {
             </div>
             <div className="usluge">
                 <h4 className="h4-usluge">Usluge</h4>
-                <Link to="/Pages/uslugee">Dostava Beograd</Link><Link to="Pages/uslugee">Danas za danas</Link><Link to="Pages/uslugee">Danas za sutra</Link><Link to="Pages/uslugee">B2C dostava</Link><Link to="Pages/uslugee">B2B dostava</Link>
+                <Link className="link-a" to="/Pages/uslugee">Dostava Beograd</Link><Link className="link-a" to="Pages/uslugee">Danas za danas</Link><Link className="link-a" to="Pages/uslugee">Danas za sutra</Link><Link className="link-a" to="Pages/uslugee">B2C dostava</Link><Link  className="link-a" to="Pages/uslugee">B2B dostava</Link>
             </div>
 
             <div className="usluge2">
             <h4 className="h4-usluge">Korisne informacije</h4> 
-                <Link to="/Pages/pitanja">Najčešća pitanja</Link><Link to="../../Pages/CenovnikPage">Cenovnik</Link><a href={require("../../Docs/Opšti uslovi za obavljanje poštanskih usluga_29.09.2022.txt.pdf")} download="Opšti_uslovi_poslovanja">Uslovi korišćenja</a><Link to="../../Pages/Zakazi">Zakaži kurira</Link><Link to="../../Pages/Kalkulator">Kalkulator cena</Link>
+                <Link className="link-a" to="/Pages/pitanja">Najčešća pitanja</Link><Link className="link-a" to="../../Pages/CenovnikPage">Cenovnik</Link><a className="link-a" href={require("../../Docs/Opšti uslovi za obavljanje poštanskih usluga_29.09.2022.txt.pdf")} download="Opšti_uslovi_poslovanja">Uslovi korišćenja</a><Link className="link-a" to="../../Pages/Zakazi">Zakaži kurira</Link><Link className="link-a" to="../../Pages/Kalkulator">Kalkulator cena</Link>
             </div>
 
             <div className="kontakt">
                 <div className="kontakt-infoDiv">
                 <h3 className="h3-kontakt">Kontaktirajte nas!</h3>
                 <p>Tu smo za sva Vaša pitanja.</p>
-                <Link to="../../Pages/Kontakt"><button className="btn-kontakt">Kontakt</button></Link>
+                <Link className="link-a" to="../../Pages/Kontakt"><button className="btn-kontakt">Kontakt</button></Link>
                 </div>
                 <div className="media-btns">
                     <span>Zaprati nas!</span>

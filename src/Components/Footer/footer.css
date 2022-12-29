@@ -164,3 +164,9 @@
 .kontakt p{
     color: white;
 }
+
+.link-a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}

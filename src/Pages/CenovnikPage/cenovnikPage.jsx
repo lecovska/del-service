@@ -50,8 +50,8 @@ function Cenovnik(){
 </div> 
 <TableDanasZaSutra/>
 <TableDanasZaDanas/>
-<TableDodatneUsluge/>
 <SpecijalizovanePosiljke/>
+<TableDodatneUsluge/>
 <Footer/>
         </div>
     )

@@ -5,7 +5,7 @@ function SpecijalizovanePosiljke(){
     return(
         <div className="danasZaSutra">
 <div className="mainTitle">
-    <h1 className="cenovnik-h1">CENOVNIK - DODATNE USLUGE</h1>
+    <h1 className="cenovnik-h1">VANSTANDARDNE / SPECIJALIZOVANE POŠILJKE</h1>
 </div>
 <table>
     <tr>

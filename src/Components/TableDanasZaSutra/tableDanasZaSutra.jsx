@@ -5,7 +5,7 @@ function TableDanasZaSutra(){
     return(
         <div className="danasZaSutra">
 <div className="mainTitle">
-    <h1 className="cenovnik-h1">CENOVNIK - DANAS ZA SUTRA</h1>
+    <h1 className="cenovnik-h1">USLUGA DANAS ZA SUTRA</h1>
 </div>
 <table>
     <tr>

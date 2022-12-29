@@ -5,7 +5,7 @@ function TableDodatneUsluge(){
     return(
         <div className="dodatneUsluge">
 <div className="mainTitle">
-    <h1 className="cenovnik-h1">CENOVNIK - DODATNE USLUGE</h1>
+    <h1 className="cenovnik-h1">DODATNE I DOPUNSKE USLUGE</h1>
 </div>
 <table>
     <tr>

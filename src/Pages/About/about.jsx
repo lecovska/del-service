@@ -29,9 +29,9 @@ function About() {
 
                 <div className="small-img"><img id="smallImg" src={smallImg} alt="smallImg"></img></div>
                 <div className="small-text">
-                    <h1>Mi dostavljamo do vasih vrata!</h1>
-                    <p>Flex kurir je novonastala sluzba koja obavlja svoju delatnost n ateritoriji grada Beograda</p>
-                    <p>Kurirsku sluzbu vode mladi, entuzijasticni i ambiciozni ljudi, sa vizijom da se sto vise prilagode potrebama modernog i savremenenog klijenta, i sa ciljem da se razviju u jednu od najkonkuretnijih kurirskih sluzbi kod nas.</p>
+                    <h1>Mi dostavljamo do Vaših vrata!</h1>
+                    <p>Flex kurir je novonastala služba koja obavlja svoju delatnost na teritoriji grada Beograda</p>
+                    <p>Kurirsku službu vode mladi, entuzijastični i ambiciozni ljudi, sa vizijom da se što više prilagode potrebama modernog i savremenenog klijenta, i sa ciljem da se razviju u jednu od najkonkuretnijih kurirskih službi kod nas.</p>
                     <a id="a-about-kontaktBtn" href="../../Pages/Kontakt"><button>Kontakt</button></a>
                 </div>
 
@@ -53,17 +53,17 @@ function About() {
                 <div className="boxes">
                     <div class="box">
                         <div className="textArea">
-                            <p>Flex je savrsenstvo! Nemam reci, nasmejano bice, brzo i efikasno. Svaka cast za kurira i kompaniju.</p>
+                            <p>Flex je savršenstvo! Nemam reči, nasmejano biće, brzo i efikasno. Svaka čast za kurira i kompaniju.</p>
                         </div>
                     </div>
 
                     <div class="box1">
                         <div className="textArea">
-                            <p>Prvi put sa njima da imam isporuku, skroz korektno i tacno i nisu kao ostali kad nazovu, neljubazni.</p></div>
+                            <p>Prvi put sa njima da imam isporuku, skroz korektno i tačno i nisu kao ostali kad nazovu, neljubazni.</p></div>
                     </div>
                     <div class="box2">
                         <div className="textArea">
-                            <p>Sve pohvale za kurirsku sluzbu. Brza isporuka i ljubazan kurir.</p>
+                            <p>Sve pohvale za kurirsku službu. Brza isporuka i ljubazan kurir.</p>
                         </div>
                     </div>
 
@@ -76,6 +76,7 @@ function About() {
             </div> */}
 
             <div>
+            <h3 id="partners-h1">Pouzdanost na terenu i fleksibilnost koju negujemo prema Vašim korisnicima,<br></br> su najvažniji razlozi njihovog zadovoljstva.</h3>
                 <CaroSlider />
             </div>
 
