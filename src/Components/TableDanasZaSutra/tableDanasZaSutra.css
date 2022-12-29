@@ -8,8 +8,8 @@ table{
     width: 70rem;
     height: 50vh;
     border-spacing: 0 5px;
-    -webkit-box-shadow: 1px 3px 20px 4px #6B5E4C; 
-    box-shadow: 1px 3px 20px 4px #6B5E4C;
+    -webkit-box-shadow: 1px 3px 10px 4px #6B5E4C; 
+    box-shadow: 1px 3px 10px 4px #6B5E4C;
     
 }
 tr:nth-child(even){

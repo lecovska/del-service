@@ -7,6 +7,7 @@ import slika4 from "../../Images/4.jpg";
 
 
 
+
 function FourDivs() {
     return (
         <div className="fourDivs">

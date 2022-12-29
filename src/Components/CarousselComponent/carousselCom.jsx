@@ -6,7 +6,8 @@ import slide3 from "../../Images/FAROS LUMEN.png";
 import slide4 from "../../Images/FAROS ONLINE SHOP.png";
 import slide5 from "../../Images/FENIKS PROMO.png";
 import slide6 from "../../Images/XYZ COMMUNICATIONS1111111.jpg";
-import slide7 from "../../Images/MAD HEAD GAMES.png"
+import slide7 from "../../Images/MAD HEAD GAMES.png";
+
 
 function Caro() {
     const slidesContainer = document.getElementById("slides-container");

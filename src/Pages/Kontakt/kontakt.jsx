@@ -10,7 +10,9 @@ import maillogo from "../../Images/e-mail---icon.png";
 import { Link } from "react-router-dom";
 // import kontaktImg from "../../Images/kontakt-img.jpg";
 import emailjs from '@emailjs/browser';
-import { useState } from "react";
+// import { useState } from "react";
+import arrowIcon from "../../Images/arrowIcon.png";
+
 
 
 
@@ -133,7 +135,7 @@ export const Kontakt = () => {
                     <p className="rekalmacije-p">Korisnik poštanskih usluga koji nije zadovoljan pruženom uslugom ima pravo da izjavi reklamaciju poštanskom operateru.
                         Reklamacije se mogu podneti u pisanom obliku ili elektronskim putem na adresu poštanskog
                         operatora reklamacije@flex-kurir.rs</p>
-                    <a href="nesto" className="rekalmacije-a">Preuzmi pdf</a>
+                    <a href="nesto" className="rekalmacije-a">Preuzmi pdf<img className="arrowIconPng" src={arrowIcon} alt="arrow"></img></a>
                 </div>
                 <div className="reklamacijeSingleDiv">
                     <h4 className="rekalmacije-h4">Kurirska dostava</h4>
@@ -144,7 +146,7 @@ export const Kontakt = () => {
 
                         Pošiljke preuzete u petak dostavljaju se prvi
                         naredni padni dan – u ponedeljak.</p>
-                    <Link to="../../Pages/Zakazi" className="rekalmacije-a">Zakaži kurira</Link>
+                    <Link to="../../Pages/Zakazi" className="rekalmacije-a">Zakaži kurira<img className="arrowIconPng" src={arrowIcon} alt="arrow"></img></Link>
                 </div>
                 <div className="reklamacijeSingleDiv">
                     <h4 className="rekalmacije-h4">Šaljete mnogo pošiljki?</h4>
@@ -154,7 +156,7 @@ export const Kontakt = () => {
                         Potpisivanjem ugovora, pored ušteda na poštarini,
                         ako ste pravno lice, bićete i u mogućnosti da
                         plaćate preko računa.</p>
-                    <Link to="../../Pages/Zakazi" className="rekalmacije-a">Kontaktirajte nas</Link>
+                    <Link to="../../Pages/Zakazi" className="rekalmacije-a">Kontaktirajte nas<img className="arrowIconPng" src={arrowIcon} alt="arrow"></img></Link>
                 </div>
             </div>
             {<Footer />}
