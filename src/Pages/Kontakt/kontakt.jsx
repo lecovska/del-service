@@ -131,14 +131,14 @@ export const Kontakt = () => {
             <div className="middle-image"></div>
             <div className="reklamacije">
                 <div className="reklamacijeSingleDiv">
-                    <h4 className="rekalmacije-h4">Reklamacije</h4>
+                    <h3 className="rekalmacije-h4">Reklamacije</h3>
                     <p className="rekalmacije-p">Korisnik poštanskih usluga koji nije zadovoljan pruženom uslugom ima pravo da izjavi reklamaciju poštanskom operateru.
                         Reklamacije se mogu podneti u pisanom obliku ili elektronskim putem na adresu poštanskog
                         operatora reklamacije@flex-kurir.rs</p>
                     <a href="nesto" className="rekalmacije-a">Preuzmi pdf<img className="arrowIconPng" src={arrowIcon} alt="arrow"></img></a>
                 </div>
                 <div className="reklamacijeSingleDiv">
-                    <h4 className="rekalmacije-h4">Kurirska dostava</h4>
+                    <h3 className="rekalmacije-h4">Kurirska dostava</h3>
                     <p className="rekalmacije-p" >Preuzimanje i dostava pošiljaka obavlja se od
                         ponedeljka do petka. Preuzimanje i dostava
                         pošiljaka se ne vrši nedeljom, osim ako postoje
@@ -149,7 +149,7 @@ export const Kontakt = () => {
                     <Link to="../../Pages/Zakazi" className="rekalmacije-a">Zakaži kurira<img className="arrowIconPng" src={arrowIcon} alt="arrow"></img></Link>
                 </div>
                 <div className="reklamacijeSingleDiv">
-                    <h4 className="rekalmacije-h4">Šaljete mnogo pošiljki?</h4>
+                    <h3 className="rekalmacije-h4">Šaljete mnogo pošiljki?</h3>
                     <p className="rekalmacije-p" >Uštedite vreme i novac. Pozovite nas da sklopimo
                         ugovor za slanje velikog broja pošiljki.
 
