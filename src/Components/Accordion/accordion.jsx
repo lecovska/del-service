@@ -83,10 +83,53 @@ function Acc() {
                     </div>
 
                 </div>
+                <div className="wrapper">
+
+                    <button className="toggle" id="toggleStyle" onClick={proba}>Dropdown</button>
+                    <div className="content2">
+                    
+                        <div className="wrapper">
+
+                            <button className="toggle" id="toggleStyle" onClick={proba}>Potvrda uručenja pošiljke</button>
+                            <div className="content2">
+                                <p> Potvrda uručenja pošiljke - Potvrda o uručenju je pošiljka čije se uručenje potvrđuje pisanim putem. Obrazac se prilikom dostave pošiljke daje primaocu na potpis, a potom se, dan nakon dostave, vraća pošiljaocu na adresu.</p>
+                            </div>
+
+                        </div>
+
+                        <div className="wrapper">
+
+                            <button className="toggle" id="toggleStyle" onClick={proba}>Lično uručenje </button>
+                            <div className="content2">
+                                <p>Lično uručenje - Uručenje se vrši direktno i isključivo navedenom primaocu.</p>
+                            </div>
+
+                        </div>
+
+                        <div className="wrapper">
+
+                            <button className="toggle" id="toggleStyle" onClick={proba}>vracanje </button>
+                            <div className="content2">
+                           <p> Vraćanje povratne dokumentacije/otpremnice - Ukoliko uz pošiljku želite da pošaljete dokument koji prilikom dostave pošiljke primalac treba da potpiše, a koji Vam Flex-kurir vraća na adresu sa koje ste poslali pošiljku.  Overen dokument (otpremnica) se dan nakon uručenja pošiljke vraća na adresu pošiljaoca.</p>
+                            </div>
+
+                        </div>
+
+                        <div className="wrapper">
+
+<button className="toggle" id="toggleStyle" onClick={proba}>Plaćeni odgovor</button>
+<div className="content2">
+<p> Plaćeni odgovor - Prilikom isporuke pošiljke, kurir preuzima povratnu pošiljku koja se dan nakon dostave vraća na adresu pošiljaoca. Pošiljka koja se vraća ne sme biti teža od 2kg.</p></div>
+
+</div>
+                    </div>
+
+                </div>
 
             </div>
 
-    
+            
+
 
         </div>
     )
