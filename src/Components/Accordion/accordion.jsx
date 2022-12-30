@@ -29,6 +29,9 @@ function proba() {
     }
 }
 
+
+
+
 function Acc() {
     return (
         <div className="acc">
@@ -83,20 +86,28 @@ function Acc() {
                     </div>
 
                 </div>
-                <div className="wrapper">
+                {/* <div className="wrapper">
 
                     <button className="toggle" id="toggleStyle" onClick={proba}>Dropdown</button>
-                    <div className="content2">
-                    
+                    <div className="content2"> */}
+
+                <div className="dropdown-wrapper">
+                    <div className="wrapper mainWrapperDiv"><h3 id="dodatneUslugeH3-wrapper">Dodatne usluge:</h3>
+
                         <div className="wrapper">
 
+                            <button className="toggle" id="toggleStyle" onClick={proba}>Sms izveštaj</button>
+                            <div className="content2">
+                                <p> SMS izveštaj - Opcija slanja pošiljaocu potvrdu o preuzimanju i izveštaj o obavljenoj dostavi, ali i primaocu izveštaj o obavljenom preuzimanju.
+                                    SMS izveštaj se naplaćuje prema važećem cenovniku koji možete pogledati ovde(link cenovnika). SMS uslugu plaća onaj ko plaća poštarinu.</p></div>
+
+                        </div>
+                        <div className="wrapper">
                             <button className="toggle" id="toggleStyle" onClick={proba}>Potvrda uručenja pošiljke</button>
                             <div className="content2">
                                 <p> Potvrda uručenja pošiljke - Potvrda o uručenju je pošiljka čije se uručenje potvrđuje pisanim putem. Obrazac se prilikom dostave pošiljke daje primaocu na potpis, a potom se, dan nakon dostave, vraća pošiljaocu na adresu.</p>
                             </div>
-
                         </div>
-
                         <div className="wrapper">
 
                             <button className="toggle" id="toggleStyle" onClick={proba}>Lično uručenje </button>
@@ -105,33 +116,32 @@ function Acc() {
                             </div>
 
                         </div>
-
                         <div className="wrapper">
 
-                            <button className="toggle" id="toggleStyle" onClick={proba}>vracanje </button>
+                            <button className="toggle" id="toggleStyle" onClick={proba}>Vraćanje </button>
                             <div className="content2">
-                           <p> Vraćanje povratne dokumentacije/otpremnice - Ukoliko uz pošiljku želite da pošaljete dokument koji prilikom dostave pošiljke primalac treba da potpiše, a koji Vam Flex-kurir vraća na adresu sa koje ste poslali pošiljku.  Overen dokument (otpremnica) se dan nakon uručenja pošiljke vraća na adresu pošiljaoca.</p>
+                                <p> Vraćanje povratne dokumentacije/otpremnice - Ukoliko uz pošiljku želite da pošaljete dokument koji prilikom dostave pošiljke primalac treba da potpiše, a koji Vam Flex-kurir vraća na adresu sa koje ste poslali pošiljku.  Overen dokument (otpremnica) se dan nakon uručenja pošiljke vraća na adresu pošiljaoca.</p>
                             </div>
 
                         </div>
 
                         <div className="wrapper">
 
-<button className="toggle" id="toggleStyle" onClick={proba}>Plaćeni odgovor</button>
-<div className="content2">
-<p> Plaćeni odgovor - Prilikom isporuke pošiljke, kurir preuzima povratnu pošiljku koja se dan nakon dostave vraća na adresu pošiljaoca. Pošiljka koja se vraća ne sme biti teža od 2kg.</p></div>
+                            <button className="toggle" id="toggleStyle" onClick={proba}>Plaćeni odgovor</button>
+                            <div className="content2">
+                                <p> Plaćeni odgovor - Prilikom isporuke pošiljke, kurir preuzima povratnu pošiljku koja se dan nakon dostave vraća na adresu pošiljaoca. Pošiljka koja se vraća ne sme biti teža od 2kg.</p></div>
 
-</div>
+                        </div>
                     </div>
+
+
+
 
                 </div>
 
             </div>
-
-            
-
-
         </div>
     )
 }
 export default Acc;
+

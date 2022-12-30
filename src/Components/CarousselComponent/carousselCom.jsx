@@ -62,6 +62,7 @@ function CaroSlider() {
                         <img className="imgLiCaro" src={slide3} alt="faros"></img>
                         <img className="imgLiCaro" src={slide4} alt="faros2"></img>
                         <img className="imgLiCaro" src={slide5} alt="fenix"></img>
+                       
                     </div>
 
                     <div className="slide"><img className="imgLiCaro" src={slide6} alt="xyz"></img></div>
