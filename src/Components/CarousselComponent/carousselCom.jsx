@@ -21,7 +21,8 @@ function Caro() {
     if (nextButton) {
         nextButton.addEventListener("click", () => {
             const slideWidth = slide.clientWidth;
-            slidesContainer.scrollLeft += slideWidth;
+         slidesContainer.scrollLeft += slideWidth;
+           
         });
     }
 }
