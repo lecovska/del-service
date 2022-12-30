@@ -35,14 +35,20 @@ function proba() {
 // }
 
 function showDiv(){
-const box = document.getElementsByClassName("mainWrapperDiv")
+const box = document.getElementById("mainWrapperDiv")
 
 const btn = document.getElementById("dodatneUslugeH3-wrapper");
 
 btn.addEventListener('click', function handleClick() {
     if (box.style.visibility === 'hidden') {
         box.style.visibility = 'visible';
-    } 
+
+
+    } else {
+        box.style.visibility = 'hidden';
+
+
+    }
 });
 }
 
@@ -93,7 +99,7 @@ function Acc() {
                 </div>
                 <div className="wrapper">
 
-                    <button className="toggle" id="toggleStyle" onClick={proba}>B2B Dostava - Pouzdanost i flexibilnost na terenu</button>
+                    <button  className="toggle" id="toggleStyle" onClick={proba}>B2B Dostava - Pouzdanost i flexibilnost na terenu</button>
                     <div className="content2">
                         <p>FLEX kurirska služba posluje i B2B, sa firmama, online prodavnicama i svim drugim tipovima biznisa, kojima je
                             neophodna kvalitetna logistika kao i brza i sigurna isporuka robe, dokumentacije i svih vrsta paketa.
@@ -110,8 +116,8 @@ function Acc() {
                     <div className="content2"> */}
 
                 <div className="dropdown-wrapper">
-                    <button id="dodatneUslugeH3-wrapper" onClick={showDiv}>Dodatne usluge:</button>
-                    <div className="wrapper mainWrapperDiv" >
+                    <button type="button" id="dodatneUslugeH3-wrapper" onClick={showDiv}><span id="btn-span">Dodatne usluge:</span></button>
+                    <div className="wrapper" id="mainWrapperDiv" >
 
                         <div className="wrapper">
 
