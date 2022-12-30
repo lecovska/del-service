@@ -1,3 +1,4 @@
+import { Hidden } from "@mui/material";
 import React from "react";
 import "./accordion.css";
 
@@ -28,6 +29,23 @@ function proba() {
         })
     }
 }
+// function showDiv(){
+// let getDivWrapper= document.getElementsByClassName("mainWrapperDiv");
+// getDivWrapper.style.visibility = "visible" ;
+// }
+
+function showDiv(){
+const box = document.getElementsByClassName("mainWrapperDiv")
+
+const btn = document.getElementById("dodatneUslugeH3-wrapper");
+
+btn.addEventListener('click', function handleClick() {
+    if (box.style.visibility === 'hidden') {
+        box.style.visibility = 'visible';
+    } 
+});
+}
+
 
 
 
@@ -92,7 +110,8 @@ function Acc() {
                     <div className="content2"> */}
 
                 <div className="dropdown-wrapper">
-                    <div className="wrapper mainWrapperDiv"><h3 id="dodatneUslugeH3-wrapper">Dodatne usluge:</h3>
+                    <button id="dodatneUslugeH3-wrapper" onClick={showDiv}>Dodatne usluge:</button>
+                    <div className="wrapper mainWrapperDiv" >
 
                         <div className="wrapper">
 
