@@ -22,6 +22,7 @@ function Header(){
             <li><Link to="../../Pages/About">O nama</Link></li>
             <li><Link to="../../Pages/Uslugee">Usluge</Link></li>
             <li><Link to="../../Pages/Zakazi">Zakaži kurira</Link></li>
+            <li><Link to="../../Pages/Kalkulator">Kalkulator cena</Link></li>
             <li><Link to="../../Pages/CenovnikPage">Cenovnik</Link></li>
             <li><Link to="../../Pages/Kontakt">Kontakt</Link></li>
         </ul>
