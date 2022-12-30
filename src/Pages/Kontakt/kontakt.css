@@ -243,8 +243,12 @@ label {
 }
 
 .rekalmacije-a {
-    color: red;
+    color: rgb(131, 97, 54);
     margin-top: 2em;
+}
+
+.rekalmacije-a:hover{
+    color:red;
 }
 
 #kontakt-a {

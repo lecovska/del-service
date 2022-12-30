@@ -73,6 +73,7 @@ width: 180px;
 height: 40px;
 }
 
+
 #second-span{
     font-size: 0.7em;
 }
@@ -114,9 +115,10 @@ font-weight: 600;
 }
 
 
-#btn-span{
+#HomaPageMainBtn{
     font-size: 25px;
     font-weight: 700;
+    color: rgb(255, 255, 255);
 }
 
 @media only screen and (min-width : 320px) {

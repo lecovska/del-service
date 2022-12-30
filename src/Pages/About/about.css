@@ -240,8 +240,12 @@ padding-left: 3em;
     margin-bottom: 5em;
 }
 
-#partners-h1{
-margin-bottom: 5em;
+#partners-h2{
+/* margin-bottom: 5em; */
+display: flex;
+justify-content: center;
+align-items: center;
+color: #937e61;
 }
 .partners{
     width: 100%;

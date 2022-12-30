@@ -20,7 +20,7 @@ function HomePage() {
 
                 <div className="greeting">
                     <span className="main-title"><span id="mainTitle-span">Dostava uz osmeh,</span><br></br> od vrata do vrata.</span>
-                <button type="submit" className="mainTitle-btn"><span id="btn-span"><Link to="../../Pages/Zakazi">Pošalji paket</Link></span></button> 
+                <button type="submit" className="mainTitle-btn"><Link id="HomaPageMainBtn" to="../../Pages/Zakazi">Pošalji paket</Link></button> 
                 </div>
             </div>
             {/* <InfoDivs/> */}

@@ -76,7 +76,7 @@ function About() {
             </div> */}
 
             <div>
-            <h3 id="partners-h1">Pouzdanost na terenu i fleksibilnost koju negujemo prema Vašim korisnicima,<br></br> su najvažniji razlozi njihovog zadovoljstva.</h3>
+            <h2 id="partners-h2">Pouzdanost na terenu i fleksibilnost koju negujemo prema Vašim korisnicima,<br></br> su najvažniji razlozi njihovog zadovoljstva.</h2>
                 <CaroSlider />
             </div>
 

@@ -7,11 +7,12 @@ import slide4 from "../../Images/FAROS ONLINE SHOP.png";
 import slide5 from "../../Images/FENIKS PROMO.png";
 import slide6 from "../../Images/XYZ COMMUNICATIONS1111111.jpg";
 import slide7 from "../../Images/MAD HEAD GAMES.png";
+import arrowIcon from "../../Images/arrowIcon.png";
 
 
 function Caro() {
     const slidesContainer = document.getElementById("slides-container");
-    const slide = document.getElementsByClassName("slide");
+    const slide = document.getElementById("slide");
     //const prevButton = document.getElementById("slide-arrow-prev");
     const nextButton = document.getElementById("slide-arrow-next");
 
@@ -35,7 +36,7 @@ function Caro() {
 
 function Caroo() {
     const slidesContainer = document.getElementById("slides-container");
-    const slide = document.getElementsByClassName("slide");
+    const slide = document.getElementById("slide");
     const prevButton = document.getElementById("slide-arrow-prev");
     //const nextButton = document.getElementById("slide-arrow-next");
 
@@ -53,10 +54,10 @@ function CaroSlider() {
     return (
         <div className="caroSlider">
             <div className="slider-wrapper">
-                <button type="button" className="slide-arrow" id="slide-arrow-prev" onClick={Caroo} ></button>
-                <button type="button" className="slide-arrow" id="slide-arrow-next" onClick={Caro}></button>
+                <button type="button" className="slide-arrow" id="slide-arrow-prev" onClick={Caroo} ><i className="arrow left"></i></button>
+                <button type="button" className="slide-arrow" id="slide-arrow-next" onClick={Caro}><i className="arrow right"></i></button>
                 <div className="slides-container" id="slides-container">
-                    <div className="slide">
+                    <div id="slide">
                         <img className="imgLiCaro" src={slide1} alt="autometal"></img>
                         <img className="imgLiCaro" src={slide2} alt="fashion"></img>
                         <img className="imgLiCaro" src={slide3} alt="faros"></img>
@@ -65,8 +66,10 @@ function CaroSlider() {
                        
                     </div>
 
-                    <div className="slide"><img className="imgLiCaro" src={slide6} alt="xyz"></img></div>
-                    <div className="slide"><img className="imgLiCaro" src={slide7} alt="madHead"></img></div>
+                    <div id="slide"><img className="imgLiCaro" src={slide6} alt="xyz"></img>
+                    <img className="imgLiCaro" src={slide7} alt="madHead"></img>
+                    </div>
+                    
                 </div>
             </div>
         </div>
