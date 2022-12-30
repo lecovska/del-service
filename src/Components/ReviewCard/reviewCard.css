@@ -6,23 +6,60 @@
 
 .singleCard{
 width: 30em;
-height: auto;
-background-color: rgb(240, 236, 232);
+height: 10em;
+background-color: #b59f80c4;
 display: flex;
 justify-content: center;
 align-items: center;
+border-radius: 10px;
+color: white;
+-webkit-box-shadow: 1px 1px 10px 2px rgba(79,57,19,0.9); 
+box-shadow: 1px 1px 10px 2px rgba(79,57,19,0.9);
 
 
 }
 
 
-.photo{
+.photo1{
     width: 5em;
     height: 5em;
     border-radius: 50%;
     background-image: url("../../Images/klijenti.jpg");
     background-size: cover;
     margin-right: 2em;
+    border: 3px solid white;
+}
+
+.photo2{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    background-image: url("../../Images/klijenti2.jpg");
+    background-size: cover;
+    margin-right: 2em;
+    border: 3px solid white;
+}
+
+.photo3{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    background-image: url("../../Images/copyELYOT\ FASHION\ -\ Copy.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-right: 2em;
+    border: 3px solid white;
+}
+
+.photo4{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    background-image: url("../../Images/copyKROMRO\ -\ Copy.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-right: 2em;
+    border: 3px solid white;
 }
 
 .photoWrapper{
@@ -33,12 +70,14 @@ align-items: center;
 }
 
 .imePrezime{
-    color: black;
-    font-weight: 500;
+    color: white;
+    font-weight: 600;
     text-align: left;
+    margin-bottom: 1em;
 }
 
 .reviewText{
     text-align: left;
     width: 20em;
 }
+

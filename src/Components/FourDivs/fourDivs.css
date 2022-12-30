@@ -17,7 +17,7 @@
 
 .img-of-delivery{
     width: 22em;
-    height: 20em;
+    height: 18em;
     
     display: flex;
     flex-direction: column;
@@ -35,6 +35,10 @@
     height: 15em;
 }
 
-.homepage-a{
-    display: inline-block;
+.homepage-aFourDivs{
+    color:rgb(159, 125, 92);
+}
+
+.homepage-aFourDivs:hover{
+   color: red;
 }

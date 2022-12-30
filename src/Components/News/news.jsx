@@ -53,7 +53,7 @@ function News() {
 
         <div className="newsSlider">
             <h2 id="newsSpan">Saznajte prvi poslednje vesti</h2>
-            <h1 id="NewsId">Novosti</h1>
+            <h1 id="NewsId">NOVOSTI</h1>
             <div className="newsslider-wrapper">
                 <button type="button" className="newsslide-arrow" id="newsslide-arrow-prev" onClick={Caroo} ><i className="newsarrow left"></i></button>
                 <button type="button" className="newsslide-arrow" id="newsslide-arrow-next" onClick={Caro}><i className="newsarrow right"></i></button>

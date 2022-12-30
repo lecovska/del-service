@@ -49,7 +49,7 @@ function About() {
 
             </div>
             <div className="lastDiv">
-                <h2>Zadovoljni korisnici</h2>
+                {/* <h2>Zadovoljni korisnici</h2> */}
                 <h1>Šta kažu naši zadovoljni korisnici</h1>
                 <ReviewCard />
                 {/* <div className="boxes">

@@ -2,7 +2,7 @@ import React from "react";
 import "./reviewCard.css";
 
 
-function Caro() {
+function CaroReview() {
     const slidesContainer = document.getElementById("slides-container");
     const slide = document.getElementById("slide");
     //const prevButton = document.getElementById("slide-arrow-prev");
@@ -26,7 +26,7 @@ function Caro() {
 
 
 
-function Caroo() {
+function CarooReview() {
     const slidesContainer = document.getElementById("slides-container");
     const slide = document.getElementById("slide");
     const prevButton = document.getElementById("slide-arrow-prev");
@@ -47,38 +47,38 @@ function ReviewCard() {
     return (
         <div className="review">
             <div className="slider-wrapper">
-                <button type="button" className="slide-arrow" id="slide-arrow-prev" onClick={Caroo} ><i className="arrow left"></i></button>
-                <button type="button" className="slide-arrow" id="slide-arrow-next" onClick={Caro}><i className="arrow right"></i></button>
+                <button type="button" className="slide-arrow" id="slide-arrow-prev" onClick={CarooReview} ><i className="arrow left"></i></button>
+                <button type="button" className="slide-arrow" id="slide-arrow-next" onClick={CaroReview}><i className="arrow right"></i></button>
                 <div className="slides-container" id="slides-container">
                     <div id="slide">
                         <div className="singleCard">
-                            <div className="photo"></div>
+                            <div className="photo1"></div>
                             <div className="photoWrapper">
-                                <span className="imePrezime">Predrag Vujicic</span>
+                                <span className="imePrezime">Predrag Vujičić</span>
                                 <p className="reviewText">Flex je savršenstvo! Nemam reči, nasmejano biće, brzo i efikasno. Svaka čast za kurira i kompaniju.</p>
                             </div>
                         </div>
                         <div className="singleCard">
-                            <div className="photo"></div>
+                            <div className="photo2"></div>
                             <div className="photoWrapper">
-                                <span className="imePrezime">Predrag Vujicic</span>
+                                <span className="imePrezime">Marija Milosavljević</span>
                                 <p className="reviewText">Prvi put sa njima da imam isporuku, skroz korektno i tačno i nisu kao ostali kad nazovu, neljubazni.</p>
                             </div>
                         </div>
                         <div className="singleCard">
-                            <div className="photo"></div>
+                            <div className="photo3"></div>
                             <div className="photoWrapper">
-                                <span className="imePrezime">Predrag Vujicic</span>
-                                <p className="reviewText">Prvi put sa njima da imam isporuku, skroz korektno i tačno i nisu kao ostali kad nazovu, neljubazni.</p>
+                                <span className="imePrezime">ELYOT FASHION</span>
+                                <p className="reviewText">Sve pohvale za kurirsku službu. Brza isporuka i ljubazan kurir.</p>
                             </div>
                         </div>
                     </div>
 
                     <div id="slide">
                         <div className="singleCard">
-                            <div className="photo"></div>
+                            <div className="photo4"></div>
                             <div className="photoWrapper">
-                                <span className="imePrezime">Predrag Vujicic</span>
+                                <span className="imePrezime">Kromrp - parking sistemi</span>
                                 <p className="reviewText">Prvi put sa njima da imam isporuku, skroz korektno i tačno i nisu kao ostali kad nazovu, neljubazni.</p>
                             </div>
                         </div>
