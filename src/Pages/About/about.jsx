@@ -11,6 +11,7 @@ import calculator from "../../Images/calculator.png";
 import delivery from "../../Images/delivery.png";
 // import { Link } from "@mui/material";
 import CaroSlider from "../../Components/CarousselComponent/carousselCom";
+import ReviewCard from "../../Components/ReviewCard/reviewCard";
 
 
 
@@ -50,7 +51,8 @@ function About() {
             <div className="lastDiv">
                 <h2>Zadovoljni korisnici</h2>
                 <h1>Šta kažu naši zadovoljni korisnici</h1>
-                <div className="boxes">
+                <ReviewCard />
+                {/* <div className="boxes">
                     <div class="box">
                         <div className="textArea">
                             <p>Flex je savršenstvo! Nemam reči, nasmejano biće, brzo i efikasno. Svaka čast za kurira i kompaniju.</p>
@@ -67,7 +69,7 @@ function About() {
                         </div>
                     </div>
 
-                </div>
+                </div> */}
 
             </div>
             {/* <div className="partners-wrapper">
@@ -76,7 +78,7 @@ function About() {
             </div> */}
 
             <div>
-            <h2 id="partners-h2">Pouzdanost na terenu i fleksibilnost koju negujemo prema Vašim korisnicima,<br></br> su najvažniji razlozi njihovog zadovoljstva.</h2>
+                <h2 id="partners-h2">Pouzdanost na terenu i fleksibilnost koju negujemo prema Vašim korisnicima,<br></br> su najvažniji razlozi njihovog zadovoljstva.</h2>
                 <CaroSlider />
             </div>
 

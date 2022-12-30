@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.singleCard{
+width: 30em;
+height: auto;
+background-color: rgb(240, 236, 232);
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+
+
+.photo{
+    width: 5em;
+    height: 5em;
+    border-radius: 50%;
+    background-image: url("../../Images/klijenti.jpg");
+    background-size: cover;
+    margin-right: 2em;
+}
+
+.photoWrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.imePrezime{
+    color: black;
+    font-weight: 500;
+    text-align: left;
+}
+
+.reviewText{
+    text-align: left;
+    width: 20em;
+}
