@@ -7,22 +7,22 @@ import slide4 from "../../Images/FAROS ONLINE SHOP.png";
 import slide5 from "../../Images/FENIKS PROMO.png";
 import slide6 from "../../Images/XYZ COMMUNICATIONS1111111.jpg";
 import slide7 from "../../Images/MAD HEAD GAMES.png";
-import arrowIcon from "../../Images/arrowIcon.png";
+// import arrowIcon from "../../Images/arrowIcon.png";
 
 
 function Caro() {
-    const slidesContainer = document.getElementById("slides-container");
-    const slide = document.getElementById("slide");
+    const slidesContainer2 = document.getElementById("slides-container2");
+    const slide2 = document.getElementById("slide2");
     //const prevButton = document.getElementById("slide-arrow-prev");
-    const nextButton = document.getElementById("slide-arrow-next");
+    const nextButton2 = document.getElementById("slide-arrow-next2");
 
     console.log(typeof nextButton);
 
 
-    if (nextButton) {
-        nextButton.addEventListener("click", () => {
-            const slideWidth = slide.clientWidth;
-         slidesContainer.scrollLeft += slideWidth;
+    if (nextButton2) {
+        nextButton2.addEventListener("click", () => {
+            const slideWidth2 = slide2.clientWidth;
+         slidesContainer2.scrollLeft += slideWidth2;
            
         });
     }
@@ -35,16 +35,16 @@ function Caro() {
 
 
 function Caroo() {
-    const slidesContainer = document.getElementById("slides-container");
-    const slide = document.getElementById("slide");
-    const prevButton = document.getElementById("slide-arrow-prev");
+    const slidesContainer2 = document.getElementById("slides-container2");
+    const slide2 = document.getElementById("slide2");
+    const prevButton2 = document.getElementById("slide-arrow-prev2");
     //const nextButton = document.getElementById("slide-arrow-next");
 
 
 
-    prevButton.addEventListener("click", () => {
-        const slideWidth = slide.clientWidth;
-        slidesContainer.scrollLeft -= slideWidth;
+    prevButton2.addEventListener("click", () => {
+        const slideWidth2 = slide2.clientWidth;
+        slidesContainer2.scrollLeft -= slideWidth2;
     });
 
 }
@@ -52,12 +52,12 @@ function Caroo() {
 
 function CaroSlider() {
     return (
-        <div className="caroSlider">
-            <div className="slider-wrapper">
-                <button type="button" className="slide-arrow" id="slide-arrow-prev" onClick={Caroo} ><i className="arrow left"></i></button>
-                <button type="button" className="slide-arrow" id="slide-arrow-next" onClick={Caro}><i className="arrow right"></i></button>
-                <div className="slides-container" id="slides-container">
-                    <div id="slide">
+        <div className="caroSlider2">
+            <div className="slider-wrapper2">
+                <button type="button" className="slide-arrow2" id="slide-arrow-prev2" onClick={Caroo} ><i className="arrow left"></i></button>
+                <button type="button" className="slide-arrow2" id="slide-arrow-next2" onClick={Caro}><i className="arrow right"></i></button>
+                <div className="slides-container2" id="slides-container2">
+                    <div id="slide2">
                         <img className="imgLiCaro" src={slide1} alt="autometal"></img>
                         <img className="imgLiCaro" src={slide2} alt="fashion"></img>
                         <img className="imgLiCaro" src={slide3} alt="faros"></img>
@@ -66,7 +66,7 @@ function CaroSlider() {
                        
                     </div>
 
-                    <div id="slide"><img className="imgLiCaro" src={slide6} alt="xyz"></img>
+                    <div id="slide2"><img className="imgLiCaro" src={slide6} alt="xyz"></img>
                     <img className="imgLiCaro" src={slide7} alt="madHead"></img>
                     </div>
                     
