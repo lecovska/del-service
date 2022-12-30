@@ -4,49 +4,93 @@ import "./news.css";
 // import picOfNews2 from "../../Images/Flex-kurirska-sluzba14.jpg";
 // import picOfNews3 from "../../Images/Flex-kurirska-sluzba11.jpg";
 
+function Caro() {
+    const slidesContainer = document.getElementById("slides-container");
+    const slide = document.getElementById("slide");
+    //const prevButton = document.getElementById("slide-arrow-prev");
+    const nextButton = document.getElementById("slide-arrow-next");
+
+    console.log(typeof nextButton);
+
+
+    if (nextButton) {
+        nextButton.addEventListener("click", () => {
+            const slideWidth = slide.clientWidth;
+            slidesContainer.scrollLeft += slideWidth;
+
+        });
+    }
+}
+// prevButton.addEventListener("click", () => {
+//   const slideWidth = slide.clientWidth;
+//   slidesContainer.scrollLeft -= slideWidth;
+// });
+
+
+
+function Caroo() {
+    const slidesContainer = document.getElementById("slides-container");
+    const slide = document.getElementById("slide");
+    const prevButton = document.getElementById("slide-arrow-prev");
+    //const nextButton = document.getElementById("slide-arrow-next");
+
+
+
+    prevButton.addEventListener("click", () => {
+        const slideWidth = slide.clientWidth;
+        slidesContainer.scrollLeft -= slideWidth;
+    });
+
+}
+
+
+
+
+
+
 function News() {
     return (
-        <div className="news">
-<h2 id="newsSpan">Saznajte prvi poslednje vesti</h2>
-<h1 id="NewsId">Novosti</h1>
 
-            <div className="news-img">
-                <div className="pic-of-news1"></div>
-                <div className="pic-of-news2"></div>
-                <div className="pic-of-news3"></div>
+        <div className="newsSlider">
+            <h2 id="newsSpan">Saznajte prvi poslednje vesti</h2>
+            <h1 id="NewsId">Novosti</h1>
+            <div className="newsslider-wrapper">
+                <button type="button" className="newsslide-arrow" id="newsslide-arrow-prev" onClick={Caroo} ><i className="newsarrow left"></i></button>
+                <button type="button" className="newsslide-arrow" id="newsslide-arrow-next" onClick={Caro}><i className="newsarrow right"></i></button>
+                <div className="newsslides-container" id="newsslides-container">
+                    <div id="newsslide">
+                        <div className="text">
+                            <div className="pic-of-news1"></div>
+                            <div className="text-wrapp">
+                                <h3>Nacin placanja:</h3>
+                                <p className="newsSliderP">Postovani klijenti, ukoliko nemate gotovinu prilikom placanja vasih posiljaka , Flex kurir Vam je omogućio placanje karticama.
+                                    (VISA, MASTERCARD, DINACARD)</p>
+                            </div>
+                        </div>
+                        <div className="text">
+                            <div className="pic-of-news2"></div>
+                            <div className="text-wrapp">
+                                <h3>Nacin placanja:</h3>
+                                <p className="newsSliderP">Postovani klijenti, ukoliko nemate gotovinu prilikom placanja vasih posiljaka , Flex kurir Vam je omogućio placanje karticama.
+                                    (VISA, MASTERCARD, DINACARD)</p>
+                            </div>
+                        </div>
+                        <div className="text">
+                            <div className="pic-of-news3"></div>
+                            <div className="text-wrapp">
+                                <h3>Flex, nova kurirska služba, koja štedi Vaše
+                                    vreme</h3>
+                                <p className="newsSliderP">Postovani klijenti, ukoliko nemate gotovinu prilikom placanja vasih posiljaka , Flex kurir Vam je omogućio placanje karticama.
+                                    (VISA, MASTERCARD, DINACARD)</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
             </div>
-            {/* <img className="picForNews" src={picOfNews1} alt="pic">
-            <img className="picForNews" src={picOfNews2} alt="pic">
-            <img className="picForNews" src={picOfNews3} alt="pic"> */}
-
-
-            <div className="news-text">
-
-                <div className="text">
-                    <h3>Nacin placanja:</h3>
-                    <p>Postovani klijenti, ukoliko nemate gotovinu prilikom placanja vasih posiljaka , Flex kurir Vam je omogućio placanje karticama.
- (VISA, MASTERCARD, DINACARD)</p>
-                    
-                </div>
-
-                <div className="text">
-                    <h3>Radno vreme za Novogodisnje i Bozicne praznike :</h3>
-                    <p>Ponedeljak- 02.01.2023.godine-Neradni dan
-Utorak -
-03.01.2023. godine -Neradni da</p>
-                    
-                </div>
-
-                <div className="text">
-                    <h3>Flex, nova kurirska služba, koja štedi Vaše
-vreme</h3>
-                    <p>Nova kurirska služba. FLEX jer mi dostvaljamo brže od drugih. </p>
-                    
-                </div>
-
-            </div>
-
         </div>
+
     )
 }
 
