@@ -63,16 +63,14 @@ function News() {
                             <div className="pic-of-news1"></div>
                             <div className="text-wrapp">
                                 <h3>Nacin placanja:</h3>
-                                <p className="newsSliderP">Postovani klijenti, ukoliko nemate gotovinu prilikom placanja vasih posiljaka , Flex kurir Vam je omogućio placanje karticama.
-                                    (VISA, MASTERCARD, DINACARD)</p>
+                                <p className="newsSliderP">Poštovani klijenti, ukoliko nemate gotovinu prilikom plaćanja Vaših pošiljaka, kod nas možete platiti i karticom. (VISA, MASTERCARD, DINACARD)</p>
                             </div>
                         </div>
                         <div className="text">
                             <div className="pic-of-news2"></div>
                             <div className="text-wrapp">
                                 <h3>Nacin placanja:</h3>
-                                <p className="newsSliderP">Postovani klijenti, ukoliko nemate gotovinu prilikom placanja vasih posiljaka , Flex kurir Vam je omogućio placanje karticama.
-                                    (VISA, MASTERCARD, DINACARD)</p>
+                                <p className="newsSliderP">Poštovani od 15.12.2022.godine do 15.01.2023.godine, očekijte Vašeg kurira u novogodišnjem izdanju.</p>
                             </div>
                         </div>
                         <div className="text">
@@ -80,13 +78,24 @@ function News() {
                             <div className="text-wrapp">
                                 <h3>Flex, nova kurirska služba, koja štedi Vaše
                                     vreme</h3>
-                                <p className="newsSliderP">Postovani klijenti, ukoliko nemate gotovinu prilikom placanja vasih posiljaka , Flex kurir Vam je omogućio placanje karticama.
-                                    (VISA, MASTERCARD, DINACARD)</p>
+                                <p className="newsSliderP">Poštovani klijenti, kurirska služba za vreme praznika neće raditi sledećim danima:
+                                    Ponedeljak 02.01.2023.
+                                    Utorak 03.01.2023.
+                                    Petak 06.01.2023.</p>
                             </div>
                         </div>
+                      
                     </div>
-
-
+                    <div id="newsslide">
+                    <div className="text">
+                            <div className="pic-of-news3"></div>
+                            <div className="text-wrapp">
+                                <h3>Flex, nova kurirska služba, koja štedi Vaše
+                                    vreme</h3>
+                                <p className="newsSliderP">Poštovani, Vaš Flex kurir Vam želi srećne novogodišnje i božićne praznike.</p>
+                            </div>
+                        </div>
+                        </div>
                 </div>
             </div>
         </div>

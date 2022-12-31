@@ -34,22 +34,22 @@ function proba() {
 // getDivWrapper.style.visibility = "visible" ;
 // }
 
-function showDiv(){
-const box = document.getElementById("mainWrapperDiv")
+function showDiv() {
+    const box = document.getElementById("mainWrapperDiv")
 
-const btn = document.getElementById("dodatneUslugeH3-wrapper");
+    const btn = document.getElementById("dodatneUslugeH3-wrapper");
 
-btn.addEventListener('click', function handleClick() {
-    if (box.style.visibility === 'hidden') {
-        box.style.visibility = 'visible';
-
-
-    } else {
-        box.style.visibility = 'hidden';
+    btn.addEventListener('click', function handleClick() {
+        if (box.style.visibility === 'hidden') {
+            box.style.visibility = 'visible';
 
 
-    }
-});
+        } else {
+            box.style.visibility = 'hidden';
+
+
+        }
+    });
 }
 
 
@@ -66,11 +66,9 @@ function Acc() {
 
                     <button className="toggle" id="toggleStyle" onClick={proba}>Danas za danas - Kurirska dostava</button>
                     <div className="content2">
-                        <p>Pozovite nas najkasnije do 12h, kurir će u roku od sat vremena preuzeti vašu pošiljku, kako bi ona stigla do
-                            primaoca istog dana do 18h.
-                            Pošiljalac može da prijavi pošiljku putem call centra ili putem sajta "zakaži kurira" najkasnije do 12h. Kurir će
-                            vašu pošiljku preuzeti najkasnije do 13h.
-                            Pošiljka se primaocu isporučije istog dana do 18h. Ova usluga danas za danas se odnosi samo na Beograd.    </p>
+                        <p>Pozivnice za uslugu danas za danas se primaju najkasnije do 12h, kurir ce u najkraćem roku biti na adresi kako bi preuzeo Vašu pošiljku,a primalac istu može očekivati istog dana do 18h.
+                            Pozivnicu možete uputiti putem call centra radnim danima od 08:00h - 16:00h ili putem sajta opcijom ,,Zakaži kurira"
+                            USLUGA DANAS ZA DANAS SE VRŠI SAMO NA TERITORIJI GRADA BEOGRADA  </p>
                     </div>
 
                 </div>
@@ -78,10 +76,9 @@ function Acc() {
 
                     <button className="toggle" id="toggleStyle" onClick={proba}>Danas za sutra - Kurirska dostava</button>
                     <div className="content2">
-                        <p>Pozovite nas danas za sutra, najkasnije do 15h. Kurir će u roku od dva sata preuzeti vašu pošiljku, kako bi ona
-                            stigla do primaoca sutradan u do 12h ili 18h.
-                            Svoju pošiljku možete da prijavite putem call centra ili putem sajta "zakaži kurira" najkasnije do 15h.
-                            Kurir će vašu pošiljku peruzeti najkasnije do 15h. Pošiljka se isporučuje primaocu sutradan, najkasnije do 18h.</p>
+                        <p>Pozivnice za uslugu danas za danas se primaju najkasnije do 15h, kurir ce u najkraćem roku biti na adresi kako bi preuzeo Vašu pošiljku,a primalac istu može očekivati narednog dana do 18h.
+                            Pozivnicu možete uputiti putem call centra radnim danima od 08:00h - 16:00h ili putem sajta opcijom ,,Zakaži kurira"
+                            USLUGA DANAS ZA DANAS SE VRŠI SAMO NA TERITORIJI GRADA BEOGRADA </p>
                     </div>
 
                 </div>
@@ -99,7 +96,7 @@ function Acc() {
                 </div>
                 <div className="wrapper">
 
-                    <button  className="toggle" id="toggleStyle" onClick={proba}>B2B Dostava - Pouzdanost i flexibilnost na terenu</button>
+                    <button className="toggle" id="toggleStyle" onClick={proba}>B2B Dostava - Pouzdanost i flexibilnost na terenu</button>
                     <div className="content2">
                         <p>FLEX kurirska služba posluje i B2B, sa firmama, online prodavnicama i svim drugim tipovima biznisa, kojima je
                             neophodna kvalitetna logistika kao i brza i sigurna isporuka robe, dokumentacije i svih vrsta paketa.
@@ -116,7 +113,7 @@ function Acc() {
                     <div className="content2"> */}
 
                 <div className="dropdown-wrapper">
-                    
+
                     <button type="button" id="dodatneUslugeH3-wrapper" onClick={showDiv}><span id="btn-span">Dodatne usluge:</span></button>
                     <div className="wrapper" id="mainWrapperDiv" >
 
@@ -124,21 +121,21 @@ function Acc() {
 
                             <button className="toggle" id="toggleStyle" onClick={proba}>Sms izveštaj</button>
                             <div className="content2">
-                                <p> SMS izveštaj - Opcija slanja pošiljaocu potvrdu o preuzimanju i izveštaj o obavljenoj dostavi, ali i primaocu izveštaj o obavljenom preuzimanju.
+                                <p> SMS izveštaj - je izveštaj kojim se pošiljaocu potvrđuje da je pošiljka isporučena.
                                     SMS izveštaj se naplaćuje prema važećem cenovniku koji možete pogledati ovde(link cenovnika). SMS uslugu plaća onaj ko plaća poštarinu.</p></div>
 
                         </div>
                         <div className="wrapper">
                             <button className="toggle" id="toggleStyle" onClick={proba}>Potvrda uručenja pošiljke</button>
                             <div className="content2">
-                                <p> Potvrda uručenja pošiljke - Potvrda o uručenju je pošiljka čije se uručenje potvrđuje pisanim putem. Obrazac se prilikom dostave pošiljke daje primaocu na potpis, a potom se, dan nakon dostave, vraća pošiljaocu na adresu.</p>
+                                <p> Potvrda o uručenju pošiljke/povratnica - je potvrda o uručenju u pisanoj formi, na posebnom obrascu ,,povratnica". Povratnica se prilikom isporuke pošiljke daje primaocu na potpis, a potom se vraća pošiljaocu na kućnu adresu narednog radnog dana.</p>
                             </div>
                         </div>
                         <div className="wrapper">
 
                             <button className="toggle" id="toggleStyle" onClick={proba}>Lično uručenje </button>
                             <div className="content2">
-                                <p>Lično uručenje - Uručenje se vrši direktno i isključivo navedenom primaocu.</p>
+                                <p>Lučno uručenje - je uručenje pošiljke koje se može uručiti isključivo navedenom primaocu uz proveru lične karte.</p>
                             </div>
 
                         </div>
@@ -146,7 +143,7 @@ function Acc() {
 
                             <button className="toggle" id="toggleStyle" onClick={proba}>Vraćanje </button>
                             <div className="content2">
-                                <p> Vraćanje povratne dokumentacije/otpremnice - Ukoliko uz pošiljku želite da pošaljete dokument koji prilikom dostave pošiljke primalac treba da potpiše, a koji Vam Flex-kurir vraća na adresu sa koje ste poslali pošiljku.  Overen dokument (otpremnica) se dan nakon uručenja pošiljke vraća na adresu pošiljaoca.</p>
+                                <p> Vracanje povratne dokumentacije/otpremnice - Ukoliko uz pošiljku želite da pošaljete dokument koji prilikom dostave pošiljke primalac treba da potpiše, a koji Vam Flex-kurir vraća na adresu sa koje ste poslali pošiljku. Overen dokument (otpremnica) se vraća na adresu pošiljaoca narednog radnog dana.</p>
                             </div>
 
                         </div>
@@ -155,7 +152,8 @@ function Acc() {
 
                             <button className="toggle" id="toggleStyle" onClick={proba}>Plaćeni odgovor</button>
                             <div className="content2">
-                                <p> Plaćeni odgovor - Prilikom isporuke pošiljke, kurir preuzima povratnu pošiljku koja se dan nakon dostave vraća na adresu pošiljaoca. Pošiljka koja se vraća ne sme biti teža od 2kg.</p></div>
+                                <p>
+                                    Plaćeni odgovor - prilikom isporuke pošiljke kurir preuzima povratnu pošiljku koja se narednog radnog dana vraća na adresu pošiljaoca.</p></div>
 
                         </div>
                     </div>
