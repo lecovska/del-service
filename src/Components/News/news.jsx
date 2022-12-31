@@ -4,7 +4,7 @@ import "./news.css";
 // import picOfNews2 from "../../Images/Flex-kurirska-sluzba14.jpg";
 // import picOfNews3 from "../../Images/Flex-kurirska-sluzba11.jpg";
 
-function Caro() {
+function CaroNews() {
     const slidesContainer = document.getElementById("slides-container");
     const slide = document.getElementById("slide");
     //const prevButton = document.getElementById("slide-arrow-prev");
@@ -28,7 +28,7 @@ function Caro() {
 
 
 
-function Caroo() {
+function CarooNews() {
     const slidesContainer = document.getElementById("slides-container");
     const slide = document.getElementById("slide");
     const prevButton = document.getElementById("slide-arrow-prev");
@@ -54,11 +54,11 @@ function News() {
         <div className="newsSlider">
             <h2 id="newsSpan">Saznajte prvi poslednje vesti</h2>
             <h1 id="NewsId">NOVOSTI</h1>
-            <div className="newsslider-wrapper">
-                <button type="button" className="newsslide-arrow" id="newsslide-arrow-prev" onClick={Caroo} ><i className="newsarrow left"></i></button>
-                <button type="button" className="newsslide-arrow" id="newsslide-arrow-next" onClick={Caro}><i className="newsarrow right"></i></button>
-                <div className="newsslides-container" id="newsslides-container">
-                    <div id="newsslide">
+            <div className="slider-wrapperNews">
+                <button type="button" className="slide-arrow" id="slide-arrow-prev" onClick={CarooNews} ><i className="arrow left"></i></button>
+                <button type="button" className="slide-arrow" id="slide-arrow-next" onClick={CaroNews}><i className="arrow right"></i></button>
+                <div className="slides-container" id="slides-container">
+                    <div id="slide">
                         <div className="text">
                             <div className="pic-of-news1"></div>
                             <div className="text-wrapp">
