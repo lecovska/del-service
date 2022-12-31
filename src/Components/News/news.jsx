@@ -5,10 +5,10 @@ import "./news.css";
 // import picOfNews3 from "../../Images/Flex-kurirska-sluzba11.jpg";
 
 function CaroNews() {
-    const slidesContainer = document.getElementById("slides-container");
+    const slidesContainer = document.getElementById("slides-containerNews");
     const slide = document.getElementById("slide");
     //const prevButton = document.getElementById("slide-arrow-prev");
-    const nextButton = document.getElementById("slide-arrow-next");
+    const nextButton = document.getElementById("slide-arrow-nextNews");
 
     console.log(typeof nextButton);
 
@@ -29,9 +29,9 @@ function CaroNews() {
 
 
 function CarooNews() {
-    const slidesContainer = document.getElementById("slides-container");
+    const slidesContainer = document.getElementById("slides-containerNews");
     const slide = document.getElementById("slide");
-    const prevButton = document.getElementById("slide-arrow-prev");
+    const prevButton = document.getElementById("slide-arrow-prevNews");
     //const nextButton = document.getElementById("slide-arrow-next");
 
 
@@ -55,9 +55,9 @@ function News() {
             <h2 id="newsSpan">Saznajte prvi poslednje vesti</h2>
             <h1 id="NewsId">NOVOSTI</h1>
             <div className="slider-wrapperNews">
-                <button type="button" className="slide-arrow" id="slide-arrow-prev" onClick={CarooNews} ><i className="arrow left"></i></button>
-                <button type="button" className="slide-arrow" id="slide-arrow-next" onClick={CaroNews}><i className="arrow right"></i></button>
-                <div className="slides-container" id="slides-container">
+                <button type="button" className="slide-arrowNews" id="slide-arrow-prevNews" onClick={CarooNews} ><i className="arrowNews leftNews"></i></button>
+                <button type="button" className="slide-arrowNews" id="slide-arrow-nextNews" onClick={CaroNews}><i className="arrowNews rightNews"></i></button>
+                <div className="slides-containerNews" id="slides-containerNews">
                     <div id="slide">
                         <div className="text">
                             <div className="pic-of-news1"></div>
@@ -84,18 +84,17 @@ function News() {
                                     Petak 06.01.2023.</p>
                             </div>
                         </div>
-                      
+
                     </div>
                     <div id="newsslide">
-                    <div className="text">
-                            <div className="pic-of-news3"></div>
+                        <div className="text">
+                            <div className="pic-of-news4"></div>
                             <div className="text-wrapp">
-                                <h3>Flex, nova kurirska služba, koja štedi Vaše
-                                    vreme</h3>
+                                <h3>Srećni praznici</h3>
                                 <p className="newsSliderP">Poštovani, Vaš Flex kurir Vam želi srećne novogodišnje i božićne praznike.</p>
                             </div>
                         </div>
-                        </div>
+                    </div>
                 </div>
             </div>
         </div>

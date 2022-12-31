@@ -25,29 +25,40 @@
 } */
 
 .pic-of-news1{
-    width: 27em;
-    height: 18em;
+    width: 26em;
+    height: 22em;
     background-image: url("../../Images/placanje.jpg");
+    background-size: cover;
+    align-self: flex-start;
+   
+}
+
+.pic-of-news2{
+    width: 26em;
+    height: 22em;
+    background-image: url("../../Images/prayDostava.jpg");
     background-size: cover;
     align-self: flex-start;
   
 }
 
-.pic-of-news2{
-    width: 27em;
-    height: 18em;
-    background-image: url("../../Images/prayDostava.jpg");
-    background-size: cover;
-    align-self: flex-start;
-}
-
 
 .pic-of-news3{
-    width: 27em;
-    height: 18em;
+    width: 26em;
+    height: 22em;
     background-image: url("../../Images/Flex-kurirska-sluzba11.jpg");
     background-size: cover;
     align-self: flex-start;
+   
+}
+
+.pic-of-news4{
+  width: 26em;
+  height: 22em;
+  background-image: url("../../Images/nova-godina-e1515155495461.jpg");
+  background-size: cover;
+  align-self: flex-start;
+ 
 }
 
 
@@ -66,14 +77,14 @@ a{
 }
 
 .text{
-    width: 32em;
-    height: 40em;
+    width: 50em;
+    height: 30em;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     text-align: left;
-    margin: 0;
+    margin-left: 6em;
 }
 
 h3{
@@ -85,8 +96,8 @@ h3{
 } */
 
 .newsSlider{
-    height:50em;
-    height:45em;
+    height:40em;
+
 }
 
 #newsSpan{
@@ -113,10 +124,11 @@ h3{
     align-items: center;
   }
   
-  .slides-container {
-    height:50em;
+  .slides-containerNews {
+    height:60em;
     width: 100%;
     display: flex;
+    align-items: center;
     overflow: hidden;
     scroll-behavior: smooth;
     list-style: none;
@@ -124,17 +136,26 @@ h3{
     padding: 0;
     
   }
+
+  #slides-containerNews{
+    width: 100%;
+    height:60em;
+    display: flex;
+ 
+    align-items: center;
+  }
   
-  .slide-arrow {
+  .slide-arrowNews {
     position: absolute;
     display: flex;
     top: 0;
     bottom: 0;
     margin: auto;
-    height: 4rem;
-    background-color: rgba(195, 36, 36, 0.443);
+    height: 3rem;
+    /* background-color: rgba(168, 137, 95, 0.582); */
+    background-color: transparent;
     border: none;
-    width: 1.2em;
+    width: 0.8em;
     font-size: 3rem;
     padding: 0;
     cursor: pointer;
@@ -143,26 +164,26 @@ h3{
     
   }
   
-  .slide-arrow:hover,
-  .slide-arrow:focus {
+  .slide-arrowNews:hover,
+  .slide-arrowNews:focus {
     opacity: 1;
   }
   
-  #slide-arrow-prev {
+  #slide-arrow-prevNews {
     left: 0;
     padding-left: 0.25rem;
-    border-radius: 0 2rem 2rem 0;
+    border-radius: 0 1rem 1rem 0;
   }
   
-  #slide-arrow-next {
+  #slide-arrow-nextNews {
     right: 0;
     padding-left: 0.75rem;
-    border-radius: 2rem 0 0 2rem;
+    border-radius: 1rem 0 0 1rem;
   }
   
   #slide {
     width: 100%;
-    height: 45em;
+    height: 50em;
     flex: 1 0 100%;
     display: flex;
     justify-content: space-evenly;
@@ -191,35 +212,45 @@ h3{
   }
 
 
-  .arrow {
-    
-    border: solid black;
-    border-width: 0 3px 3px 0;
+  .arrowNews {
+    border: solid rgb(169, 128, 89);
+    border-width: 0 6px 6px 0;
     display: inline-block;
-   
-    padding: 3px;
+    padding: 10px;
   }
   
-  .right {
+  .rightNews {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     position:absolute;
-    top: 0.6em;
-    left: 0.5em;
+    top: 0em;
+    left: 0.1em;
   }
   
-  .left {
+  .leftNews {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
     position:absolute;
-    top: 0.6em;
-    left: 0.5em;
-  
+    top: 0em;
+    left: 0.3em;
   }
+
+  .arrowNews:hover {
+    border: solid rgb(244, 30, 19);
+    border-width: 0 6px 6px 0;
+    display: inline-block;
+    padding: 10px;
+  }
+
+
 
   .newsSliderP{
     
     text-align: left;
   }
 
- 
+  .text-wrapp{
+    width: 20em;
+    height: 20em;
+    text-align: justify;
+  }

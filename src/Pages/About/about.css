@@ -111,9 +111,9 @@ a{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    text-align: left;
-   
-    width: 43em;
+    text-align: justify;
+   line-height: 2em;
+    width: 35em;
     height: 25em;
 }
 
