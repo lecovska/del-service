@@ -69,13 +69,13 @@ li{
 }
 
 a:hover{
-    color: rgb(246, 245, 245);
+    color: rgb(255, 0, 0);
     transform: scale(1);
 }
 
 a{
     text-decoration: none;
-    color: rgb(246, 39, 39);
+    color: rgb(255, 255, 255);
     font-weight: 500;
 }
 
@@ -112,6 +112,6 @@ height: 5.5em;
     justify-content: center;
     align-items: center;
     text-align: left;
-
+color: white;
     margin: 0;
 }

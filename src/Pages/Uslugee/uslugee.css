@@ -71,7 +71,7 @@
     padding: 16px;
     font-size: 16px;
     border: none;
-    cursor: pointer;
+    cursor:help;
     width: 100%;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.51);
     height: 3.5em;
@@ -80,6 +80,7 @@
   
   .dropbtn:hover, .dropbtn:focus {
     background-color: #ff0000;
+    cursor:help;
   }
   
   .dropdown {

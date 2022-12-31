@@ -104,16 +104,16 @@ box-shadow: 1px 1px 10px 2px rgba(79,57,19,0.9);
     
   }
   
-  .slide-arrow {
+  .slide-arrowReview {
     position: absolute;
     display: flex;
     top: 0;
     bottom: 0;
     margin: auto;
-    height: 4rem;
-    background-color: rgba(195, 36, 36, 0.443);
+    height: 3rem;
+    background-color: rgba(184, 146, 96, 0.69);
     border: none;
-    width: 1.2em;
+    width: 0.4em;
     font-size: 3rem;
     padding: 0;
     cursor: pointer;
@@ -122,8 +122,8 @@ box-shadow: 1px 1px 10px 2px rgba(79,57,19,0.9);
     
   }
   
-  .slide-arrow:hover,
-  .slide-arrow:focus {
+  .slide-arrowReview:hover,
+  .slide-arrowReview:focus {
     opacity: 1;
   }
   
@@ -170,26 +170,28 @@ box-shadow: 1px 1px 10px 2px rgba(79,57,19,0.9);
   }
 
 
-  .arrow {
+  .arrowReview {
     border: solid black;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
+    
   }
   
-  .right {
+  .rightReview {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
     position:absolute;
-    top: 0.6em;
-    left: 0.5em;
+    top: 0.4em;
+    left: 0.1em;
+   
   }
   
-  .left {
+  .leftReview {
     transform: rotate(135deg);
     -webkit-transform: rotate(135deg);
     position:absolute;
-    top: 0.6em;
-    left: 0.5em;
-  
+    top: 0.4em;
+    left: 0.1em;
+    
   }

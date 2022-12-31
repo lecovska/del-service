@@ -30,6 +30,7 @@
     box-shadow: 0 10px 10px rgba(207, 192, 192, 0.118);
     height: auto;
     box-shadow: 0 10px 10px rgba(207, 192, 192, 0.118);
+    cursor: help;
 }
 
 
@@ -53,6 +54,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: help;
 
 }
 
@@ -91,6 +93,7 @@
     width: 100%;
     justify-content: center;
     align-items: center;
+    cursor: help;
     
 }
 
@@ -107,3 +110,22 @@
     text-align: center;
     
 }
+
+.arrowDropdown {
+    
+    border: solid rgb(255, 255, 255);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    cursor:grab;
+  }
+  
+  .rightDropdown {
+    transform: rotate(90deg);
+    -webkit-transform: rotate(45deg);
+    position:absolute;
+    top: 21.5em;
+    right: 2em;
+  }
+  
+  

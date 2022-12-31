@@ -47,8 +47,8 @@ function ReviewCard() {
     return (
         <div className="review">
             <div className="slider-wrapper">
-                <button type="button" className="slide-arrow" id="slide-arrow-prev" onClick={CarooReview} ><i className="arrow left"></i></button>
-                <button type="button" className="slide-arrow" id="slide-arrow-next" onClick={CaroReview}><i className="arrow right"></i></button>
+                <button type="button" className="slide-arrowReview" id="slide-arrow-prev" onClick={CarooReview} ><i className="arrowReview leftReview"></i></button>
+                <button type="button" className="slide-arrowReview" id="slide-arrow-next" onClick={CaroReview}><i className="arrowReview rightReview"></i></button>
                 <div className="slides-container" id="slides-container">
                     <div id="slide">
                         <div className="singleCard">

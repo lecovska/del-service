@@ -27,7 +27,7 @@
 .pic-of-news1{
     width: 27em;
     height: 18em;
-    background-image: url("../../Images/Flex-kurirska-sluzba16.jpg");
+    background-image: url("../../Images/placanje.jpg");
     background-size: cover;
     align-self: flex-start;
   
@@ -36,7 +36,7 @@
 .pic-of-news2{
     width: 27em;
     height: 18em;
-    background-image: url("../../Images/Flex-kurirska-sluzba14.jpg");
+    background-image: url("../../Images/prayDostava.jpg");
     background-size: cover;
     align-self: flex-start;
 }
