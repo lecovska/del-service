@@ -400,8 +400,8 @@ label {
     }
     
     .infoDiv-text {
-        width: 50em;
-        height: 30em;
+        width:30em;
+        height: auto;
         background-image: url("../../Images/kurirblend.jpg");
         background-size: cover;
         display: flex;
@@ -411,8 +411,8 @@ label {
     }
     
     .kontakt-box {
-        width: 38em;
-        height: 33em;
+        width: auto;
+        height: auto;
         display: flex;
         flex-direction: column;
         border: 1px solid rgba(212, 149, 67, 0.705);
