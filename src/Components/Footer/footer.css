@@ -336,9 +336,12 @@
     }
     
     .link-a{
+        display: inline-block;
+        width: 10em;
         text-decoration: none;
         color: rgb(255, 255, 255);
-        font-weight: 500;
+        font-weight: 400;
+        text-align: left;
     }
     
 }
