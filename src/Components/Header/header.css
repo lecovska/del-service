@@ -116,3 +116,119 @@ color: white;
     margin: 0;
 }
 
+@media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .header {
+        position:absolute;
+        top: 0;
+        z-index: 1;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color:transparent;
+        color: white;
+        
+    }
+    
+    .up p {
+        display: inline-block;
+        color: rgb(255, 0, 0);
+        font-weight: 500;
+    }
+    
+    .up {
+        width: 100%;
+        height: 3em;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color:transparent;
+        border-bottom: 1px solid white;
+        padding-left: 5em;
+        padding-right: 5em;
+        /* padding-top:1em; */
+    }
+    
+    .down {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color:transparent;
+        border-bottom: 1px solid white;
+        padding-left: 5em;
+        padding-right: 5em;
+       
+       
+    }
+    
+    ul {
+        display: inline-block;
+        display: flex;
+        list-style-type: none;
+        color: white;
+
+    }
+    
+    li{
+       margin-right: 20px;
+       color: rgb(255, 4, 4);
+       font-size: 1em;
+       font-weight: 300;
+    }
+    
+    a:hover{
+        color: rgb(255, 0, 0);
+        transform: scale(1);
+    }
+    
+    a{display: inline-block;
+        width: 5em;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        font-weight: 500;
+    }
+    
+    #logo{
+    height: 5.5em;
+    
+    }
+    
+    .number{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+    }
+    
+    #tel{
+        display: inline-block;
+        width: 2em;
+        margin-right: 1em;
+       
+        
+    }
+    
+    #header-p{
+        /* display: inline-block; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    
+    #number-p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    color: white;
+        margin: 0;
+    }
+}

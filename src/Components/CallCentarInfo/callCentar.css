@@ -1,10 +1,10 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-.callCentar{
+.callCentar {
     position: relative;
     width: 100%;
     height: 80vh;
@@ -15,7 +15,7 @@
     margin-top: 5em;
 }
 
-.callCentar-card{
+.callCentar-card {
     position: absolute;
     right: 6em;
     top: -4em;
@@ -28,39 +28,39 @@
     border: 1px solid rgba(173, 155, 140, 0.705);
 }
 
-#img-of-delivery{
+#img-of-delivery {
     width: 100%;
     height: 100vh;
 }
 
-@media only screen and (min-width : 320px) {
-    .callCentar{
+@media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+    .callCentar {
         position: relative;
         width: 100%;
-        height: 80vh;
+        height: 30vh;
         background-color: rgb(173, 173, 153);
         background-image: url("../../Images/imageofdelivery.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        margin-top: 5em;
+        margin-top: 10em;
     }
-    
-    .callCentar-card{
+
+    .callCentar-card {
         position: absolute;
-        right: 6em;
-    top: -4em;
-    width: 40em;
-    height: 44em;
+        right: 3em;
+        top:3em;
+        width: 25em;
+        height:28em;
         /* background-color: rgb(248, 255, 210);
         border: 1px solid black; */
         background-image: url("../../Images/callcentarImg.jpg");
         background-size: cover;
         border: 1px solid rgba(173, 155, 140, 0.705);
     }
-    
-    #img-of-delivery{
+
+    #img-of-delivery {
         width: 100%;
         height: 100vh;
     }
-    
+
 }

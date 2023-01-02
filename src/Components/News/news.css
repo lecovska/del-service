@@ -255,7 +255,7 @@ h3{
     text-align: justify;
   }
 
-  @media only screen and (min-width : 320px) {
+  @media screen and (min-device-width: 320px) and (max-device-width: 600px) {
     .pic-of-news1{
       width: 26em;
       height: 22em;
@@ -329,6 +329,7 @@ h3{
   
   .newsSlider{
       height:40em;
+      width: 100%;
   
   }
   
@@ -384,7 +385,7 @@ h3{
       bottom: 0;
       margin: auto;
       height: 3rem;
-      /* background-color: rgba(168, 137, 95, 0.582); */
+      /* background-color: rgba(250, 0, 0, 0.582); */
       background-color: transparent;
       border: none;
       width: 0.8em;

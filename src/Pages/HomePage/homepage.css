@@ -121,7 +121,7 @@ font-weight: 600;
     color: rgb(255, 255, 255);
 }
 
-@media screen and (min-width : 320px) and (max-width: 600px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 600px) {
     .homepage {
         position: relative;
         width: 100%;
@@ -149,7 +149,7 @@ font-weight: 600;
     
 
     .main-title {
-        font-size: 1rem;
+        font-size: 4em;
         font-weight: 300;
         text-align: right;
         color: white;
@@ -215,7 +215,7 @@ font-weight: 600;
     
     
     #mainTitle-span{
-        font-size: 0.5em;
+        font-size: 1em;
     font-weight: 600;
     }
     
