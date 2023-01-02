@@ -392,8 +392,9 @@ label {
     
     .kontakt-wrapper {
         width: 100%;
-        height: 30em;
+        height: 60em;
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
         align-items: center;
         margin-top: 5em;
@@ -401,8 +402,8 @@ label {
     }
     
     .infoDiv-text {
-        width:30em;
-        height: auto;
+        width:50em;
+        height: 40em;
         background-image: url("../../Images/kurirblend.jpg");
         background-size: cover;
         display: flex;
@@ -412,11 +413,12 @@ label {
     }
     
     .kontakt-box {
-        width: 30em;
-        height: auto;
+        width: 40em;
+        height: 40em;
         display: flex;
         flex-direction: column;
         border: 1px solid rgba(212, 149, 67, 0.705);
+        margin-top: 5em;
     }
     
     .kontakt-box h3 {
@@ -534,7 +536,7 @@ label {
     
     .reklamacijeSingleDiv {
         width: 28em;
-        height: 20em;
+        height: 22em;
         padding: 2em;
         display: flex;
         flex-direction: column;
@@ -548,6 +550,7 @@ label {
     
     .rekalmacije-h4 {
         margin-bottom: 2em;
+        width: 11.5em;
     }
     
     .rekalmacije-a {

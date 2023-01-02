@@ -55,3 +55,62 @@ th{
 .p-dodatneUsluge{
     margin-top: 0.5em;
 }
+
+@media screen and (min-device-width: 320px) and (max-device-width: 600px)  {
+
+    .dodatneUsluge table{
+        width: 70rem;
+        height:30vh;
+        border-spacing: 0 5px;
+        -webkit-box-shadow: 1px 3px 10px 4px #6B5E4C; 
+        box-shadow: 1px 3px 10px 4px #6B5E4C;
+        
+    }
+    tr:nth-child(even){
+        background-color: #ece9e9;
+        
+    }
+    tr:nth-child(odd){
+        background-color: #dad8d8;
+        
+    }
+    /* td{
+        border-right: 0.5px solid rgb(131, 131, 131);
+    } */
+    .dodatneUsluge{
+       
+        width: 100%;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0 !important;
+        
+    }
+    
+    .mainTitle{
+        width: 70rem;
+        height: 3rem;
+        background-color: #b59f80;
+        color: white;
+    }
+    
+    .cenovnik-h1{
+        color: white;
+    }
+    
+    td{
+        width: 4em;
+        border-right: 1px solid rgba(199, 195, 189, 0.813);
+    }
+    
+    th{
+        width: 4em;
+    }
+    
+    .p-dodatneUsluge{
+        margin-top: 0.5em;
+    }
+
+}
