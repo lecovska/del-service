@@ -227,6 +227,7 @@ a img{
         justify-content: space-between;
         align-items: center;
         text-align: center;
+        overflow: hidden;
     }
     
     .image-zakazi {
@@ -400,6 +401,7 @@ a img{
         display: flex;
     justify-content: center;
     align-items: center;
+    
     }
     
     a img{

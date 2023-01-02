@@ -115,3 +115,117 @@
   .show {display: block;}
 
 
+  @media screen and (min-device-width: 320px) and (max-device-width: 600px)  {
+
+    /* .usluge {
+    position: relative;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+} */
+
+.image-uslugee {
+  height: 100vh;
+  margin-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-image: url("../../Images/usluge.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.greeting {
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: flex-start;
+  position: absolute;
+  top: 400px;
+  left: 10em;
+}
+
+#homeIcon{
+  display: inline-block;
+  width: 2em;
+}
+
+
+.dostava{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;
+  margin-bottom: 5em;
+}
+
+.uslugeMenu{
+position: relative;
+margin-bottom: 3em;
+width: 100%;
+height: 60em;
+display: flex;
+justify-content:center;
+align-items: center;
+background-image: url("../../Images/usluge33333\ -\ Copy.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+}
+
+.dropbtn {
+  background-color: #bcaf9a;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor:help;
+  width: 100%;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.51);
+  height: 3.5em;
+  border-radius:10px;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #ff0000;
+  cursor:help;
+}
+
+.dropdown {
+  position: absolute;
+  bottom: 11em;
+  left: 32em;
+  display: inline-block;
+  width: 52em;
+ 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown a:hover {background-color: #ddd;}
+
+.show {display: block;}
+
+  }

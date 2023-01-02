@@ -287,7 +287,7 @@ margin-bottom: 5em;
 }
 
 
-@media screen and (min-width : 320px) {
+@media screen and (min-device-width: 320px) and (max-device-width: 600px)  {
     .about {
         position: relative;
         /* height: 100vh; */
@@ -297,6 +297,7 @@ margin-bottom: 5em;
         align-items: center;
         text-align: center;
         width: auto;
+        overflow: hidden;
         
         
     }
@@ -367,32 +368,39 @@ margin-bottom: 5em;
         padding-left: 6em;
         padding-right: 6em; */
         width: 100%;
+        height: 52em;
         display: flex;
+        flex-direction: column;
         justify-content: space-around;
         padding-top: 3em;
         padding-bottom: 3em;
+        margin-bottom: 4em;
     }
     
     .small-img {
         
-        width: 45em;
+        width: 100%;
         height:20em;
         margin: 0;
     }
     
     #smallImg{
-        width: 55em;
+        width: 100%;
         
     }
     
     .small-text {
+       position: relative;
+       top: 20em;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         text-align: justify;
        line-height: 2em;
-        width: 35em;
+        width: 53em;
         height: 25em;
+        margin-left: 2em;
+    
     }
     
     .bottomDiv{

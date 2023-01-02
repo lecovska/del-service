@@ -131,6 +131,7 @@ font-weight: 600;
         justify-content: space-between;
         align-items: center;
         text-align: center;
+        overflow: hidden;
     }
 
     .image-homePage {
