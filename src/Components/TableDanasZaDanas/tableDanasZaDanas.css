@@ -83,10 +83,11 @@ th{
     }
     
     .mainTitle{
-        width: 70rem;
+        width: 65rem !important;
         height: 3rem;
         background-color: #b59f80;
         color: white;
+        margin-left: 3em !important;
     }
     
     .cenovnik-h1{
@@ -97,9 +98,11 @@ th{
     
     td{
         width: 4em;
+        height: 1em;
     }
     
     th{
         width: 4em;
+        height: 1em;
     }
 }

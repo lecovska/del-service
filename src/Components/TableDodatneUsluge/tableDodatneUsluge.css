@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 .dodatneUsluge table{
@@ -30,6 +31,7 @@ tr:nth-child(odd){
     justify-content: center;
     align-items: center;
     margin-top: 0 !important;
+    /* overflow: hidden; */
 }
 
 .mainTitle{
@@ -57,6 +59,12 @@ th{
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 600px)  {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      
+    }
 
     .dodatneUsluge table{
         width: 70rem;
@@ -86,14 +94,16 @@ th{
         justify-content: center;
         align-items: center;
         margin-top: 0 !important;
+        overflow: hidden;
         
     }
     
     .mainTitle{
-        width: 70rem;
+        width: 65rem !important;
         height: 3rem;
         background-color: #b59f80;
         color: white;
+        margin-left: 3em !important;
     }
     
     .cenovnik-h1{
@@ -103,10 +113,12 @@ th{
     td{
         width: 4em;
         border-right: 1px solid rgba(199, 195, 189, 0.813);
+        height: 1em !important;
     }
     
     th{
         width: 4em;
+        height: 1em;
     }
     
     .p-dodatneUsluge{

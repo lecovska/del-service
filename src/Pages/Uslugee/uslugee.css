@@ -117,7 +117,7 @@
 
   @media screen and (min-device-width: 320px) and (max-device-width: 600px)  {
 
-    /* .usluge {
+     .uslugee {
     position: relative;
     height:auto;
     display: flex;
@@ -126,10 +126,11 @@
     align-items: center;
     text-align: center;
     overflow: hidden;
-} */
+} 
+
 
 .image-uslugee {
-  height: 100vh;
+  height: 60vh;
   margin-bottom: 5%;
   display: flex;
   justify-content: center;

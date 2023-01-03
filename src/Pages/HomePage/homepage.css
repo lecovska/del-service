@@ -122,6 +122,10 @@ font-weight: 600;
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .homePage{
+        overflow: hidden;
+    }
     .homepage {
         position: relative;
         width: 100%;
@@ -135,7 +139,7 @@ font-weight: 600;
     }
 
     .image-homePage {
-        height: 100vh;
+        height: 60vh;
         width: 100%;
         /* margin-bottom: 5%; */
         display: flex;
