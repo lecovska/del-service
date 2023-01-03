@@ -139,7 +139,7 @@ font-weight: 600;
     }
 
     .image-homePage {
-        height: 60vh;
+        height: 50vh;
         width: 100%;
         /* margin-bottom: 5%; */
         display: flex;
@@ -154,7 +154,7 @@ font-weight: 600;
     
 
     .main-title {
-        font-size: 4em;
+        font-size: 2.5em !important;
         font-weight: 300;
         text-align: right;
         color: white;
@@ -236,10 +236,12 @@ font-weight: 600;
     }
     
     
-    #HomaPageMainBtn{
+    #HomaPageMainBtn {
         font-size: 25px;
         font-weight: 700;
         color: rgb(255, 255, 255);
     }
+
+
 
 }

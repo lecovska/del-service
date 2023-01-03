@@ -18,13 +18,13 @@ function Header(){
     <div id="logoBox"><img id="logo" src={logo} alt="logo"></img></div>
     <div id="list">
     <ul>
-            <li><Link to="../../Pages/HomePage">Početna</Link></li>
-            <li><Link to="../../Pages/About">O nama</Link></li>
-            <li><Link to="../../Pages/Uslugee">Usluge</Link></li>
-            <li><Link to="../../Pages/Zakazi">Zakaži kurira</Link></li>
-            <li><Link to="../../Pages/Kalkulator">Kalkulator cena</Link></li>
-            <li><Link to="../../Pages/CenovnikPage">Cenovnik</Link></li>
-            <li><Link to="../../Pages/Kontakt">Kontakt</Link></li>
+            <li><Link className="link-a-header" to="../../Pages/HomePage">Početna</Link></li>
+            <li><Link className="link-a-header" to="../../Pages/About">O nama</Link></li>
+            <li><Link className="link-a-header" to="../../Pages/Uslugee">Usluge</Link></li>
+            <li><Link className="link-a-header" to="../../Pages/Zakazi">Zakaži kurira</Link></li>
+            <li><Link className="link-a-header" to="../../Pages/Kalkulator">Kalkulator cena</Link></li>
+            <li><Link className="link-a-header" to="../../Pages/CenovnikPage">Cenovnik</Link></li>
+            <li><Link className="link-a-header" to="../../Pages/Kontakt">Kontakt</Link></li>
         </ul>
     </div>
 </div>

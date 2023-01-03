@@ -68,7 +68,7 @@ li{
    font-weight: 400;
 }
 
-a:hover{
+.link-a-header:hover{
     color: rgb(255, 0, 0);
     transform: scale(1);
 }
@@ -183,12 +183,12 @@ color: white;
        font-weight: 300;
     }
     
-    a:hover{
+    .link-a-header:hover{
         color: rgb(255, 0, 0);
         transform: scale(1);
     }
     
-    a{display: inline-block;
+    .link-a-header{display: inline-block;
         width: 5em;
         text-decoration: none;
         color: rgb(255, 255, 255);

@@ -303,7 +303,7 @@ margin-bottom: 5em;
     }
     
     .image-about {
-        height: 100vh;
+        height: 50vh;
         /* margin-bottom: 5%; */
         display: flex;
         justify-content: center;

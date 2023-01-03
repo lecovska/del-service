@@ -45,10 +45,12 @@ tr:nth-child(odd){
 
 td{
     width: 4em;
+    height: 1em;
 }
 
 th{
     width: 4em;
+    height: 1em;
 }
 
 @media screen and (min-device-width: 320px) and (max-device-width: 600px)  {
@@ -59,7 +61,17 @@ th{
         border-spacing: 0 5px;
         -webkit-box-shadow: 1px 3px 10px 4px #6B5E4C; 
         box-shadow: 1px 3px 10px 4px #6B5E4C;
-        margin-left: 5em;
+        /* margin-left: 5em; */
+    }
+
+    table td{
+        width: 2em;
+        height: 1em;
+    }
+
+    table th{
+        width: 2em;
+        height: 1em;
     }
     tr:nth-child(even){
         background-color: #ece9e9;
@@ -83,7 +95,7 @@ th{
     }
     
     .mainTitle{
-        width: 65rem !important;
+        width: 65rem;
         height: 3rem;
         background-color: #b59f80;
         color: white;
@@ -96,13 +108,5 @@ th{
 
     }
     
-    td{
-        width: 4em;
-        height: 1em;
-    }
-    
-    th{
-        width: 4em;
-        height: 1em;
-    }
+   
 }

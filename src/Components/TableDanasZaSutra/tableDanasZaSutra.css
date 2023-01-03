@@ -34,11 +34,11 @@ tr:nth-child(odd){
 }
 
 .mainTitle{
-    width: 65rem !important;
+    width: 70rem;
     height: 3rem;
     background-color: #b59f80;
     color: white;
-    margin-left: 3em !important;
+    /* margin-left: 3em !important; */
 }
 
 .cenovnik-h1{
@@ -54,4 +54,49 @@ td{
 th{
     width: 4em;
     height: 1em;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 600px)  {
+
+    table{
+        width: 100%;
+        height: 70vh;
+        border-spacing: 0 5px;
+        -webkit-box-shadow: 1px 3px 10px 4px #6B5E4C; 
+        box-shadow: 1px 3px 10px 4px #6B5E4C;
+        /* margin-left: 5em; */
+    }
+
+    table td{
+        width: 2em;
+        height: 1em;
+    }
+
+    table th{
+        width: 2em;
+        height: 1em;
+    }
+
+    .danasZaSutra{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 0 !important;
+       
+    }
+
+    td{
+        width: 4em;
+        height: 1em;
+    }
+    
+    th{
+        width: 4em;
+        height: 1em;
+    }
+
+
 }
