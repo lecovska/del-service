@@ -12,6 +12,7 @@ import { Link } from "react-router-dom";
 
 
 
+
 function HomePage() {
     return (
         <div className="homePage">
@@ -31,6 +32,7 @@ function HomePage() {
 
             <CallCentar />
             <News />
+          
             <Footer />
         </div>
     )

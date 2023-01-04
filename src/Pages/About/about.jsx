@@ -12,6 +12,7 @@ import delivery from "../../Images/delivery.png";
 // import { Link } from "@mui/material";
 import CaroSlider from "../../Components/CarousselComponent/carousselCom";
 import ReviewCard from "../../Components/ReviewCard/reviewCard";
+import AutomaticSlider from "../../Components/AutomaticSlider/automaticSlider";
 
 
 
@@ -79,7 +80,8 @@ function About() {
 
             <div>
                 <h2 id="partners-h2">Pouzdanost na terenu i fleksibilnost koju negujemo prema Vašim korisnicima,<br></br> su najvažniji razlozi njihovog zadovoljstva.</h2>
-                <CaroSlider />
+                {/* <CaroSlider /> */}
+            <AutomaticSlider/>
             </div>
 
             <Footer />
