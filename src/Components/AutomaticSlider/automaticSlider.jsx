@@ -42,8 +42,8 @@ function AutomaticSlider() {
             <div className="slideshowSlider" style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}>
                 {imgs.map((e, index) => (
                     <div className="slide" key={index}>
-                        <img src={partner1} alt="img1" />
-                        <img src={partner2} alt="img1" />
+                        <img className="proba" src={partner1} alt="img1" />
+                        <img className="proba" src={partner2} alt="img1" />
                     </div>
                 ))}
             </div>

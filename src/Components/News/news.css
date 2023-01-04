@@ -194,9 +194,9 @@ h3{
     background-color: white;
   }
   
-  .slide:nth-child(2) {
+  /* .slide:nth-child(2) {
     background-color: #b03532;
-  }
+  } */
   
   .slide:nth-child(3) {
     background-color: #6a478f;
@@ -427,9 +427,9 @@ h3{
       background-color: white;
     }
     
-    .slide:nth-child(2) {
+    /* .slide:nth-child(2) {
       background-color: #b03532;
-    }
+    } */
     
     .slide:nth-child(3) {
       background-color: #6a478f;
