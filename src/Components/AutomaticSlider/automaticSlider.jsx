@@ -5,10 +5,6 @@ import partner2 from "../../Images/autosliderimg2.png";
 
 
 
-
-
-
-
 const imgs = [partner1,partner2];
 const delay = 3000;
 
