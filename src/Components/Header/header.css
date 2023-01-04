@@ -115,6 +115,9 @@ height: 5.5em;
 color: white;
     margin: 0;
 }
+ .hamburger{
+    display: none;
+} 
 
 @media screen and (min-device-width: 320px) and (max-device-width: 600px) {
 
@@ -169,10 +172,8 @@ color: white;
     }
     
     ul {
-        display: inline-block;
-        display: flex;
-        list-style-type: none;
-        color: white;
+        display: none;
+    
 
     }
     
@@ -231,4 +232,8 @@ color: white;
     color: white;
         margin: 0;
     }
+
+     .hamburger{
+        display:block;
+    } 
 }
