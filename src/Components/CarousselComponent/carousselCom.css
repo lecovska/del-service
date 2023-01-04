@@ -125,12 +125,12 @@
   
   }
 
-  @media screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  @media screen and (min-device-width: 320px) and (max-device-width: 600px) {
 
 
     .caroSlider2 {
-      width: 100%; 
-      max-width: 900px; 
+      width: 100% !important; 
+       
      /* height: 40em;  */
      margin: auto;
    } 
