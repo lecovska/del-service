@@ -10,7 +10,7 @@ import partner2 from "../../Images/autosliderimg2.png";
 
 
 const imgs = [partner1,partner2];
-const delay = 5500;
+const delay = 3000;
 
 function AutomaticSlider() {
     const [index, setIndex] = React.useState(0);
@@ -42,8 +42,8 @@ function AutomaticSlider() {
             <div className="slideshowSlider" style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}>
                 {imgs.map((e, index) => (
                     <div className="slide" key={index}>
-                        <img className="proba" src={partner1} alt="img1" />
-                        <img className="proba" src={partner2} alt="img1" />
+                        <img className="proba" src={e} alt="img1" />
+                        {/* <img className="proba" src={partner2} alt="img1" /> */}
                     </div>
                 ))}
             </div>

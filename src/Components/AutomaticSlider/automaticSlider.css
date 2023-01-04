@@ -7,9 +7,12 @@
 /* Slideshow */
 
 .slideshow {
+  display:flex ;
+  justify-content: center;
+  align-items: center;
     margin: 0 auto;
     overflow: hidden;
-   width: 60em;
+   width: 80em;
     height: auto;
     margin-top: 2em;
   }
@@ -21,8 +24,7 @@
   }
   
   .slide {
-    display: inline-block;
-
+   display: inline-block;
     height: 100px;
     width: 100%;
     border-radius: 40px;
@@ -52,5 +54,5 @@
   }
 
   .proba{
-    width: 50em;
+    width: 70em;
   }
