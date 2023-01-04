@@ -29,13 +29,15 @@
     }
     
     .menu {
-        width: 40%;
-        height: 30em;
+        width: 47%;
+        height: 54em;
         background-color: #b59f80f0;
         position: absolute;
         top: 8.8em;
         right: 0em;
         z-index: -1;
+        border-top-left-radius: 12px;
+        border-bottom-left-radius: 12px;
     }
     
     /* ------------- sliding menu ------------------ */
@@ -54,7 +56,7 @@
     /* ----- animations--------- */
     /* clicked */
     .burger-bar.clicked:nth-child(1){
-        transform: rotate(45deg) translate(0.75em, 1.25em);
+        transform: rotate(45deg) translate(1em, 0.5em);
         transition: ease-out 0.5s;
     }
     
@@ -64,7 +66,7 @@
     }
     
     .burger-bar.clicked:nth-child(3){
-        transform: rotate(135deg) translate(-0.5em, 1em);
+        transform: rotate(135deg) translate(-0.1em, 0em);
         transition: ease-out 0.5s;
     }
     
@@ -82,7 +84,8 @@
     }
 
     .link-a-header:hover{
-        background-color: rgba(255, 0, 0, 0.309);
+        background-color: rgba(255, 0, 0, 0.516);
         color: white;
+        padding: 0.5em;
     }
 }
