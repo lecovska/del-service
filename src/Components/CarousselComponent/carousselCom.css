@@ -129,7 +129,8 @@
 
 
     .caroSlider2 {
-      width: 100% !important;
+      width: 100%; 
+      max-width: 900px; 
      /* height: 40em;  */
      margin: auto;
    } 
