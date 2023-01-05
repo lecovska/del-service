@@ -1,19 +1,66 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.pic-of-news3{
-    width: 26em;
-    height: 22em;
+.newComponent {
+  width: auto;
+  height: auto;
+}
+
+.pic-of-news3 {
+  width: 26em;
+  height: 22em;
+  background-image: url("../../Images/Flex-kurirska-sluzba11.jpg");
+  background-size: cover;
+  align-self: flex-start;
+
+}
+
+.text {
+  width: 30em;
+  height: 30em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  text-align: left;
+  margin-left: 6em;
+}
+
+.text-wrapp {
+  width: 10em;
+  height: 20em;
+  text-align: justify;
+}
+
+.newsSliderP {
+  display: inline-block;
+  width: 10em;
+  text-align: left;
+}
+
+@media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+
+    .newComponent{
+      display: flex;
+      justify-content: center;
+      align-items:flex-start;
+      width: 55em;
+      height: auto;
+    }
+
+  .pic-of-news3 {
+    width: 20em;
+    height: 17em;
     background-image: url("../../Images/Flex-kurirska-sluzba11.jpg");
     background-size: cover;
     align-self: flex-start;
-   
-}
 
-.text{
+  }
+
+  .text {
     width: 30em;
     height: 30em;
     display: flex;
@@ -22,50 +69,17 @@
     /* align-items: center; */
     text-align: left;
     margin-left: 6em;
-}
+  }
 
-.text-wrapp{
-    width: 10em;
+  .text-wrapp {
+    width: 15em;
     height: 20em;
     text-align: justify;
   }
 
-  .newsSliderP{
+  .newsSliderP {
     display: inline-block;
     width: 10em;
     text-align: left;
   }
-
-  @media screen and (min-device-width: 320px) and (max-device-width: 600px) {
-    .pic-of-news3{
-        width: 20em;
-        height: 17em;
-        background-image: url("../../Images/Flex-kurirska-sluzba11.jpg");
-        background-size: cover;
-        align-self: flex-start;
-       
-    }
-    
-    .text{
-        width: 30em;
-        height: 30em;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        /* align-items: center; */
-        text-align: left;
-        margin-left: 6em;
-    }
-    
-    .text-wrapp{
-        width: 10em;
-        height: 20em;
-        text-align: justify;
-      }
-    
-      .newsSliderP{
-        display: inline-block;
-        width: 10em;
-        text-align: left;
-      }
-  }
+}
