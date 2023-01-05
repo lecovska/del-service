@@ -50,7 +50,7 @@
   }
   
   .slideshowDot.active {
-    background-color: #6a0dad;
+    background-color: #e51515;
   }
 
   .proba{
@@ -103,7 +103,7 @@
       }
       
       .slideshowDot.active {
-        background-color: #6a0dad;
+        background-color: #eb0d0d;
       }
     
       .proba{
