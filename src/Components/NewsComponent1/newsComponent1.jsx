@@ -8,7 +8,7 @@ function NewsComponent1() {
                 <div className="pic-of-news1"></div>
                 <div className="text-wrapp">
                     <h3>Način plaćanja:</h3>
-                    <p className="newsSliderP">Poštovani klijenti,<br></br> ukoliko nemate gotovinu prilikom plaćanja Vaših pošiljaka,<br></br> kod nas možete platiti i karticom.<br></br> (VISA, MASTERCARD, DINACARD)</p>
+                    <p className="newsSliderP">Poštovani klijenti, ukoliko nemate gotovinu prilikom plaćanja Vaših pošiljaka, kod nas možete platiti i karticom.<br></br>(VISA, MASTERCARD, DINACARD)</p>
                 </div>
             </div>
         </div>

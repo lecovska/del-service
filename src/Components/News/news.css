@@ -4,7 +4,37 @@
   box-sizing: border-box;
 }
 
-#wrapperN {
+.slideshowNews{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin-left: 10em;
+  margin-top: 2.5em;
+}
+
+.slideshowSliderNews{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  height: auto;
+  margin-left: 10em;
+
+}
+
+.slideNews{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: auto;
+  height: auto;
+
+}
+
+/* #wrapperN {
   width: 100%;
   height: auto;
 }
@@ -42,7 +72,7 @@
 
 /* Buttons */
 
-.slideshowDots {
+/* .slideshowDots {
   position: absolute;
   top: 214em;
   text-align: center;
@@ -74,11 +104,45 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
+} */ 
 
 @media screen and (min-device-width: 320px) and (max-device-width: 600px) {
 
-  .slideshowNews {
+  .slideshowNews{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+ 
+  }
+  
+  .slideshowSliderNews{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    /* padding-left: 20em;
+    margin-left: 20em; */
+  }
+  
+  .slideNews{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding-left: 20em;
+    margin-left: 20em;
+  }
+
+
+
+
+
+  /* .slideshowNews {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,12 +178,12 @@
 
   /* Buttons */
 
-  .slideshowDots {
+  /*.slideshowDots {
     /* position: absolute;
         top: 198em;
         text-align: center;
         margin-bottom: 1em; */
-    display: none;
+    /* display: none;
   }
 
   .slideshowDot {
@@ -140,9 +204,9 @@
 
   .proba {
     width: 50em;
-  }
+  /* } */ 
 
-}
+/*} */
 
 /* .news{
     width: 100%;
@@ -395,7 +459,7 @@ a{
     text-align: justify;
   }
 
-  @media screen and (min-device-width: 320px) and (max-device-width: 600px) {
+  @media screen and (min-device-width: 320px) and (max-device-width: 600px) {}
     .pic-of-news1{
       width: 26em;
       height: 22em;
@@ -628,4 +692,7 @@ a{
       text-align: justify;
     }
 
+
   } */
+
+}

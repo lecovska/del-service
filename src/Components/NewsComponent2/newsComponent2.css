@@ -4,28 +4,56 @@
   box-sizing: border-box;
 }
 
-.newComponent {
+
+
+.newComponent{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+
+}
+
+.text-wrapp{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+}
+
+.newsSliderP{
+  display: inline-block;
+  width: 25em;
+  text-align: left;
+}
+/* .newComponent {
   width: auto;
   height: auto;
-}
+}*/
 
 .pic-of-news2 {
-  width: 26em;
-  height: 22em;
   background-image: url("../../Images/prayDostava.jpg");
   background-size: cover;
-  align-self: flex-start;
+  width: 25em;
+  height: 15em;
 
 }
 
-.text {
+/*.text {
   width: 30em;
   height: 30em;
   display: flex;
   flex-direction: column;
   justify-content: center;
   /* align-items: center; */
-  text-align: left;
+  /* text-align: left;
   margin-left: 6em;
 }
 
@@ -39,11 +67,46 @@
   display: inline-block;
   width: 10em;
   text-align: left;
-}
+} */
 
 @media screen and (min-device-width: 320px) and (max-device-width: 600px) {
 
-    .newComponent{
+  .newComponent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+  }
+
+  .text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+  
+  }
+
+  .pic-of-news2{
+    background-image: url("../../Images/prayDostava.jpg");
+    background-size: cover;
+    width: 25em;
+    height: 15em;
+  }
+
+  .text-wrapp{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+  }
+  
+  .newsSliderP{
+    display: inline-block;
+    width: 25em;
+    text-align: left;
+  }
+
+    /* .newComponent{
       display: flex;
       justify-content: center;
       align-items:flex-start;
@@ -67,7 +130,7 @@
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
-    text-align: left;
+    /* text-align: left;
     margin-left: 6em;
   }
 
@@ -81,5 +144,5 @@
     display: inline-block;
     width: 10em;
     text-align: left;
-  }
+  } */ 
 }

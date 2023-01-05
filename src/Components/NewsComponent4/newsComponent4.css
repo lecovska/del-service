@@ -4,7 +4,42 @@
   box-sizing: border-box;
 }
 
-.newComponent {
+.newComponent{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+}
+
+.text{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+
+}
+
+.pic-of-news4{
+  background-image: url("../../Images/nova-godina-e1515155495461.jpg");
+  background-size: cover;
+  width: 25em;
+  height: 15em;
+}
+
+.text-wrapp{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: left;
+}
+
+.newsSliderP{
+  display: inline-block;
+  width: 25em;
+  text-align: left;
+}
+
+/* .newComponent {
   width: auto;
   height: auto;
 }
@@ -26,7 +61,7 @@
   flex-direction: column;
   justify-content: center;
   /* align-items: center; */
-  text-align: left;
+  /* text-align: left;
   margin-left: 6em;
 }
 
@@ -40,11 +75,48 @@
   display: inline-block;
   width: 15em;
   text-align: left;
-}
+} */ 
 
 @media screen and (min-device-width: 320px) and (max-device-width: 600px) {
 
+
+  
   .newComponent{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+  }
+
+  .text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+  
+  }
+
+  .pic-of-news4{
+    background-image: url("../../Images/nova-godina-e1515155495461.jpg");
+    background-size: cover;
+    width: 25em;
+    height: 15em;
+  }
+
+  .text-wrapp{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: left;
+  }
+  
+  .newsSliderP{
+    display: inline-block;
+    width: 25em;
+    text-align: left;
+  }
+
+  /* .newComponent{
     display: flex;
     justify-content: center;
     align-items:flex-start;
@@ -69,7 +141,7 @@
     flex-direction: column;
     justify-content: center;
     /* align-items: center; */
-    text-align: left;
+    /* text-align: left;
     margin-left: 6em;
   }
 
@@ -84,6 +156,6 @@
     width: 15em;
     text-align: left;
 
-  }
+  } */ 
 
 }
