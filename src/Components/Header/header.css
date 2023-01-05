@@ -27,7 +27,7 @@
 
 .up {
     width: 100%;
-    height: 3em;
+    height: 4em;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -93,7 +93,7 @@ height: 5.5em;
 
 #tel{
     display: inline-block;
-    width: 2em;
+    width: 3em;
     margin-right: 1em;
    
     
@@ -114,6 +114,8 @@ height: 5.5em;
     text-align: left;
 color: white;
     margin: 0;
+    font-size: 1.4em;
+    line-height: 1.3em;
 }
  .hamburger{
     display: none;
@@ -144,7 +146,7 @@ color: white;
     
     .up {
         width: 100%;
-        height: 3em;
+        height: 5em;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -210,7 +212,7 @@ color: white;
     
     #tel{
         display: inline-block;
-        width: 2em;
+        width: 4em;
         margin-right: 1em;
        
         
@@ -231,6 +233,7 @@ color: white;
         text-align: left;
     color: white;
         margin: 0;
+        font-size: 1.5em;
     }
 
      .hamburger{
