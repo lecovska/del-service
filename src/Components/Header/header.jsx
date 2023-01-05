@@ -19,7 +19,7 @@ function Header() {
             <div className="up">
                 <p id="header-p">Dostava uz osmeh!</p>
                 <div className="number"> 
-                    <div id="numberBox"><img id="tel" src={telephoneIcon} alt="tel" onClik={window.open('tel:+381666242959', '_self')}></img></div>
+                    <div id="numberBox"><img id="tel" src={telephoneIcon} alt="tel" onClick={window.open('tel:+381666242959', '_self')}></img></div>
                     <p id="number-p" >+381 66 6242959<br></br> +381 11 6242959</p>
                 </div>
             </div>
