@@ -105,6 +105,8 @@ height: 5.5em;
     justify-content: center;
     align-items: center;
     margin: 0;
+    
+    font-size:1.2em;
 }
 
 #number-p{
@@ -224,6 +226,7 @@ color: white;
         justify-content: center;
         align-items: center;
         margin: 0;
+        font-size:1.5em;
     }
     
     #number-p{
