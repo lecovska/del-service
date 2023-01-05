@@ -65,16 +65,17 @@ function ReviewCard() {
                                 <p className="reviewText">Prvi put sa njima da imam isporuku, skroz korektno i tačno i nisu kao ostali kad nazovu, neljubazni.</p>
                             </div>
                         </div>
-                        <div className="singleCard">
+                      
+                    </div>
+
+                    <div id="slide">
+                    <div className="singleCard">
                             <div className="photo3"></div>
                             <div className="photoWrapper">
                                 <span className="imePrezime">ELYOT FASHION</span>
                                 <p className="reviewText">Sve pohvale za kurirsku službu. Brza isporuka i ljubazan kurir.</p>
                             </div>
                         </div>
-                    </div>
-
-                    <div id="slide">
                         <div className="singleCard">
                             <div className="photo4"></div>
                             <div className="photoWrapper">
