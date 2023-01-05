@@ -53,9 +53,9 @@ import NewsComponent2 from "../NewsComponent2/newsComponent2";
 import NewsComponent3 from "../NewsComponent3/newsComponent3";
 import NewsComponent4 from "../NewsComponent4/newsComponent4";
 
-const govno=[NewsComponent1];
+const oneElementArray=[NewsComponent1];
 const newsComp = [NewsComponent1, NewsComponent2];
-const delay = 8000;
+const delay = 5000;
 
 function News() {
     const [newsIndex, setNewsIndex] = React.useState(0);
@@ -85,7 +85,7 @@ function News() {
     return (
         <div className="slideshowNews">
             <div className="slideshowSliderNews" style={{ transform: `translate3d(${-newsIndex * 100}%, 0, 0)` }}>
-                {govno.map((e, newsIndex) => (
+                {oneElementArray.map((e, newsIndex) => (
                     <div className="slideNews" key={newsIndex}  >
                         <NewsComponent1/>
                         <NewsComponent2/>
