@@ -95,7 +95,7 @@ function News() {
                 ))}
             </div>
 
-            <div className="slideshowDots">
+            {/* <div className="slideshowDots">
                 {newsComp.map((_, idx) => (
                     <div
                         key={idx}
@@ -105,7 +105,7 @@ function News() {
                         }}
                     ></div>
                 ))}
-            </div>
+            </div> */}
         </div>
     );
 }
