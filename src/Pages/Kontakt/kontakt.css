@@ -291,7 +291,7 @@ label {
 }
 
 #kontaktFormBtn:active {
-    background-color: green;
+    background-color: #b59f80;
 }
 
 #kontaktFormBtn:focus {
@@ -609,7 +609,7 @@ width: 18em;
     }
     
     #kontaktFormBtn:active {
-        background-color: green;
+        background-color: #b59f80;
     }
     
     #kontaktFormBtn:focus {
