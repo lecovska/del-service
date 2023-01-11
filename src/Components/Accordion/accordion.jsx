@@ -119,7 +119,7 @@ function Acc() {
 
                         <div className="wrapper">
 
-                            <button className="toggle" id="toggleStyle" onClick={proba}>Sms izveštaj</button>
+                            <button className="toggle" id="toggleStyle" onClick={proba}>SMS izveštaj</button>
                             <div className="content2">
                                 <p> SMS izveštaj - je izveštaj kojim se pošiljaocu potvrđuje da je pošiljka isporučena.
                                     SMS izveštaj se naplaćuje prema važećem cenovniku koji možete pogledati ovde(link cenovnika). SMS uslugu plaća onaj ko plaća poštarinu.</p></div>
@@ -141,7 +141,7 @@ function Acc() {
                         </div>
                         <div className="wrapper">
 
-                            <button className="toggle" id="toggleStyle" onClick={proba}>Vraćanje </button>
+                            <button className="toggle" id="toggleStyle" onClick={proba}>Vraćanje povratne dokumentacije/otpremnice</button>
                             <div className="content2">
                                 <p> Vracanje povratne dokumentacije/otpremnice - Ukoliko uz pošiljku želite da pošaljete dokument koji prilikom dostave pošiljke primalac treba da potpiše, a koji Vam Flex-kurir vraća na adresu sa koje ste poslali pošiljku. Overen dokument (otpremnica) se vraća na adresu pošiljaoca narednog radnog dana.</p>
                             </div>

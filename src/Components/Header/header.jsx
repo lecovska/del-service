@@ -6,9 +6,16 @@ import { Link } from "react-router-dom";
 import Hamburger from "../HamburgerMenu/hamburger";
 // import { useState } from "react";
 
-function callNum(){
+function callNumLogo(){
     const num=document.getElementById("tel");
     num.addEventListener("click", () => {
+        window.open('tel:+381666242959')
+    })
+}
+
+function callNumParagraf(){
+    const numberInParagraf=document.getElementById("number-p");
+    numberInParagraf.addEventListener("click", () => {
         window.open('tel:+381666242959')
     })
 }
@@ -26,10 +33,10 @@ function Header() {
             <div className="up">
                 <p id="header-p">Dostava uz osmeh!</p>
                 <div className="number"> 
-                    <div id="numberBox"><img id="tel" src={telephoneIcon} alt="tel" onClick={callNum}></img></div>
-                    <p id="number-p" >+381 66 6242959<br></br> +381 11 6242959</p>
+                    <div id="numberBox"><img id="tel" src={telephoneIcon} alt="tel" onClick={callNumLogo}></img></div>
+                    <p id="number-p" onClick={callNumParagraf}>+381 66 6242959<br></br> +381 11 6242959</p>
                 </div>
-            </div>
+            </div> 
             <div className="down">
                 <div id="logoBox"><img id="logo" src={logo} alt="logo"></img></div>
                 <div id="list">
