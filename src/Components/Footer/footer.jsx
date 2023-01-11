@@ -57,8 +57,8 @@ function Footer() {
                 <div className="media-btns">
                     <span>Zaprati nas!</span>
                     {/* <a href="viber://chat?number=381666242959"><img className="media-logo" src={viberlogo} alt="viberlogo"></img></a> */}
-                    <a href="https://www.facebook.com/profile.php?id=100088225421360"><img className="media-logo-fb" src={fblogo} alt="fblogo"></img></a>
-                    <a href="https://www.instagram.com/flex.kurir/"><img className="media-logo" src={imgpng} alt="imglogo"></img></a>
+                    <a target="_blank" href="https://www.facebook.com/profile.php?id=100088046870369&mibextid=ZbWKwL"><img className="media-logo-fb" src={fblogo} alt="fblogo"></img></a>
+                    <a target="_blank" href="https://www.instagram.com/flex.kurir/"><img className="media-logo" src={imgpng} alt="imglogo"></img></a>
                     
                 </div>
             </div>
