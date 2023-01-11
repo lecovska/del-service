@@ -45,7 +45,7 @@ function Footer() {
 
             <div className="usluge2">
             <h4 className="h4-usluge">Korisne informacije</h4> 
-                <Link className="link-a" to="/Pages/pitanja">Najčešća pitanja</Link><a className="link-a" href={require("../../Docs/Cenovnik usluga za obavljanje poštanskih usluga_RATEL_30.09.2022.pdf")} download="Cenovnik usluga">Cenovnik usluga</a><a className="link-a" href={require("../../Docs/Opšti uslovi za obavljanje poštanskih usluga_29.09.2022.txt.pdf")} download="Opšti_uslovi_poslovanja">Uslovi korišćenja</a><a className="link-a" href={require("../../Docs/Odobrenje_RATEL_30.09.2022..pdf")} download="Odobrenje">Odobrenje</a><a className="link-a" href={require("../../Docs/Opšti uslovi za obavljanje poštanskih usluga_29.09.2022..pdf")} download="Opsti uslovi" >Opšti uslovi</a>
+                <Link className="link-a" to="/Pages/pitanja">Najčešća pitanja</Link><a className="link-a" href={require("../../Docs/Cenovnik usluga za obavljanje poštanskih usluga_RATEL_30.09.2022.pdf")} download="Cenovnik usluga">Cenovnik usluga</a><a className="link-a" href={require("../../Docs/politikaPrivatnosti.pdf")} download="Politika_privatnosti">Politika privatnosti</a><a className="link-a" href={require("../../Docs/Odobrenje_RATEL_30.09.2022..pdf")} download="Odobrenje">Odobrenje</a><a className="link-a" href={require("../../Docs/Opšti uslovi za obavljanje poštanskih usluga_29.09.2022..pdf")} download="Opsti uslovi" >Opšti uslovi</a>
             </div>
 
             <div className="kontakt">
