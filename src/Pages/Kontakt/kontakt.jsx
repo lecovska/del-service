@@ -48,6 +48,7 @@ export const Kontakt = () => {
         emailjs.sendForm('service_qzv43g5', 'template_wvvmlw9', form.current, 'Ndrl0qWtrFUA1lhnq')
             .then((result) => {
                 console.log(result.text);
+                e.target.reset();
 
             }, (error) => {
                 console.log(error.text);
