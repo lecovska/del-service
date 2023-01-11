@@ -3,7 +3,7 @@ import "./about.css";
 import Header from "../../Components/Header/header";
 import Footer from "../../Components/Footer/footer";
 import homeIcon from "../../Images/homeIcon.png";
-import smallImg from "../../Images/smallImg.jpg";
+import smallImg from "../../Images/Flex-kurirska-sluzba1.jpg";
 // import oNama from "../../Images/oNama.jpg";
 // import Logo from "../../Images/logoPng.png";
 import calculator from "../../Images/calculator.png";

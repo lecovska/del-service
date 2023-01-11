@@ -112,7 +112,7 @@ export const Kontakt = () => {
 
                             <textarea id="message-box" name="message" placeholder="Poruke" />
                              <div className="check-btn">
-                                <label><input id="checkbox" className="checkBoxBtn" type="checkbox" required></input> <a className="link-a" href={require("../../Docs/Cenovnik usluga za obavljanje poštanskih usluga_RATEL_30.09.2022.pdf")}>Prihvati politiku privatnosti </a></label>
+                                <label><input id="checkbox" className="checkBoxBtn" type="checkbox" required></input> <a className="link-b" href={require("../../Docs/Cenovnik usluga za obavljanje poštanskih usluga_RATEL_30.09.2022.pdf")}>Prihvati politiku privatnosti </a></label>
                             </div>
                             <input id="kontaktFormBtn" className="nesto" type="submit" value="Pošalji" />
 

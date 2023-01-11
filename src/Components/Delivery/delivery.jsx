@@ -1,7 +1,7 @@
 import React from "react";
 import "./delivery.css";
 // import slika1 from "../../Images/Flex-kurirska-sluzba16.jpg";
-// import slika2 from "../../Images/Untitled.png";
+// import slika2 from "../../Images/Flex-kurirska-sluzba2.jpg";
 import { Link } from "react-router-dom";
 import arrowIcon from "../../Images/arrowIcon.png";
 

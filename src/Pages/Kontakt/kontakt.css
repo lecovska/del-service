@@ -76,7 +76,7 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    background-image: url("../../Images/kontakt-img.jpg");
+    background-image: url("../../Images/Flex-kurirska-sluzba10.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -212,7 +212,7 @@ label {
 .middle-image {
     width: 100%;
     height: 40em;
-    background-image: url("../../Images/Reklamacije.jpg");
+    background-image: url("../../Images/Flex-kurirska-sluzba9.jpg");
     background-size: cover;
 }
 
@@ -383,7 +383,7 @@ label {
         display: flex;
         justify-content: center;
         width: 100%;
-        background-image: url("../../Images/kontakt-img.jpg");
+        background-image: url("../../Images/Flex-kurirska-sluzba10.jpg");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -525,7 +525,7 @@ label {
     .middle-image {
         width: 100%;
         height: 30em;
-        background-image: url("../../Images/Reklamacije.jpg");
+        background-image: url("../../Images/Flex-kurirska-sluzba9.jpg");
         background-size: cover;
     }
     
@@ -628,6 +628,6 @@ width: 18em;
 
 
 }
-.link-a{
+.link-b{
     color:#b59f80;
 }
