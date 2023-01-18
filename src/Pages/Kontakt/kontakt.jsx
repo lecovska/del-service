@@ -136,7 +136,7 @@ export const Kontakt = () => {
                     <p className="rekalmacije-p">Korisnik poštanskih usluga koji nije zadovoljan pruženom uslugom ima pravo da izjavi reklamaciju poštanskom operateru.
                         Reklamacije se mogu podneti u pisanom obliku ili elektronskim putem na adresu poštanskog
                         operatora reklamacije@flex-kurir.rs</p>
-                    <link to="../../Pages/Kontakt" className="rekalmacije-a">Kontaktirajte nas<img className="arrowIconPng" src={arrowIcon} alt="arrow"></img></link>
+                        <Link to="../../Pages/Kontakt" className="rekalmacije-a">Kontaktirajte nas<img className="arrowIconPng" src={arrowIcon} alt="arrow"></img></Link>
                 </div>
                 <div className="reklamacijeSingleDiv">
                     <h3 className="rekalmacije-h4">Kurirska dostava</h3>
