@@ -37,7 +37,7 @@ function App() {
      <NovostiMainPage /> 
        */}
       
-      <Route path='/Pages/Zakazi' element={<Zakazi/>}/>
+      <Route path='/Zakazi' element={<Zakazi/>}/>
       </Routes>
     </div>
   );
