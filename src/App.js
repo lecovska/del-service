@@ -10,7 +10,7 @@ import Uslugee from './Pages/Uslugee/uslugee';
 import Pitanja from "./Pages/Pitanja/pitanja";
 import Kalkulator from "./Pages/Kalkulator/kalkulator";
 import About from './Pages/About/about';
-import { Route, Routes } from "react-router";
+import { Route, Routes, Navigate, useNavigate } from "react-router-dom";
 import Zakazi from './Pages/Zakazi/zakazi';
 import './App.css';
 
@@ -23,8 +23,11 @@ TagManager.initialize(tagManagerArgs)
 
 
 function App() {
+
   return (
+    
     <div className="App">
+    
       <Routes>
     <Route exact path='/' element={<HomePage />}/>
       <Route path='/CenovnikPage' element={<Cenovnik /> }/>
@@ -38,8 +41,9 @@ function App() {
        */}
       
       <Route path='/Zakazi' element={<Zakazi/>}/>
-      </Routes>
+      <Route path='*' element={<Navigate to='/' />} />      </Routes>
     </div>
+    
   );
 }
 
