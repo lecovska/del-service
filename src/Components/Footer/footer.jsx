@@ -40,19 +40,19 @@ function Footer() {
             </div>
             <div className="usluge">
                 <h4 className="h4-usluge">Usluge</h4>
-                <Link className="link-a" to="/Pages/uslugee">Dostava Beograd</Link><Link className="link-a" to="Pages/uslugee">Danas za danas</Link><Link className="link-a" to="Pages/uslugee">Danas za sutra</Link><Link className="link-a" to="Pages/uslugee">B2C dostava</Link><Link  className="link-a" to="Pages/uslugee">B2B dostava</Link>
+                <Link className="link-a" to="/uslugee">Dostava Beograd</Link><Link className="link-a" to="/uslugee">Danas za danas</Link><Link className="link-a" to="/uslugee">Danas za sutra</Link><Link className="link-a" to="/uslugee">B2C dostava</Link><Link  className="link-a" to="/uslugee">B2B dostava</Link>
             </div>
 
             <div className="usluge2">
             <h4 className="h4-usluge">Korisne informacije</h4> 
-                <Link className="link-a" to="/Pages/pitanja">Najčešća pitanja</Link><a className="link-a" href={require("../../Docs/Cenovnik usluga za obavljanje poštanskih usluga_RATEL_30.09.2022.pdf")} download="Cenovnik usluga">Cenovnik usluga</a><a className="link-a" href={require("../../Docs/politikaPrivatnosti.pdf")} download="Politika_privatnosti">Politika privatnosti</a><a className="link-a" href={require("../../Docs/Odobrenje_RATEL_30.09.2022..pdf")} download="Odobrenje">Odobrenje</a><a className="link-a" href={require("../../Docs/Opšti uslovi za obavljanje poštanskih usluga_29.09.2022..pdf")} download="Opsti uslovi" >Opšti uslovi</a>
+                <Link className="link-a" to="/pitanja">Najčešća pitanja</Link><a className="link-a" href={require("../../Docs/Cenovnik usluga za obavljanje poštanskih usluga_RATEL_30.09.2022.pdf")} download="Cenovnik usluga">Cenovnik usluga</a><a className="link-a" href={require("../../Docs/politikaPrivatnosti.pdf")} download="Politika_privatnosti">Politika privatnosti</a><a className="link-a" href={require("../../Docs/Odobrenje_RATEL_30.09.2022..pdf")} download="Odobrenje">Odobrenje</a><a className="link-a" href={require("../../Docs/Opšti uslovi za obavljanje poštanskih usluga_29.09.2022..pdf")} download="Opsti uslovi" >Opšti uslovi</a>
             </div>
 
             <div className="kontakt">
                 <div className="kontakt-infoDiv">
                 <h3 className="h3-kontakt">Kontaktirajte nas!</h3>
                 <p>Tu smo za sva Vaša pitanja.</p>
-                <Link className="link-a" to="../../Pages/Kontakt"><button className="btn-kontakt">Kontakt</button></Link>
+                <Link className="link-a" to="/Kontakt"><button className="btn-kontakt">Kontakt</button></Link>
                 </div>
                 <div className="media-btns">
                     <span>Zaprati nas!</span>
