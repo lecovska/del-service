@@ -36,13 +36,13 @@ function Hamburger() {
                 </nav>
     
                 <div className={menu_class}>
-                <Link className="link-a-header" to="../../Pages/HomePage">Početna</Link>
-                <Link className="link-a-header" to="../../Pages/About">O nama</Link>
-                <Link className="link-a-header" to="../../Pages/Uslugee">Usluge</Link>
-                <Link className="link-a-header" to="../../Pages/Zakazi">Zakaži kurira</Link>
-                <Link className="link-a-header" to="../../Pages/Kalkulator">Kalkulator cena</Link>
-                <Link className="link-a-header" to="../../Pages/CenovnikPage">Cenovnik</Link>
-                <Link className="link-a-header" to="../../Pages/Kontakt">Kontakt</Link>
+                <Link className="link-a-header" to="/HomePage">Početna</Link>
+                <Link className="link-a-header" to="/About">O nama</Link>
+                <Link className="link-a-header" to="/Uslugee">Usluge</Link>
+                <Link className="link-a-header" to="/Zakazi">Zakaži kurira</Link>
+                <Link className="link-a-header" to="/Kalkulator">Kalkulator cena</Link>
+                <Link className="link-a-header" to="/CenovnikPage">Cenovnik</Link>
+                <Link className="link-a-header" to="/Kontakt">Kontakt</Link>
                 </div>
             </div>
         )
