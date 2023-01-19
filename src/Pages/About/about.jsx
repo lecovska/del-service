@@ -34,7 +34,7 @@ function About() {
                     <h1>Mi dostavljamo do Vaših vrata!</h1>
                     <p>Flex kurir je novonastala služba koja obavlja svoju delatnost na teritoriji grada Beograda</p>
                     <p>Kurirsku službu vode mladi, entuzijastični i ambiciozni ljudi, sa vizijom da se što više prilagode potrebama modernog i savremenenog klijenta, i sa ciljem da se razviju u jednu od najkonkuretnijih kurirskih službi kod nas.</p>
-                    <a id="a-about-kontaktBtn" href="../../Pages/Kontakt"><button>Kontakt</button></a>
+                    <a id="a-about-kontaktBtn" href="/Kontakt"><button>Kontakt</button></a>
                 </div>
 
             </div>
@@ -43,8 +43,8 @@ function About() {
 
                 </div>
                 <div className="bottomDivIcons">
-                    <a href="/Pages/zakazi"><img className="sms" src={delivery} alt="delivery"></img> Zakazi kurira</a>
-                    <a href="/Pages/kalkulator"><img className="calculator" src={calculator} alt="calculator"></img> Kalkulator cena</a>
+                    <a href="/zakazi"><img className="sms" src={delivery} alt="delivery"></img> Zakazi kurira</a>
+                    <a href="/kalkulator"><img className="calculator" src={calculator} alt="calculator"></img> Kalkulator cena</a>
                     {/* <a href="https://www.instagram.com/flex.kurir/"><img className="sms" src={sms} alt="sms"></img> SMS Obavestenja</a> */}
                 </div>
 
