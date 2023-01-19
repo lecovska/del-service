@@ -114,7 +114,7 @@ function Acc() {
 
                 <div className="dropdown-wrapper">
 
-                    <button type="button" id="dodatneUslugeH3-wrapper" onClick={showDiv} ><span id="btn-span">Dodatne usluge: <i className="arrowDropdown rightDropdown"></i> </span></button>
+                    <button type="button" id="dodatneUslugeH3-wrapper" onClick={showDiv} ><span id="btn-span">Dodatne usluge:  </span></button>
                     <div className="wrapper" id="mainWrapperDiv" >
 
                         <div className="wrapper">
