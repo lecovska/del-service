@@ -36,7 +36,7 @@ function Hamburger() {
                 </nav>
     
                 <div className={menu_class}>
-                <Link className="link-a-header" to="/HomePage">Početna</Link>
+                <Link className="link-a-header" to="/">Početna</Link>
                 <Link className="link-a-header" to="/About">O nama</Link>
                 <Link className="link-a-header" to="/Uslugee">Usluge</Link>
                 <Link className="link-a-header" to="/Zakazi">Zakaži kurira</Link>
