@@ -1,4 +1,5 @@
 import React from 'react';
+import {useEffect} from 'react';
 // import './App.css';
 import HomePage from './Pages/HomePage/homePage';
 import Cenovnik from './Pages/CenovnikPage/cenovnikPage';
@@ -10,16 +11,21 @@ import Uslugee from './Pages/Uslugee/uslugee';
 import Pitanja from "./Pages/Pitanja/pitanja";
 import Kalkulator from "./Pages/Kalkulator/kalkulator";
 import About from './Pages/About/about';
-import { Route, Routes, Navigate, useNavigate } from "react-router-dom";
+import { Route, Routes, Navigate } from "react-router-dom";
 import Zakazi from './Pages/Zakazi/zakazi';
 import './App.css';
+import ScrollToTop from "react-scroll-to-top";
 
-import TagManager from 'react-gtm-module'
 
 
 
 
 function App() {
+  useEffect(() => {
+    // 👇️ scroll to top on page load
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  }, []);
+
 
   return (
     
@@ -38,7 +44,10 @@ function App() {
        */}
       
       <Route path='/Zakazi' element={<Zakazi/>}/>
-      <Route path='*' element={<Navigate to='/' />} />      </Routes>
+      <Route path='*' element={<Navigate to='/' />} />  
+      
+          </Routes>
+          <ScrollToTop smooth />
     </div>
     
   );
