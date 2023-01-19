@@ -10,10 +10,15 @@ import Uslugee from './Pages/Uslugee/uslugee';
 import Pitanja from "./Pages/Pitanja/pitanja";
 import Kalkulator from "./Pages/Kalkulator/kalkulator";
 import About from './Pages/About/about';
-import { Routes, Route } from 'react-router-dom';
+import { Route, Routes } from "react-router";
 import Zakazi from './Pages/Zakazi/zakazi';
 import './App.css';
 
+import TagManager from 'react-gtm-module'
+const tagManagerArgs = {
+  gtmId: '<GTM-53FLZH2>'
+}
+TagManager.initialize(tagManagerArgs)
 
 
 
@@ -21,13 +26,13 @@ function App() {
   return (
     <div className="App">
       <Routes>
-    <Route exact path='*' element={<HomePage />}/>
-      <Route path='/Pages/CenovnikPage' element={<Cenovnik /> }/>
-      <Route path='/Pages/Kontakt' element={<Kontakt/>} /> 
-      <Route path='/Pages/About' element={<About/>} /> 
-      <Route path='/Pages/Uslugee' element={<Uslugee/>} /> 
-      <Route path='/Pages/Pitanja' element={<Pitanja/>} /> 
-      <Route path='/Pages/Kalkulator' element={<Kalkulator/>} />
+    <Route exact path='/' element={<HomePage />}/>
+      <Route path='/CenovnikPage' element={<Cenovnik /> }/>
+      <Route path='/Kontakt' element={<Kontakt/>} /> 
+      <Route path='/About' element={<About/>} /> 
+      <Route path='/Uslugee' element={<Uslugee/>} /> 
+      <Route path='/Pitanja' element={<Pitanja/>} /> 
+      <Route path='/Kalkulator' element={<Kalkulator/>} />
       {/*<NovostiSinglePage /> 
      <NovostiMainPage /> 
        */}
