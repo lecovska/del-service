@@ -22,6 +22,7 @@
     "react-rating-stars-component": "^2.2.0",
     "react-router-dom": "^6.4.5",
     "react-scripts": "5.0.1",
+    "react-scroll-to-top": "^3.0.0",
     "react-star-rating": "^1.4.2",
     "react-switch": "^7.0.0",
     "routes": "^2.1.0",
