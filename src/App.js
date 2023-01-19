@@ -15,10 +15,7 @@ import Zakazi from './Pages/Zakazi/zakazi';
 import './App.css';
 
 import TagManager from 'react-gtm-module'
-const tagManagerArgs = {
-  gtmId: '<GTM-53FLZH2>'
-}
-TagManager.initialize(tagManagerArgs)
+
 
 
 
