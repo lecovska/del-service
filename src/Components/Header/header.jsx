@@ -38,7 +38,7 @@ function Header() {
                 </div>
             </div> 
             <div className="down">
-                <div id="logoBox"><img id="logo" src={logo} alt="logo"></img></div>
+            <a href="/" id="kontakt-a">  <div id="logoBox"><img id="logo" src={logo} alt="logo"></img></div></a>
                 <div id="list">
                     <ul>
                         <li><Link className="link-a-header" to="/">Početna</Link></li>
