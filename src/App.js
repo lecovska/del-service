@@ -5,7 +5,7 @@ import HomePage from './Pages/HomePage/homePage';
 import Cenovnik from './Pages/CenovnikPage/cenovnikPage';
 import Kontakt from './Pages/Kontakt/kontakt';
 // import Usluge from './Pages/Usluge/usluge';
-import Uslugee from './Pages/Uslugee/uslugee';
+import Usluge from './Pages/Usluge/usluge';
 // import NovostiSinglePage from './Pages/NovostiSinglePage/novostiSinglePage';
 // import NovostiMainPage from './Pages/NovostiMainPage/NovostiMainPage';
 import Pitanja from "./Pages/Pitanja/pitanja";
@@ -36,7 +36,7 @@ function App() {
       <Route path='/CenovnikPage' element={<Cenovnik /> }/>
       <Route path='/Kontakt' element={<Kontakt/>} /> 
       <Route path='/About' element={<About/>} /> 
-      <Route path='/Uslugee' element={<Uslugee/>} /> 
+      <Route path='/Usluge' element={<Usluge/>} /> 
       <Route path='/Pitanja' element={<Pitanja/>} /> 
       <Route path='/Kalkulator' element={<Kalkulator/>} />
       {/*<NovostiSinglePage /> 

@@ -40,7 +40,7 @@ function Footer() {
             </div>
             <div className="usluge">
                 <h4 className="h4-usluge">Usluge</h4>
-                <Link className="link-a" to="/uslugee">Dostava Beograd</Link><Link className="link-a" to="/uslugee">Danas za danas</Link><Link className="link-a" to="/uslugee">Danas za sutra</Link><Link className="link-a" to="/uslugee">B2C dostava</Link><Link  className="link-a" to="/uslugee">B2B dostava</Link>
+                <Link className="link-a" to="/usluge">Dostava Beograd</Link><Link className="link-a" to="/usluge">Danas za danas</Link><Link className="link-a" to="/usluge">Danas za sutra</Link><Link className="link-a" to="/usluge">B2C dostava</Link><Link  className="link-a" to="/usluge">B2B dostava</Link>
             </div>
 
             <div className="usluge2">

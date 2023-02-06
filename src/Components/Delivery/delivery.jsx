@@ -18,7 +18,7 @@ function Delivery() {
                 <div className="delivery-text">
                     <h3>Dostava Beograd</h3>
                     <p>Pozovite nas da preuzmemo Vašu pošiljku danas, primaoc je može očekivati narednog dana do 18h.</p>
-                    <Link className="delivery-a" to="/Uslugee">Saznaj više<img className="arrowIconPng" src={arrowIcon} alt="arrow"></img></Link>
+                    <Link className="delivery-a" to="/Usluge">Saznaj više<img className="arrowIconPng" src={arrowIcon} alt="arrow"></img></Link>
                 </div>
 
                 <div className="delivery-img2"></div>
@@ -26,7 +26,7 @@ function Delivery() {
                 <div className="delivery-text">
                     <h3>Dostava danas za danas</h3>
                     <p>Za one koji nemaju vremena tu je dostava. Danas za DANAS. Vašu pošiljku dostavljamo na adresu primaoca odmah.</p>
-                    <Link className="delivery-a" to="/Uslugee">Saznaj više<img className="arrowIconPng" src={arrowIcon} alt="arrow"></img></Link>
+                    <Link className="delivery-a" to="/Usluge">Saznaj više<img className="arrowIconPng" src={arrowIcon} alt="arrow"></img></Link>
                 </div>
             </div>
         </div>

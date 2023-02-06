@@ -24,13 +24,13 @@ function FourDivs() {
 
             <div className="img-of-delivery">
                 <div className="dev-img"><img className="slika"  src={slika3} alt="slika3"></img></div>
-                <a className="homepage-aFourDivs" href="/Uslugee"><h2 className="homepage-aFourDivs">Flexibilna dostava</h2></a>
+                <a className="homepage-aFourDivs" href="/Usluge"><h2 className="homepage-aFourDivs">Flexibilna dostava</h2></a>
                
             </div>
 
             <div className="img-of-delivery">
                 <div className="dev-img"><img className="slika" src={slika4} alt="slika4"></img></div>
-                <a className="homepage-aFourDivs" href="/Uslugee"> <h2 className="homepage-aFourDivs">Pošiljka više nije Vaša briga</h2></a>
+                <a className="homepage-aFourDivs" href="/Usluge"> <h2 className="homepage-aFourDivs">Pošiljka više nije Vaša briga</h2></a>
             </div>
 
         </div>

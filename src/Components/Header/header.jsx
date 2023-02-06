@@ -43,7 +43,7 @@ function Header() {
                     <ul>
                         <li><Link className="link-a-header" to="/">Početna</Link></li>
                         <li><Link className="link-a-header" to="/About">O nama</Link></li>
-                        <li><Link className="link-a-header" to="/Uslugee">Usluge</Link></li>
+                        <li><Link className="link-a-header" to="/Usluge">Usluge</Link></li>
                         <li><Link className="link-a-header" to="/Zakazi">Zakaži kurira</Link></li>
                         <li><Link className="link-a-header" to="/Kalkulator">Kalkulator cena</Link></li>
                         <li><Link className="link-a-header" to="/CenovnikPage">Cenovnik</Link></li>

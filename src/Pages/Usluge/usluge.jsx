@@ -1,5 +1,5 @@
 import React from "react";
-import "./uslugee.css";
+import "./usluge.css";
 import Header from "../../Components/Header/header";
 import Footer from "../../Components/Footer/footer";
 import homeIcon from "../../Images/homeIcon.png";
