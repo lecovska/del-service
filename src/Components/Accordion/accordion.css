@@ -128,4 +128,7 @@
     right: 2em;
   }
   
-  
+  .link{
+    display: inline;
+    color: #df3a3a;
+    font-weight: bold;}
