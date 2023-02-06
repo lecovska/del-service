@@ -62,7 +62,7 @@ function ReviewCard() {
                             <div className="photo2"></div>
                             <div className="photoWrapper">
                                 <span className="imePrezime">Marija Milosavljević</span>
-                                <p className="reviewText">Prvi put sa njima da imam isporuku, skroz korektno i tačno i nisu kao ostali kad nazovu, neljubazni.</p>
+                                <p className="reviewText">Konačno mogućnost plaćanja karticom kurirske dostave! Flex-i usluga koja je mene kupila. Sad mogu brže i lakše da latim svoju naridžbinu, a da ne brinem o kešu. Najbrža dostava u Beogradu.</p>
                             </div>
                         </div>
                       
@@ -80,7 +80,7 @@ function ReviewCard() {
                             <div className="photo4"></div>
                             <div className="photoWrapper">
                                 <span className="imePrezime">Kromrp - parking sistemi</span>
-                                <p className="reviewText">Prvi put sa njima da imam isporuku, skroz korektno i tačno i nisu kao ostali kad nazovu, neljubazni.</p>
+                                <p className="reviewText">Nismo sa Flex-om sarađivali do sada, stvarno su profesionalni, ljubazni i posvećeni svom poslu, sve preporuke.</p>
                             </div>
                         </div>
                     </div>
