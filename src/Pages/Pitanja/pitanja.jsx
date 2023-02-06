@@ -88,7 +88,7 @@ function Pitanja() {
         <div className="content3">
             <p>Načini plaćanja su:
               gotovinom,
-              čekom,
+              karticom,
               fakturom.</p>
         </div>
 
@@ -97,7 +97,7 @@ function Pitanja() {
 
         <button className="toggle2" id="toggleStyle" onClick={probaPitanja}>Koji su rokovi uručenja Flex express pošiljke?</button>
         <div className="content3">
-            <p>Rokovi uručenja za Post express usluge su: Danas za odmah, danas za danas, danas za sutra.</p>
+            <p>Rokovi uručenja za Flex kurirske usluge su: Danas za odmah, danas za danas, danas za sutra.</p>
         </div>
 
     </div>
