@@ -76,9 +76,9 @@ function Acc() {
 
                     <button className="toggle" id="toggleStyle" onClick={proba}>Danas za sutra - Kurirska dostava</button>
                     <div className="content2">
-                        <p>Pozivnice za uslugu danas za danas se primaju najkasnije do 15h, kurir ce u najkraćem roku biti na adresi kako bi preuzeo Vašu pošiljku,a primalac istu može očekivati narednog dana do 18h.
+                        <p>Pozivnice za uslugu danas za sutra se primaju najkasnije do 15h, kurir ce u najkraćem roku biti na adresi kako bi preuzeo Vašu pošiljku,a primalac istu može očekivati narednog dana do 18h.
                             Pozivnicu možete uputiti putem call centra radnim danima od 08:00h - 16:00h ili putem sajta opcijom ,,Zakaži kurira"
-                            USLUGA DANAS ZA DANAS SE VRŠI SAMO NA TERITORIJI GRADA BEOGRADA </p>
+                            USLUGA DANAS ZA SUTRA SE VRŠI SAMO NA TERITORIJI GRADA BEOGRADA </p>
                     </div>
 
                 </div>
@@ -88,7 +88,7 @@ function Acc() {
                     <div className="content2">
                         <p>Potrebna Vam je dostava od Vaše kompanije do drugog pravnog lica? Na pravom ste mestu.
                             Vršimo dostave proizvoda i stvari između pravnih i fizičkih lica na teritoriji Beograda i okoline.
-                            Robu preuzimamo na dan isporuke sa Vaše adrese. Skladištimo je kod nas u magacinu , nakon toga je u
+                            Robu preuzimamo na dan isporuke sa Vaše adrese. Skladištimo je kod nas u magacinu , nakon toga u
                             dogovoreno vreme kuriri je isporučuju Vašim korisnicima.
                             Pozovite nas i saznajte za pogodnosti koje nudimo za B2C dostave.      </p>
                     </div>
@@ -122,7 +122,7 @@ function Acc() {
                             <button className="toggle" id="toggleStyle" onClick={proba}>SMS izveštaj</button>
                             <div className="content2">
                                 <p> SMS izveštaj - je izveštaj kojim se pošiljaocu potvrđuje da je pošiljka isporučena.
-                                    SMS izveštaj se naplaćuje prema važećem cenovniku koji možete pogledati ovde(link cenovnika). SMS uslugu plaća onaj ko plaća poštarinu.</p></div>
+                                    SMS izveštaj se naplaćuje prema važećem cenovniku koji možete pogledati <a color="red" className="link" href="/cenovnikPage">ovde</a>. SMS uslugu plaća onaj ko plaća poštarinu.</p></div>
 
                         </div>
                         <div className="wrapper">
