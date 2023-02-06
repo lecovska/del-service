@@ -2,7 +2,7 @@ import React from "react";
 import "./fourDivs.css";
 import slika1 from "../../Images/Flex-kurirska-sluzba3.jpg";
 import slika2 from "../../Images/Flex-kurirska-sluzba13.jpg";
-import slika3 from "../../Images/Flex-kurirska-sluzba7.jpg";
+import slika3 from "../../Images/Flex-kurirska-sluzba7.1.jpg";
 import slika4 from "../../Images/Flex-kurirska-sluzba9.jpg";
 
 
