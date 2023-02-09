@@ -17,7 +17,7 @@ function Delivery() {
                 {/* <img className="deliveryImg1" src={slika2} alt="slika2"> </img>*/}
                 <div className="delivery-text">
                     <h3>Dostava Beograd</h3>
-                    <p>Pozovite nas da preuzmemo Vašu pošiljku danas, primaoc je može očekivati narednog dana do 18h.</p>
+                    <p>Pozovite nas da preuzmemo Vašu pošiljku danas, primalac je može očekivati narednog dana do 18h.</p>
                     <Link className="delivery-a" to="/Usluge">Saznaj više<img className="arrowIconPng" src={arrowIcon} alt="arrow"></img></Link>
                 </div>
 

@@ -146,7 +146,7 @@ export const Kontakt = () => {
                         posebni ugovori ili odredbe direktora.
 
                         Pošiljke preuzete u petak dostavljaju se prvi
-                        naredni padni dan – u ponedeljak.</p>
+                        naredni radni dan – u ponedeljak.</p>
                     <Link to="/Zakazi" className="rekalmacije-a">Zakaži kurira<img className="arrowIconPng" src={arrowIcon} alt="arrow"></img></Link>
                 </div>
                 <div className="reklamacijeSingleDiv">

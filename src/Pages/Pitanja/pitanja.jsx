@@ -97,7 +97,7 @@ function Pitanja() {
 
         <button className="toggle2" id="toggleStyle" onClick={probaPitanja}>Koji su rokovi uručenja Flex express pošiljke?</button>
         <div className="content3">
-            <p>Rokovi uručenja za Flex kurirske usluge su: Danas za odmah, danas za danas, danas za sutra.</p>
+            <p>Rokovi uručenja za Flex kurirske usluge su: Ddanas za danas i danas za sutra.</p>
         </div>
 
     </div>
