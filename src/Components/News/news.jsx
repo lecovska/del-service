@@ -87,8 +87,9 @@ function News() {
             <div className="slideshowSliderNews" style={{ transform: `translate3d(${-newsIndex * 100}%, 0, 0)` }}>
                 {oneElementArray.map((e, newsIndex) => (
                     <div className="slideNews" key={newsIndex}  >
-                        <NewsComponent1/>
+                        
                         <NewsComponent2/>
+                        <NewsComponent1/>
                         <NewsComponent3/>
                         <NewsComponent4/>
                     </div>
