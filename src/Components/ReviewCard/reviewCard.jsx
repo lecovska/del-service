@@ -79,7 +79,7 @@ function ReviewCard() {
                         <div className="singleCard">
                             <div className="photo4"></div>
                             <div className="photoWrapper">
-                                <span className="imePrezime">Kromrp - parking sistemi</span>
+                                <span className="imePrezime">Kromro - parking sistemi</span>
                                 <p className="reviewText">Nismo sa Flex-om sarađivali do sada, stvarno su profesionalni, ljubazni i posvećeni svom poslu, sve preporuke.</p>
                             </div>
                         </div>
