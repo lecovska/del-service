@@ -22,51 +22,51 @@ function TableDanasZaDanas(){
     </tr>
 
     <tr>
-        <td>od 0,5 do 1kg</td>
+        <td>preko 0,5 do 1kg</td>
         <td>550,00 RSD</td>
         <td>110,00 RSD</td>
         <td>660,00 RSD</td>
     </tr>
 
     <tr>
-        <td>od 1kg do 2kg</td>
+        <td>preko 1kg do 2kg</td>
         <td>583,33 RSD </td>
         <td>116,67 RSD</td>
         <td>700,00 RSD</td>
     </tr>
     <tr>
-        <td>od 2kg do 5kg</td>
+        <td>preko 2kg do 5kg</td>
         <td>691,67 RSD</td>
         <td>138,33 RSD</td>
         <td>830,00 RSD</td>
     </tr>
 
     <tr>
-        <td>od 5kg do 10kg</td>
+        <td>preko 5kg do 10kg</td>
         <td>825,00 RSD</td>
         <td>165,00 RSD</td>
         <td>990,00 RSD</td>
     </tr>
     <tr>
-        <td>od 10kg do 15kg</td>
+        <td>preko 10kg do 15kg</td>
         <td>1.016,67 RSD</td>
         <td>203,33 RSD</td>
         <td>1.220,00 RSD</td>
     </tr>
     <tr>
-        <td>od 15kg do 20kg</td>
+        <td>preko 15kg do 20kg</td>
         <td>1.058,33 RSD </td>
         <td>211,67 RSD </td>
         <td>1.270,00 RSD</td>
     </tr>
     <tr>
-        <td>od 20kg do 30kg</td>
+        <td>preko 20kg do 30kg</td>
         <td>1.216,67 RSD</td>
         <td>243,33 RSD</td>
         <td>1.460,00 RSD</td>
     </tr>
     <tr>
-        <td>od 30kg do 50kg</td>
+        <td>preko 30kg do 50kg</td>
         <td>1.508,33 RSD</td>
         <td>301,67 RSD</td>
         <td>1.810,00 RSD</td>
