@@ -66,11 +66,9 @@ function Pitanja() {
 
     <div className="wrapper">
 
-        <button className="toggle2" id="toggleStyle" onClick={probaPitanja}>Šta podrazumeva usluga, danas za odmah?</button>
+        <button className="toggle2" id="toggleStyle" onClick={probaPitanja}>Šta podrazumeva usluga, danas za danas?</button>
         <div className="content3">
-            <p>Za one koji nemaju vremena tu je dostava Danas za odmah.
-              Pozovite nas najkasnije do 13h i očekujte da Vašu pošiljku dostavimo na adresu primaoca - odmah.
-              *Ova usluga se odnosi samo na Beograd </p>
+            <p>Usluga danas za danas podrazumeva da prijavite pošiljku najkasnije do 12h, a primalac je može očekivati istog dana do 18h.</p>
         </div>
 
     </div>
