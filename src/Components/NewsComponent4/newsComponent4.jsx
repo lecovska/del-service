@@ -7,8 +7,8 @@ function NewsComponent4() {
             <div className="text">
                 <div className="pic-of-news4"></div>
                 <div className="text-wrapp">
-                    <h3>Srećni praznici</h3>
-                    <p className="newsSliderP">Poštovani, Vaš Flex kurir Vam želi <br></br>srećne novogodišnje i božićne praznike.</p>
+                    {/* <h3>Srećni praznici</h3>
+                    <p className="newsSliderP">Poštovani, Vaš Flex kurir Vam želi <br></br>srećne novogodišnje i božićne praznike.</p> */}
                 </div>
             </div>
         </div>

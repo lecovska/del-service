@@ -20,10 +20,10 @@
 }
 
 .pic-of-news4{
-  background-image: url("../../Images/nova-godina-e1515155495461.jpg");
+  /* background-image: url("../../Images/nova-godina-e1515155495461.jpg"); */
   background-size: cover;
   width: 25em;
-  height: 15em;
+  height: 20em;
 }
 
 .text-wrapp{
@@ -97,7 +97,7 @@
   }
 
   .pic-of-news4{
-    background-image: url("../../Images/nova-godina-e1515155495461.jpg");
+    /* background-image: url("../../Images/nova-godina-e1515155495461.jpg"); */
     background-size: cover;
     width: 25em;
     height: 16em;

@@ -39,10 +39,10 @@
 }*/
 
 .pic-of-news2 {
-  background-image: url("../../Images/prayDostava.jpg");
+  background-image: url("../../Images/srecan.jpg");
   background-size: cover;
   width: 25em;
-  height: 16em;
+  height: 20em;
 
 }
 
@@ -87,10 +87,10 @@
   }
 
   .pic-of-news2{
-    background-image: url("../../Images/prayDostava.jpg");
+    background-image: url("../../Images/srecan.jpg");
     background-size: cover;
     width: 25em;
-    height: 15em;
+    height: 18em;
   }
 
   .text-wrapp{
