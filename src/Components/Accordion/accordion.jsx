@@ -99,8 +99,8 @@ function Acc() {
                     <button className="toggle" id="toggleStyle" onClick={proba}>B2B Dostava - Pouzdanost i flexibilnost na terenu</button>
                     <div className="content2">
                         <p>FLEX kurirska služba posluje i B2B, sa firmama, online prodavnicama i svim drugim tipovima biznisa, kojima je
-                            neophodna kvalitetna logistika kao i brza i sigurna isporuka robe, dokumentacije i svih vrsta paketa.
-                            Slanje paketa se odvija po principu danas za sutra i danas za danas : Pouzdanost i flexibilnost na terenu koju
+                            neophodna kvalitetna logistika kao i brza i sigurna isporuka robe, dokumentacije i svih vrsta pošiljaka.
+                            Slanje pošiljke se odvija po principu danas za sutra i danas za danas : Pouzdanost i flexibilnost na terenu koju
                             negujemo prema Vašim korisnicima, su najvažniji razlozi njihovog zadovoljstva. Sa njihovim zadovoljstvom
                             raste ugled i kredibilitet Vaše firme, kao i sama prodaja.
                             Pozovite nas i saznajte za pogodnosti koje nudimo za B2B dostave.   </p>

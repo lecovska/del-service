@@ -23,22 +23,22 @@ function TableDodatneUsluge(){
 
     <tr>
         <td>Potvrda o uručenju pošiljke/povratnica</td>
-        <td>100,00 RSD</td>
-        <td>20,00 RSD</td>
-        <td>120,00 RSD</td>
+        <td>150,00 RSD</td>
+        <td>30,00 RSD</td>
+        <td>180,00 RSD</td>
     </tr>
 
     <tr>
         <td>Lično uručenje</td>
-        <td>100,00 RSD</td>
-        <td>20,00 RSD</td>
-        <td>120,00 RSD</td>
+        <td>150,00 RSD</td>
+        <td>30,00 RSD</td>
+        <td>180,00 RSD</td>
     </tr>
     <tr>
         <td>Vraćanje povratne dokumentacije/otpremnice</td>
-        <td>100,00 RSD</td>
-        <td>20,00 RSD</td>
-        <td>120,00 RSD</td>
+        <td>150,00 RSD</td>
+        <td>30,00 RSD</td>
+        <td>180,00 RSD</td>
     </tr>
 
     <tr>
@@ -51,8 +51,9 @@ function TableDodatneUsluge(){
     
   
     </table>
-    <p className="p-dodatneUsluge">Za vrednosne pošiljke na cenu usluge utvrđenu po masi pošiljke ili na poštarinu za određenu vrstu vanstandardne/specijalizovane pošiljke, dodaje se 1,1% od naznačenog iznosa vrednosti, a minimalno 90,00 RSD sa PDV-om.</p>
-	<p className="p-dodatneUsluge">Za otkupne pošiljke na cenu usluge utvrđenu po masi pošiljke ili na poštarinu za određenu vrstu vanstandardne/specijalizovane pošiljke, dodaje se 1,2% od naznačenog iznosa otkupnine, a minimalno 120,00RSD sa PDV-om.</p>
+    <p className="p-dodatneUsluge">Za vrednosne pošiljke na cenu usluge utvrđenu po masi pošiljke ili na poštarinu za određenu vrstu vanstandardne/specijalizovane pošiljke, dodaje se 1,5% od naznačenog iznosa vrednosti, a minimalno 100,00 RSD sa PDV-om.</p>
+	<p className="p-dodatneUsluge">Vraćanje otkupnog iznosa na adresu pošiljaoca se naplaćuje 1,5% od navedenog iznosa, a najmanje 180,00 RSD sa PDV-om. </p>
+    <p className="p-dodatneUsluge">Uplata otkupnog iznosa na tekući račun korisnika se naplaćuje 1,5% od naznačenog iznosa otkupa, a minimum 70,00 RSD sa PDV-om</p>
 	<p className="p-dodatneUsluge">Ležarina po danu se naplaćuje 25,00 RSD sa PDV-om.</p>
         </div>
     )
